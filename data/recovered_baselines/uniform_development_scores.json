@@ -1,0 +1,154 @@
+{
+  "benchmark_version": "spain-h1-2026-declarations-v2",
+  "track": "publisher_documented",
+  "split": "development",
+  "expected_races": 48,
+  "valid_predictions": 48,
+  "coverage": 1.0,
+  "invalid_predictions": [],
+  "malformed_lines": [],
+  "input_nonblank_lines": 155,
+  "parsed_known_race_lines": 155,
+  "parse_rate": 1.0,
+  "leaderboard_eligible": true,
+  "log_loss_floor": 1e-15,
+  "strict_historical_validity": false,
+  "overall": {
+    "brier": 0.858198051948052,
+    "log_loss": 1.9962606278241575,
+    "top1_fractional_accuracy": 0.1418019480519481,
+    "scored_races": 48,
+    "zero_probability_winners": 0,
+    "brier_skill_vs_uniform": 0.0,
+    "log_loss_improvement_vs_uniform": 2.7755575615628914e-17,
+    "meeting_clusters": 10,
+    "confidence_intervals_95": {
+      "brier": [
+        0.8437193001442997,
+        0.8702787972896667
+      ],
+      "log_loss": [
+        1.9010187022095997,
+        2.0775039311723473
+      ],
+      "top1_fractional_accuracy": [
+        0.1297212027103331,
+        0.1562806998556999
+      ],
+      "brier_skill_vs_uniform": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "by_venue": {
+    "Dos Hermanas": {
+      "brier": 0.8596699134199135,
+      "log_loss": 2.0090319046798664,
+      "top1_fractional_accuracy": 0.14033008658008655,
+      "scored_races": 40,
+      "zero_probability_winners": 0,
+      "brier_skill_vs_uniform": 0.0,
+      "log_loss_improvement_vs_uniform": 4.4408920985006264e-17,
+      "meeting_clusters": 8,
+      "confidence_intervals_95": {
+        "brier": [
+          0.8424073322510823,
+          0.8743028950216453
+        ],
+        "log_loss": [
+          1.8957263236012145,
+          2.106938048607856
+        ],
+        "top1_fractional_accuracy": [
+          0.12569710497835498,
+          0.15759266774891778
+        ],
+        "brier_skill_vs_uniform": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "La Zarzuela": {
+      "brier": 0.8584848484848486,
+      "log_loss": 1.9915951475640394,
+      "top1_fractional_accuracy": 0.14151515151515154,
+      "scored_races": 5,
+      "zero_probability_winners": 0,
+      "brier_skill_vs_uniform": 0.0,
+      "log_loss_improvement_vs_uniform": 0.0,
+      "meeting_clusters": 1,
+      "confidence_intervals_95": null
+    },
+    "Vila-seca": {
+      "brier": 0.8380952380952382,
+      "log_loss": 1.8337527368482425,
+      "top1_fractional_accuracy": 0.1619047619047619,
+      "scored_races": 3,
+      "zero_probability_winners": 0,
+      "brier_skill_vs_uniform": 0.0,
+      "log_loss_improvement_vs_uniform": -1.4802973661668753e-16,
+      "meeting_clusters": 1,
+      "confidence_intervals_95": null
+    }
+  },
+  "by_month": {
+    "2026-01": {
+      "brier": 0.8579329004329006,
+      "log_loss": 1.9983230410837294,
+      "top1_fractional_accuracy": 0.1420670995670996,
+      "scored_races": 20,
+      "zero_probability_winners": 0,
+      "brier_skill_vs_uniform": 0.0,
+      "log_loss_improvement_vs_uniform": 5.551115123125783e-17,
+      "meeting_clusters": 4,
+      "confidence_intervals_95": {
+        "brier": [
+          0.8271212121212125,
+          0.8787878787878787
+        ],
+        "log_loss": [
+          1.8028259991225384,
+          2.1308970335644206
+        ],
+        "top1_fractional_accuracy": [
+          0.12121212121212122,
+          0.17287878787878788
+        ],
+        "brier_skill_vs_uniform": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "2026-02": {
+      "brier": 0.858387445887446,
+      "log_loss": 1.9947874754958914,
+      "top1_fractional_accuracy": 0.1416125541125541,
+      "scored_races": 28,
+      "zero_probability_winners": 0,
+      "brier_skill_vs_uniform": 0.0,
+      "log_loss_improvement_vs_uniform": 7.93016446160826e-18,
+      "meeting_clusters": 6,
+      "confidence_intervals_95": {
+        "brier": [
+          0.8454822954822958,
+          0.8716254638218927
+        ],
+        "log_loss": [
+          1.9015589414884877,
+          2.0868634126667014
+        ],
+        "top1_fractional_accuracy": [
+          0.12837453617810762,
+          0.15451770451770455
+        ],
+        "brier_skill_vs_uniform": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  }
+}

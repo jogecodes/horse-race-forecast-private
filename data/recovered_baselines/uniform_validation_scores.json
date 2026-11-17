@@ -1,0 +1,160 @@
+{
+  "benchmark_version": "spain-h1-2026-declarations-v2",
+  "track": "publisher_documented",
+  "split": "validation",
+  "expected_races": 52,
+  "valid_predictions": 52,
+  "coverage": 1.0,
+  "invalid_predictions": [],
+  "malformed_lines": [],
+  "input_nonblank_lines": 155,
+  "parsed_known_race_lines": 155,
+  "parse_rate": 1.0,
+  "leaderboard_eligible": true,
+  "log_loss_floor": 1e-15,
+  "strict_historical_validity": false,
+  "overall": {
+    "brier": 0.8947041128178003,
+    "log_loss": 2.2916713495188055,
+    "top1_fractional_accuracy": 0.10529588718219939,
+    "scored_races": 52,
+    "zero_probability_winners": 0,
+    "brier_skill_vs_uniform": 0.0,
+    "log_loss_improvement_vs_uniform": 8.540177112501205e-18,
+    "meeting_clusters": 11,
+    "confidence_intervals_95": {
+      "brier": [
+        0.8852141525923692,
+        0.9030748379685326
+      ],
+      "log_loss": [
+        2.2003269612556067,
+        2.37062965072661
+      ],
+      "top1_fractional_accuracy": [
+        0.09692516203146746,
+        0.1147858474076305
+      ],
+      "brier_skill_vs_uniform": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "by_venue": {
+    "La Zarzuela": {
+      "brier": 0.8977963156314729,
+      "log_loss": 2.318427322598403,
+      "top1_fractional_accuracy": 0.10220368436852706,
+      "scored_races": 43,
+      "zero_probability_winners": 0,
+      "brier_skill_vs_uniform": 0.0,
+      "log_loss_improvement_vs_uniform": 3.0982968129074136e-17,
+      "meeting_clusters": 9,
+      "confidence_intervals_95": {
+        "brier": [
+          0.887784373559058,
+          0.9069285581473674
+        ],
+        "log_loss": [
+          2.2214136715819186,
+          2.4071786816392726
+        ],
+        "top1_fractional_accuracy": [
+          0.09307144185263277,
+          0.1122156264409416
+        ],
+        "brier_skill_vs_uniform": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "San Sebastián": {
+      "brier": 0.879930254930255,
+      "log_loss": 2.163837255916286,
+      "top1_fractional_accuracy": 0.12006974506974505,
+      "scored_races": 9,
+      "zero_probability_winners": 0,
+      "brier_skill_vs_uniform": 0.0,
+      "log_loss_improvement_vs_uniform": -9.868649107779169e-17,
+      "meeting_clusters": 2,
+      "confidence_intervals_95": {
+        "brier": [
+          0.8785714285714287,
+          0.8816287878787878
+        ],
+        "log_loss": [
+          2.161508749348388,
+          2.166747889126158
+        ],
+        "top1_fractional_accuracy": [
+          0.11837121212121213,
+          0.1214285714285714
+        ],
+        "brier_skill_vs_uniform": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "by_month": {
+    "2026-03": {
+      "brier": 0.8958800487438259,
+      "log_loss": 2.3018412054442488,
+      "top1_fractional_accuracy": 0.10411995125617417,
+      "scored_races": 19,
+      "zero_probability_winners": 0,
+      "brier_skill_vs_uniform": 0.0,
+      "log_loss_improvement_vs_uniform": 1.1686558153949016e-17,
+      "meeting_clusters": 4,
+      "confidence_intervals_95": {
+        "brier": [
+          0.8825360750360751,
+          0.9112438816773183
+        ],
+        "log_loss": [
+          2.1634439715079323,
+          2.44573537728271
+        ],
+        "top1_fractional_accuracy": [
+          0.08875611832268182,
+          0.11746392496392499
+        ],
+        "brier_skill_vs_uniform": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "2026-04": {
+      "brier": 0.8940270587997862,
+      "log_loss": 2.2858159779253686,
+      "top1_fractional_accuracy": 0.10597294120021394,
+      "scored_races": 33,
+      "zero_probability_winners": 0,
+      "brier_skill_vs_uniform": 0.0,
+      "log_loss_improvement_vs_uniform": 6.7286243916676156e-18,
+      "meeting_clusters": 7,
+      "confidence_intervals_95": {
+        "brier": [
+          0.8823040310943538,
+          0.9052622469442325
+        ],
+        "log_loss": [
+          2.17563281506099,
+          2.3890453184452682
+        ],
+        "top1_fractional_accuracy": [
+          0.09473775305576777,
+          0.11769596890564632
+        ],
+        "brier_skill_vs_uniform": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  }
+}

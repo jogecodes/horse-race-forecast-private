@@ -1,0 +1,19 @@
+[
+  {
+    "provider": "codere",
+    "url": "https://www.codere.es/",
+    "captured_at": "2026-11-11T13:12:48.756972+00:00",
+    "status": 403,
+    "redirect": null,
+    "sha256": "5a4f6e68584110f261cdc94e34e673c855dfb984bd6d5d1bf4503abb965f5468",
+    "bytes": 367
+  },
+  {
+    "url": "https://apuestas.codere.es/",
+    "error": "ConnectionError"
+  },
+  {
+    "url": "https://apuestas.codere.es/robots.txt",
+    "error": "ConnectionError"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "started_utc": "2026-11-06T12:21:12+00:00",
+  "service_pid": 1547423,
+  "runner_pid": 1547766,
+  "gpu": 0,
+  "port": 11438,
+  "dataset_sha256": "245671046cdfa257bbcb83c0c5691b01a210bedac391abe73f6422f7811604ed",
+  "engine_source_hashes": {
+    "__init__.py": "8949b0477bb40b165c8db03e1346516c4d613b6c97e09418ba101c2a9c880147",
+    "sources.py": "9927096138d29ab4db10c1c60ee2008430f84554c2e95378e49822dbcd37c0cc",
+    "run.py": "c72071d78b2c3280b56d909aa3cd8ae260de91f4c5a265324424244ddc8e7d25",
+    "model.py": "a64b4fc94c21fe5c5d3f2f84d17682327be36a22ba1ba3ec695e4543146bf59a",
+    "leakage.py": "68a99351b56834967c146074e8aa4834711b40ceb7fd11a687f2d5c372ca5310",
+    "publications.py": "1a9bc64983870957c53a49533d4593b00af13caf1b150a53abb386c2a8650ed3",
+    "pipeline.py": "548bf11bc07285a87c1e9bf97b0a44a4eb62a47405df34513e9ba428fe458f82",
+    "discovery.py": "0098e74065ea9243b6ad370b45265ef4dad3475a7137c8b2558f63fe83ad59b6",
+    "declared.py": "cac54b92b47ff76f2830140b118da1be6c3fe7ac2d1200a900e6442c33268cd3",
+    "events.py": "50182af530b442880feb8356aa03b0394a7b363b0b5629254d8fafb73723095d"
+  },
+  "evaluation_log": "/tmp/horse-event-grounded-evaluation-20261106.log",
+  "service_log": "/tmp/horse-event-grounded-ollama-20261106.log",
+  "status": "completed_service_stopped",
+  "model_comparison_pid": 1553777,
+  "model_comparison_log": "/tmp/horse-event-grounded-model-comparison-20261106.log",
+  "completed_utc": "2026-11-06T13:00:10+00:00"
+}

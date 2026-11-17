@@ -1,0 +1,26 @@
+{
+  "id": "calendar_news",
+  "url": "https://www.hipodromodelazarzuela.es/en/node/24150",
+  "observed_at": "2026-11-06T12:17:57+00:00",
+  "body_sha256": "caaecb1e55a2e04ab90ff9e0907d8320a8c2223fed9c74a027a569662c0ccd2b",
+  "paragraphs": [
+    "Madrid, 9 de enero de 2026.– El Hipódromo de La Zarzuela presenta su programa oficial de carreras para las temporadas de primavera y verano 2026, aprobado ayer, jueves 8 de enero, por unanimidad por la Junta del Jockey Club Español .",
+    "El nuevo calendario supone un crecimiento respecto a la temporada 2025, con tres jornadas más y una carrera adicional en el cómputo total. En conjunto, el programa contempla 34 jornadas , siendo 28 de ellas del circuito SELAE y 6 jornadas propias, en las que se disputarán 160 carreras , con un importe total en premios de 2.245.850 euros .",
+    "Hipódromo de La Zarzuela refuerza por tanto su oferta deportiva con un programa diseñado para ser integrador y atractivo. Esta planificación no solo da cabida a todas las categorías de caballos, adecuándose a la cabaña actual, sino que también busca maximizar el interés y la rentabilidad deportiva para profesionales y aficionados.",
+    "Esta planificación reafirma nuestra misión de promover el turf español mediante una programación equilibrada y de calidad que asegure el desarrollo sostenible de las carreras en España.",
+    "El Hipódromo de La Zarzuela forma parte del Patrimonio Histórico Nacional y sus tribunas están consideradas como una de las obras maestras de la arquitectura madrileña del siglo XX. El recinto cuenta con 110 hectáreas de gran valor ecológico y unas instalaciones de primer nivel cuya privilegiada situación dentro de la ciudad convierten al hipódromo madrileño en el más importante pulmón verde de la capital española , junto con el Parque del Retiro.",
+    "HIPÓDROMO DE LA ZARZUELA pertenece al Grupo SEPI, un holding empresarial que abarca un total de 15 empresas públicas participadas de forma directa y mayoritaria, con más de 78.000 profesionales. También tiene una fundación pública tutelada y participaciones directas minoritarias en otras nueve empresas e indirectas en más de cien sociedades."
+  ],
+  "date_claims": [
+    {
+      "kind": "published",
+      "path": "visible_publisher_date",
+      "value": "2026-01-09T22:59:59.999999+00:00",
+      "precision": "day_upper_bound"
+    }
+  ],
+  "metadata": {
+    "author": null,
+    "title": "Noticias"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "saved_at": "2026-11-12T18:56:31.035572+00:00",
+  "status": "taken_offline_at_user_request",
+  "url": "https://turf-forecast-lab.titanium-ind-2644.chatgpt.site",
+  "audience": "owner-private",
+  "project_id": "appgprj_6af608cf97888191b19eeb1b1d2cd09f",
+  "deployment_id": "appgdep_6af60b8806708191be6f5a7b0f7b5517",
+  "version_id": "appgprj_6af608cf97888191b19eeb1b1d2cd09f~appgver_b85dc0c7359c8191b4f4f9ff88d28987",
+  "commit_sha": "4dfe51b7f6cdfcf55cf700367947448f48e3e163",
+  "source": "/app/more_studies/horse-race-forecast-private/website",
+  "hosting_manifest": "/app/more_studies/horse-race-forecast-private/website/.openai/hosting.json",
+  "research_release": "/app/more_studies/horse-race-forecast-private/runs/research_release_20261112",
+  "documentation": "/app/more_studies/horse-race-forecast-private/docs/RESEARCH_RELEASE_20261112.md",
+  "new_inference": false,
+  "ongoing_gpu_job": false,
+  "correction": "Implemented identical 20 January training and 28 February evaluation cohorts; deterministic form retained for every race; rejected article extractions remain rejected and optional evidence is unavailable.",
+  "metrics": {
+    "baseline": {
+      "valid_races": 28,
+      "metrics": {
+        "brier": 0.8148060983633316,
+        "log_loss": 1.8551627893581717
+      },
+      "errors": {}
+    },
+    "deterministic_form": {
+      "valid_races": 28,
+      "metrics": {
+        "brier": 0.8146028981214154,
+        "log_loss": 1.8445552143406727
+      },
+      "errors": {}
+    },
+    "optional_agent": {
+      "valid_races": 28,
+      "metrics": {
+        "brier": 0.8146028897784868,
+        "log_loss": 1.8445551931825452
+      },
+      "errors": {}
+    }
+  },
+  "paired_uncertainty": {
+    "deterministic_form": {
+      "races": 28,
+      "meeting_clusters": 6,
+      "samples": 4000,
+      "seed": 20261112,
+      "method": "Meeting-cluster percentile bootstrap; races equally weighted; exploratory fixed-model development uncertainty, not training uncertainty",
+      "brier": {
+        "difference": -0.00020320024191650926,
+        "interval_95": [
+          -0.008751837668197674,
+          0.006120661415573484
+        ]
+      },
+      "log_loss": {
+        "difference": -0.010607575017499498,
+        "interval_95": [
+          -0.04129424962634542,
+          0.01536259593473966
+        ]
+      }
+    },
+    "optional_agent": {
+      "races": 28,
+      "meeting_clusters": 6,
+      "samples": 4000,
+      "seed": 20261112,
+      "method": "Meeting-cluster percentile bootstrap; races equally weighted; exploratory fixed-model development uncertainty, not training uncertainty",
+      "brier": {
+        "difference": -0.00020320858484481182,
+        "interval_95": [
+          -0.00875185175145877,
+          0.006120652289928252
+        ]
+      },
+      "log_loss": {
+        "difference": -0.01060759617562628,
+        "interval_95": [
+          -0.041294268050499155,
+          0.015362570058463951
+        ]
+      }
+    },
+    "agent_minus_deterministic": {
+      "races": 28,
+      "meeting_clusters": 6,
+      "samples": 4000,
+      "seed": 20261112,
+      "method": "Meeting-cluster percentile bootstrap; races equally weighted; exploratory fixed-model development uncertainty, not training uncertainty",
+      "brier": {
+        "difference": -8.342928302572185e-09,
+        "interval_95": [
+          -2.9410018635711577e-08,
+          7.723635795375844e-09
+        ]
+      },
+      "log_loss": {
+        "difference": -2.115812678235177e-08,
+        "interval_95": [
+          -6.871596073635781e-08,
+          1.3245450617797398e-08
+        ]
+      }
+    }
+  },
+  "agent_max_probability_difference": 8.41867029977017e-08,
+  "limitations": [
+    "No supported article signal in accepted saved outputs",
+    "Numerical differences from constant columns are immaterial",
+    "Brier and log-loss improvement intervals include zero",
+    "Six meeting clusters; intervals exploratory and exclude training uncertainty",
+    "214-runner reliability plot descriptive; no per-horse uncertainty interval",
+    "No verified closing/T-60 price cohort; proxies labelled",
+    "Retrospective day-before inputs; release corrects already-inspected development experiment"
+  ],
+  "validation": {
+    "repository": "169 passed, 1 optional integration skip",
+    "targeted": "22 passed in research interpreter",
+    "browser": "All 28 races x 3 model views; winner reveal; 2 scoring metrics; matched 17-race proxy cohort; 3 calibration controls; 3 downloads; widths 1440,768,390,320; no browser/HTTP errors or overflow",
+    "visual": "Desktop and mobile screenshots inspected"
+  },
+  "next_steps": [
+    "Build a small human-reviewed article extraction dataset from existing traces and corpus",
+    "Implement article-only extraction independent of deterministic form parsing",
+    "Measure extraction precision and coverage before another forecast experiment",
+    "Keep March-June validation/test unseen until the next evaluation protocol is frozen",
+    "Consider prospective T-60 paper forecasts and broader audience after review"
+  ],
+  "taken_offline_at": "2026-11-12T21:37:03.493007+00:00",
+  "takedown_deployment_id": "appgdep_6af631598f7c81918bce2dc04a69fbc9",
+  "takedown_commit_sha": "d1d381a914a3d5c354a4408c7f1ae6a61f335e8b",
+  "takedown_result": "Every route returns HTTP 410 Gone. Original local pages, assets and download exports removed. Hosting tools expose no project/version deletion operation; provider project and historical versions not claimed deleted.",
+  "publication_preference": "NO publication or recreation without a new explicit user instruction. Focus on improving research results locally."
+}

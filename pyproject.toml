@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "horse-race-forecast-private"
+version = "0.2.0"
+description = "Spanish horse racing forecasting research database with temporal evidence controls"
+requires-python = ">=3.10"
+dependencies = ["beautifulsoup4>=4.12,<5", "requests>=2.31,<3", "mwparserfromhell>=0.6,<1", "pypdf>=5,<7"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+shared-experiment = ["jsonschema>=4,<5"]
+statistical-experiment = ["numpy>=1.24,<3"]
+
+[tool.setuptools.package-data]
+horse_racing = ["schema.sql"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.setuptools.packages.find]
+include = ["horse_racing*"]

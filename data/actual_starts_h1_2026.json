@@ -1,0 +1,748 @@
+{
+  "starts": [
+    {
+      "date": "2026-04-16",
+      "actual_start_at": "2026-04-16T09:06:02.590000+00:00",
+      "local_start": "2026-04-16T11:06:02.590000+02:00",
+      "precision_seconds": 0.01,
+      "proof_kind": "official_photo_finish_explicit_start_clock",
+      "source_url": "https://www.hipodromoa.com/files/303-23707-carr_foto_finish/1 PREMIO ANDATZA TABERNA - 1400 M.pdf",
+      "source_sha256": "c1839d3b7a6eed1b14ecccdc207c1652df9e8550634c5f4bf0fee15b08584bfc",
+      "source_observed_at": "2026-11-05T12:15:22+00:00",
+      "course_url": "https://www.hipodromoa.com/temporada/reunion/16-04/_IqQzNPbID9iDeySwjJMhudBPsbZjR25yK1Du_LQTM0ESAXrCnFJdqXRgxTsqDErw0FpmgXNKbyk",
+      "course_receipt": {
+        "url": "https://www.hipodromoa.com/temporada/reunion/16-04/_IqQzNPbID9iDeySwjJMhudBPsbZjR25yK1Du_LQTM0ESAXrCnFJdqXRgxTsqDErw0FpmgXNKbyk",
+        "final_url": "https://www.hipodromoa.com/temporada/reunion/16-04/_IqQzNPbID9iDeySwjJMhudBPsbZjR25yK1Du_LQTM0ESAXrCnFJdqXRgxTsqDErw0FpmgXNKbyk",
+        "status": 200,
+        "observed_at": "2026-11-05T12:15:22+00:00",
+        "sha256": "fe90a6412d1175380bc47c486035b04999e78d41709599df728c0a5c8e0e00a0",
+        "headers": {
+          "Server": "nginx/1.16.1",
+          "Date": "Thu, 05 Nov 2026 12:15:22 GMT",
+          "Content-Type": "text/html; charset=utf-8; boundary=xYzZY",
+          "Content-Length": "6394",
+          "Connection": "keep-alive",
+          "Cache-Control": "private",
+          "X-Powered-By": "eBD/3.7.0",
+          "Vary": "Accept-Encoding",
+          "Content-Encoding": "gzip"
+        },
+        "file": "f49c9044c418729bde57ded10d98ab3d796ee2729ae871aa12546622ee755bbb.bin"
+      },
+      "photo_metadata": {
+        "/Author": "",
+        "/CreationDate": "D:20260416112959+02'00'",
+        "/ModDate": "D:20260416112959+02'00'",
+        "/Producer": "Microsoft: Print To PDF",
+        "/Title": "Imprimir la Imagen de FinishLynx"
+      },
+      "extracted_text": "16/04/2026 11:29:56                                                                1 PREMIO ANDATZA TABERNA - 1400 M (1-1-1)\n\n                                                                                                         Llegada - Cámara 1                                                                                                      Camera S/N: 70766\n\n                                                                                        Hora de la Salida: 16/04/2026 11:06:02.59\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n             1:34.30                           1:34.40                           1:34.50                          1:34.60                           1:34.70                           1:34.80                          1:34.90                           1:35.00                           1:35.10\n\n\n\n\n    Puesto     Dorsal      Caballo                Nombre                                            Apellidos                                              Tiempo                   Longitudes\n\n         1           4                CONTESA                       V.                                                          JANACEK                                                             1:34.41\n\n         2           2                STEPINMYDIRECT                R.                                                          SOUSA                                                               1:34.88                                  2 1/2\n\n      ADV            6                UNFOLLOW                      C.                                                          PEREZ                                                               1:34.88                      Serie Muerta\n\n         4           1                ECLAIR LANE                   I.                                                          MELGAREJO                                                           1:35.45                                  2 3/4\n\n         5           5                SASHAY AWAY                   J.                                                          GELABERT                                                            1:35.76                                  1 1/2\n\n         6           3                VOLTERETA                     R.                                                          DUBORD                                                              1:46.60                                54 1/4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCopyright (c) 1991-2021 Lynx System Developers, Inc.",
+      "arrival_names": [
+        "CONTESA",
+        "ECLAIR LANE",
+        "SASHAY AWAY",
+        "STEPINMYDIRECTION",
+        "UNFOLLOW",
+        "VOLTERETA"
+      ],
+      "pmu_url": "https://online.turfinfo.api.pmu.fr/rest/client/1/programme/16042026/R2/C1/participants"
+    },
+    {
+      "date": "2026-04-16",
+      "actual_start_at": "2026-04-16T09:37:46.390000+00:00",
+      "local_start": "2026-04-16T11:37:46.390000+02:00",
+      "precision_seconds": 0.01,
+      "proof_kind": "official_photo_finish_explicit_start_clock",
+      "source_url": "https://www.hipodromoa.com/files/303-23711-carr_foto_finish/2 CARRERA PREMIO AITONAK OKINDEGIA - 1600 M.pdf",
+      "source_sha256": "7e74797c84a5e6dfab7235ae1e42f3f27ba48644981826f56384048e89077526",
+      "source_observed_at": "2026-11-05T12:15:23+00:00",
+      "course_url": "https://www.hipodromoa.com/temporada/reunion/16-04/_IqQzNPbID9iDeySwjJMhudBPsbZjR25yfaJnFSKLkJk71NGQkriIAEkQb5rcf9NaqWd3HW1Pd8c",
+      "course_receipt": {
+        "url": "https://www.hipodromoa.com/temporada/reunion/16-04/_IqQzNPbID9iDeySwjJMhudBPsbZjR25yfaJnFSKLkJk71NGQkriIAEkQb5rcf9NaqWd3HW1Pd8c",
+        "final_url": "https://www.hipodromoa.com/temporada/reunion/16-04/_IqQzNPbID9iDeySwjJMhudBPsbZjR25yfaJnFSKLkJk71NGQkriIAEkQb5rcf9NaqWd3HW1Pd8c",
+        "status": 200,
+        "observed_at": "2026-11-05T12:15:23+00:00",
+        "sha256": "d5b46587a741d274c6ab54323eb0f7c2df0fe5a13a2df74d1a8146f4899da75f",
+        "headers": {
+          "Server": "nginx/1.16.1",
+          "Date": "Thu, 05 Nov 2026 12:15:23 GMT",
+          "Content-Type": "text/html; charset=utf-8; boundary=xYzZY",
+          "Content-Length": "6606",
+          "Connection": "keep-alive",
+          "Cache-Control": "private",
+          "X-Powered-By": "eBD/3.7.0",
+          "Vary": "Accept-Encoding",
+          "Content-Encoding": "gzip"
+        },
+        "file": "b70c39fbaff4fd20c2989628d1366e582d21634dd72d0ab865ed279fe283854d.bin"
+      },
+      "photo_metadata": {
+        "/Author": "",
+        "/CreationDate": "D:20260416114228+02'00'",
+        "/ModDate": "D:20260416114228+02'00'",
+        "/Producer": "Microsoft: Print To PDF",
+        "/Title": "Imprimir la Imagen de FinishLynx"
+      },
+      "extracted_text": "16/04/2026 11:42:27                                                  2 CARRERA PREMIO AITONAK OKINDEGIA - 1600 M (1-1-2)\n\n                                                                                                    Llegada - Cámara 1                                                                                                Camera S/N: 70766\n\n                                                                                    Hora de la Salida: 16/04/2026 11:37:46.39\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                1:42.90                                                                1:43.00                                                               1:43.10                                                               1:43.20\n\n\n\n\n\n\n    Puesto     Dorsal      Caballo                Nombre                                            Apellidos                                              Tiempo                   Longitudes\n\n        1           6                NAXOS                      J.                                                        GELABERT                                                         1:42.87\n\n        2           7                BULNES                     V.                                                        JANACEK                                                          1:42.99                                  1/2\n\n        3           2                GRAND SON OF               B.                                                        FAYOS                                                            1:43.01                            Cabeza\n\n        4           4                ALASKAN GOLD               A.                                                        GUTIERREZ V                                                      1:43.85                                4 1/4\n\n        5           1                RASTRELLARE                D.                                                        SIKOROVA                                                         1:44.21                                1 3/4\n\n        6           8                FRANKINI                   I.                                                        MELGAREJO                                                        1:44.30                                  1/2\n\n        7           5                FAITH ROSE                 R.                                                        SOUSA                                                            1:44.48                                    1\n\n        8           3                WELLINGTON PR              D.A.                                                      SARABIA                                                          1:45.21                                3 3/4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCopyright (c) 1991-2021 Lynx System Developers, Inc.",
+      "arrival_names": [
+        "ALASKAN GOLD",
+        "BULNES",
+        "FAITH ROSE",
+        "FRANKINI",
+        "GRAND SON OF CALYX",
+        "NAXOS",
+        "RASTRELLARE",
+        "WELLINGTON PREMIER"
+      ],
+      "pmu_url": "https://online.turfinfo.api.pmu.fr/rest/client/1/programme/16042026/R2/C2/participants"
+    },
+    {
+      "date": "2026-04-16",
+      "actual_start_at": "2026-04-16T10:47:43.480000+00:00",
+      "local_start": "2026-04-16T12:47:43.480000+02:00",
+      "precision_seconds": 0.01,
+      "proof_kind": "official_photo_finish_explicit_start_clock",
+      "source_url": "https://www.hipodromoa.com/files/303-23710-carr_foto_finish/4 CARRERA PREMIO BAR PATRICIO - 2200 M.pdf",
+      "source_sha256": "1a69ed8b74912484ecafbb952ffba1e085f6e2e95819d502770279f44260d203",
+      "source_observed_at": "2026-11-05T12:15:25+00:00",
+      "course_url": "https://www.hipodromoa.com/temporada/reunion/16-04/_IqQzNPbID9iDeySwjJMhudBPsbZjR25yqYhmy0lpURfdvW8Sq1KkyX4NjLN9CIjQa-Ik2KIMD_0",
+      "course_receipt": {
+        "url": "https://www.hipodromoa.com/temporada/reunion/16-04/_IqQzNPbID9iDeySwjJMhudBPsbZjR25yqYhmy0lpURfdvW8Sq1KkyX4NjLN9CIjQa-Ik2KIMD_0",
+        "final_url": "https://www.hipodromoa.com/temporada/reunion/16-04/_IqQzNPbID9iDeySwjJMhudBPsbZjR25yqYhmy0lpURfdvW8Sq1KkyX4NjLN9CIjQa-Ik2KIMD_0",
+        "status": 200,
+        "observed_at": "2026-11-05T12:15:25+00:00",
+        "sha256": "0619bf388b3eef02ac6b5571bd0d06ffa6c9286ede1bd802ea546a2d9b3a306a",
+        "headers": {
+          "Server": "nginx/1.16.1",
+          "Date": "Thu, 05 Nov 2026 12:15:25 GMT",
+          "Content-Type": "text/html; charset=utf-8; boundary=xYzZY",
+          "Content-Length": "6574",
+          "Connection": "keep-alive",
+          "Cache-Control": "private",
+          "X-Powered-By": "eBD/3.7.0",
+          "Vary": "Accept-Encoding",
+          "Content-Encoding": "gzip"
+        },
+        "file": "be57c3dda180f0625334092d50f71e58afca220d6c38c4d6847d937f90bb2443.bin"
+      },
+      "photo_metadata": {
+        "/Author": "",
+        "/CreationDate": "D:20260416125356+02'00'",
+        "/ModDate": "D:20260416125356+02'00'",
+        "/Producer": "Microsoft: Print To PDF",
+        "/Title": "Imprimir la Imagen de FinishLynx"
+      },
+      "extracted_text": "16/04/2026 12:53:55                                                       4 CARRERA PREMIO BAR PATRICIO - 2200 M (1-1-4)\n\n                                                                                                    Llegada - Cámara 1                                                                                               Camera S/N: 70766\n\n                                                                                   Hora de la Salida: 16/04/2026 12:47:43.48\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n   2:35.00                                                            2:35.10                                                            2:35.20                                                            2:35.30                                                            2:35.40\n\n\n\n\n\n\n    Puesto     Dorsal      Caballo                Nombre                                            Apellidos                                              Tiempo                   Longitudes\n\n        1           10              TONY MONTANA                M.                                                       FOULON                                                           2:35.10\n\n        2           7               SEVEN ANGELS                V.                                                       JANACEK                                                          2:35.14                             Cuello\n\n        3           11              WALKCZAK                    D.                                                       RODRIGUEZ                                                        2:35.20                                  1/4\n\n        4           3               ONE MORE NIGH               A.                                                       GUTIERREZ V.                                                     2:37.20                                   10\n\n        5           2               SWEET WISH                  E.A.                                                     RODRIGUEZ                                                        2:37.77                               2 3/4\n\n        6           9               EVE OF DESTRUC              C.                                                       PEREZ                                                            2:37.93                                  3/4\n\n        7           8               SHANGAR                     N.M.                                                     LOPES                                                            2:37.99                                  1/4\n\n        8           4               CHIQUITIN                   J.                                                       GELABERT                                                         2:40.00                                   10\n\n        9           1               LISBOA                      N.                                                       DE JULIAN                                                        2:48.10                              40 1/2\n\n       10           6               SON OF REALITY              R.                                                       SOUSA                                                            2:54.04                              29 3/4\n\n       11           5               ZORBA                       R.                                                       DUBORD                                                           2:54.29                               1 1/4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCopyright (c) 1991-2021 Lynx System Developers, Inc.",
+      "arrival_names": [
+        "CHIQUITIN",
+        "EVE OF DESTRUCTION",
+        "LISBOA",
+        "ONE MORE NIGHT",
+        "SEVEN ANGELS",
+        "SHANGAR",
+        "SON OF REALITY",
+        "SWEET WISH",
+        "TONY MONTANA",
+        "WALKCZAK",
+        "ZORBA"
+      ],
+      "pmu_url": "https://online.turfinfo.api.pmu.fr/rest/client/1/programme/16042026/R2/C4/participants"
+    },
+    {
+      "date": "2026-04-16",
+      "actual_start_at": "2026-04-16T11:17:51.260000+00:00",
+      "local_start": "2026-04-16T13:17:51.260000+02:00",
+      "precision_seconds": 0.01,
+      "proof_kind": "official_photo_finish_explicit_start_clock",
+      "source_url": "https://www.hipodromoa.com/files/303-23709-carr_foto_finish/5 CARRERA PREMIO CLINICA DENTAL ALDAZ-ALDAZ HORTZ KLINIKA - 2200 M.pdf",
+      "source_sha256": "8eee0cdc414202beb74d8018d4ef50cb37fe6aa61e11a8eb1cc8f670810099d3",
+      "source_observed_at": "2026-11-05T12:15:26+00:00",
+      "course_url": "https://www.hipodromoa.com/temporada/reunion/16-04/_IqQzNPbID9iDeySwjJMhudBPsbZjR25y_rJqD7NQQgLc0VRfylTS3pHjiyUBo6X3Gcoxl3cmFqQ",
+      "course_receipt": {
+        "url": "https://www.hipodromoa.com/temporada/reunion/16-04/_IqQzNPbID9iDeySwjJMhudBPsbZjR25y_rJqD7NQQgLc0VRfylTS3pHjiyUBo6X3Gcoxl3cmFqQ",
+        "final_url": "https://www.hipodromoa.com/temporada/reunion/16-04/_IqQzNPbID9iDeySwjJMhudBPsbZjR25y_rJqD7NQQgLc0VRfylTS3pHjiyUBo6X3Gcoxl3cmFqQ",
+        "status": 200,
+        "observed_at": "2026-11-05T12:15:26+00:00",
+        "sha256": "78dca3a88841d5fdc9c4a83a44c0e58396485937582f16f4546726943e99cf60",
+        "headers": {
+          "Server": "nginx/1.16.1",
+          "Date": "Thu, 05 Nov 2026 12:15:26 GMT",
+          "Content-Type": "text/html; charset=utf-8; boundary=xYzZY",
+          "Content-Length": "6593",
+          "Connection": "keep-alive",
+          "Cache-Control": "private",
+          "X-Powered-By": "eBD/3.7.0",
+          "Vary": "Accept-Encoding",
+          "Content-Encoding": "gzip"
+        },
+        "file": "7bddf24350481e046489928b68524c8d4a74f37ad45cbf7e77a2029e92e0bc45.bin"
+      },
+      "photo_metadata": {
+        "/Author": "",
+        "/CreationDate": "D:20260416132345+02'00'",
+        "/ModDate": "D:20260416132345+02'00'",
+        "/Producer": "Microsoft: Print To PDF",
+        "/Title": "Imprimir la Imagen de FinishLynx"
+      },
+      "extracted_text": "16/04/2026 13:23:43                           5 CARRERA PREMIO CLINICA DENTAL ALDAZ-ALDAZ HORTZ KLINIKA - 2200 M (1-1-5)\n\n                                                                                                  Llegada - Cámara 1                                                                                             Camera S/N: 70766\n\n                                                                                  Hora de la Salida: 16/04/2026 13:17:51.26\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n          2:34.20                                                       2:34.30                                                       2:34.40                                                       2:34.50                                                       2:34.60\n\n\n\n\n\n\n    Puesto     Dorsal      Caballo                Nombre                                            Apellidos                                              Tiempo                   Longitudes\n\n        1          6                LOSE YOUR WAD              V.                                                      ALONSO V.                                                      2:34.26\n\n        2          10               PINARELLU                  D.                                                      SIKOROVA                                                       2:34.33                                  1/4\n\n        3          3                GAUCIN                     J.                                                      GELABERT                                                       2:34.39                                  1/4\n\n        4          8                CHIQUININO                 J.                                                      GOMEZ                                                          2:35.53                                5 3/4\n\n        5          5                THE WHIPMASTE              R.                                                      SOUSA                                                          2:36.34                                    4\n\n        6          2                SANBER                     A.                                                      GUTIERREZ V.                                                   2:36.70                                1 3/4\n\n        7          7                DON BOSCO                  J.                                                      ZAMBUDIO                                                       2:36.97                                1 1/4\n\n        8          9                HEBE                       N.                                                      DE JULIAN                                                      2:37.01                             Cuello\n\n        9          1                HELIOPOLIS                 I.                                                      MELGAREJO                                                      2:37.17                                  3/4\n\n       10          11               PARTY ZONE                 R.                                                      DUBORD                                                         2:38.55                                    7\n\n       11          4                STELLARIS                  V.                                                      JANACEK                                                        2:38.90                                1 3/4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCopyright (c) 1991-2021 Lynx System Developers, Inc.",
+      "arrival_names": [
+        "CHIQUININO",
+        "DON BOSCO",
+        "GAUCIN",
+        "HEBE",
+        "HELIOPOLIS",
+        "LOSE YOUR WAD",
+        "PARTY ZONE",
+        "PINARELLU",
+        "SANBER",
+        "STELLARIS",
+        "THE WHIPMASTER"
+      ],
+      "pmu_url": "https://online.turfinfo.api.pmu.fr/rest/client/1/programme/16042026/R2/C5/participants"
+    },
+    {
+      "date": "2026-04-22",
+      "actual_start_at": "2026-04-22T08:57:31.060000+00:00",
+      "local_start": "2026-04-22T10:57:31.060000+02:00",
+      "precision_seconds": 0.01,
+      "proof_kind": "official_photo_finish_explicit_start_clock",
+      "source_url": "https://www.hipodromoa.com/files/303-23712-carr_foto_finish/1 PREMIO ARKUPE TABERNA - 2200 M.pdf",
+      "source_sha256": "662e0c361beb4b512b0858a9d9635cf4205634dbe6f5466dcc0ec8f287975641",
+      "source_observed_at": "2026-11-05T12:15:28+00:00",
+      "course_url": "https://www.hipodromoa.com/temporada/reunion/22-04/_IqQzNPbID9iDeySwjJMhudgIzR2XaLwJVZbmyykW5fTIFcZG3oDyYXHPUhmM6wrDaGgmzDKDics",
+      "course_receipt": {
+        "url": "https://www.hipodromoa.com/temporada/reunion/22-04/_IqQzNPbID9iDeySwjJMhudgIzR2XaLwJVZbmyykW5fTIFcZG3oDyYXHPUhmM6wrDaGgmzDKDics",
+        "final_url": "https://www.hipodromoa.com/temporada/reunion/22-04/_IqQzNPbID9iDeySwjJMhudgIzR2XaLwJVZbmyykW5fTIFcZG3oDyYXHPUhmM6wrDaGgmzDKDics",
+        "status": 200,
+        "observed_at": "2026-11-05T12:15:27+00:00",
+        "sha256": "c8bdd2075d88a5b89354836b7f91ef9da1b25f72215a7fed32ca2024a8d84c99",
+        "headers": {
+          "Server": "nginx/1.16.1",
+          "Date": "Thu, 05 Nov 2026 12:15:27 GMT",
+          "Content-Type": "text/html; charset=utf-8; boundary=xYzZY",
+          "Content-Length": "6438",
+          "Connection": "keep-alive",
+          "Cache-Control": "private",
+          "X-Powered-By": "eBD/3.7.0",
+          "Vary": "Accept-Encoding",
+          "Content-Encoding": "gzip"
+        },
+        "file": "741d96c9cb72494fd0db133306a2f1e495576f59671fefa1e3e436bc34255e60.bin"
+      },
+      "photo_metadata": {
+        "/Author": "",
+        "/CreationDate": "D:20260422110214+02'00'",
+        "/ModDate": "D:20260422110214+02'00'",
+        "/Producer": "Microsoft: Print To PDF",
+        "/Title": "Imprimir la Imagen de FinishLynx"
+      },
+      "extracted_text": "22/04/2026 11:02:11                                                                1 PREMIO ARKUPE TABERNA - 2200 M (1-1-1)\n\n                                                                                                          Llegada - Cámara 1                                                                                                     Camera S/N: 70766\n\n                                                                                        Hora de la Salida: 22/04/2026 10:57:31.06\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n          2:32.60                 2:32.70                 2:32.80                  2:32.902:33.20                 2:33.30                 2:33.40                  2:33.50                 2:33.60                  2:33.70                  2:33.80                  2:33.90\n                                                                        2:32.92\n\n\n\n\n\n    Puesto     Dorsal      Caballo                Nombre                                            Apellidos                                              Tiempo                   Longitudes\n\n         1           5                 DARKAVA                      R.                                                          SOUSA                                                               2:32.63\n\n         2           2                 RONCAL                       V.                                                          JANACEK                                                             2:33.25                                       3\n\n         3           1                 PHILAU                       R.N.                                                        VALLE                                                               2:33.57                                  1 1/2\n\n         4           3                 FLIGHT LEADER                D.A.                                                        SARABIA                                                             2:33.69                                    1/2\n\n         5           6                 BOEZA                        J.                                                          ZAMBUDIO                                                            2:39.62                                 29 3/4\n\n         6           4                 MAYISKI                      B.                                                          FAYOS                                                               2:45.49                                 29 1/4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCopyright (c) 1991-2021 Lynx System Developers, Inc.",
+      "arrival_names": [
+        "BOEZA",
+        "DARKAVA",
+        "FLIGHT LEADER",
+        "MAYISKI",
+        "PHILAU",
+        "RONCAL"
+      ],
+      "pmu_url": "https://online.turfinfo.api.pmu.fr/rest/client/1/programme/22042026/R2/C1/participants"
+    },
+    {
+      "date": "2026-04-22",
+      "actual_start_at": "2026-04-22T09:28:07.900000+00:00",
+      "local_start": "2026-04-22T11:28:07.900000+02:00",
+      "precision_seconds": 0.01,
+      "proof_kind": "official_photo_finish_explicit_start_clock",
+      "source_url": "https://www.hipodromoa.com/files/303-23716-carr_foto_finish/2 PREMIO NAMIE SUSHI - 2000 M.pdf",
+      "source_sha256": "f3a1b68cae45630a37e0e305f05eb5a85d26cf699155e4d89c156114e94d9b60",
+      "source_observed_at": "2026-11-05T12:15:30+00:00",
+      "course_url": "https://www.hipodromoa.com/temporada/reunion/22-04/_IqQzNPbID9iDeySwjJMhudgIzR2XaLwJXcniKYqgEWID4qoLWhtAvdk2zOf7DWGIbdXuq0892cY",
+      "course_receipt": {
+        "url": "https://www.hipodromoa.com/temporada/reunion/22-04/_IqQzNPbID9iDeySwjJMhudgIzR2XaLwJXcniKYqgEWID4qoLWhtAvdk2zOf7DWGIbdXuq0892cY",
+        "final_url": "https://www.hipodromoa.com/temporada/reunion/22-04/_IqQzNPbID9iDeySwjJMhudgIzR2XaLwJXcniKYqgEWID4qoLWhtAvdk2zOf7DWGIbdXuq0892cY",
+        "status": 200,
+        "observed_at": "2026-11-05T12:15:28+00:00",
+        "sha256": "b88e5cfb39d5f45a83caf78c1cd2e30e5a4864dca8ffb568492de3ffeaf44f21",
+        "headers": {
+          "Server": "nginx/1.16.1",
+          "Date": "Thu, 05 Nov 2026 12:15:28 GMT",
+          "Content-Type": "text/html; charset=utf-8; boundary=xYzZY",
+          "Content-Length": "6404",
+          "Connection": "keep-alive",
+          "Cache-Control": "private",
+          "X-Powered-By": "eBD/3.7.0",
+          "Vary": "Accept-Encoding",
+          "Content-Encoding": "gzip"
+        },
+        "file": "a517758873516c830c160382f9d6941107474ea2efb6d813966ea125f0e37c6b.bin"
+      },
+      "photo_metadata": {
+        "/Author": "",
+        "/CreationDate": "D:20260422113202+02'00'",
+        "/ModDate": "D:20260422113202+02'00'",
+        "/Producer": "Microsoft: Print To PDF",
+        "/Title": "Imprimir la Imagen de FinishLynx"
+      },
+      "extracted_text": "22/04/2026 11:31:59                                                                   2 PREMIO NAMIE SUSHI - 2000 M (1-1-2)\n\n                                                                                                        Llegada - Cámara 1                                                                                                   Camera S/N: 70766\n\n                                                                                       Hora de la Salida: 22/04/2026 11:28:07.90\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                           2:13.30                  2:13.40                  2:13.50                  2:13.60                   2:13.70                  2:13.80                  2:13.90                  2:14.00                  2:14.10                   2:14.20                  2:14.30\n\n\n\n\n\n\n    Puesto     Dorsal      Caballo                Nombre                                            Apellidos                                              Tiempo                   Longitudes\n\n        1           1                 ARMERO                       V.                                                         JANACEK                                                            2:13.26\n\n        2           3                 ENBAKIRUN                    R.                                                         SOUSA                                                              2:13.71                                 2 1/4\n\n        3           4                 BORN TO BRIGHT               R.                                                         DUBORD                                                             2:14.06                                 1 3/4\n\n        4           6                 SASHAY AWAY                  J.                                                         GELABERT                                                           2:14.54                                 2 1/2\n\n        5           7                 VINCELLE                     C.                                                         PEREZ                                                              2:19.26                                23 1/2\n\n        6           2                 ALMA DE FUEGO                B.                                                         FAYOS                                                              2:20.61                                 6 3/4\n\n      DNS           5                 MURIA                        R.N.                                                       VALLE\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCopyright (c) 1991-2021 Lynx System Developers, Inc.",
+      "arrival_names": [
+        "ALMA DE FUEGO",
+        "ARMERO",
+        "BORN TO BRIGHT",
+        "ENBAKIRUN",
+        "SASHAY AWAY",
+        "VINCELLE"
+      ],
+      "pmu_url": "https://online.turfinfo.api.pmu.fr/rest/client/1/programme/22042026/R2/C2/participants"
+    },
+    {
+      "date": "2026-04-22",
+      "actual_start_at": "2026-04-22T10:00:26.440000+00:00",
+      "local_start": "2026-04-22T12:00:26.440000+02:00",
+      "precision_seconds": 0.01,
+      "proof_kind": "official_photo_finish_explicit_start_clock",
+      "source_url": "https://www.hipodromoa.com/files/303-23714-carr_foto_finish/3  PREMIO ELECTRICIDAD ARREGUI - 1600 M.pdf",
+      "source_sha256": "97dbdcd2789e49110b6cbae86ff7f383d066200c4d216cfe4edb5e40407fac96",
+      "source_observed_at": "2026-11-05T12:15:33+00:00",
+      "course_url": "https://www.hipodromoa.com/temporada/reunion/22-04/_IqQzNPbID9iDeySwjJMhudgIzR2XaLwJr8r5xSHZVwVohrFu2HJpBxKt9m5X_AOTgljhHtXSESg",
+      "course_receipt": {
+        "url": "https://www.hipodromoa.com/temporada/reunion/22-04/_IqQzNPbID9iDeySwjJMhudgIzR2XaLwJr8r5xSHZVwVohrFu2HJpBxKt9m5X_AOTgljhHtXSESg",
+        "final_url": "https://www.hipodromoa.com/temporada/reunion/22-04/_IqQzNPbID9iDeySwjJMhudgIzR2XaLwJr8r5xSHZVwVohrFu2HJpBxKt9m5X_AOTgljhHtXSESg",
+        "status": 200,
+        "observed_at": "2026-11-05T12:15:31+00:00",
+        "sha256": "8721be836363176fe3aa547517ea68d91e9cf0d4355b96444fcf3eb5a5d9d5b8",
+        "headers": {
+          "Server": "nginx/1.16.1",
+          "Date": "Thu, 05 Nov 2026 12:15:31 GMT",
+          "Content-Type": "text/html; charset=utf-8; boundary=xYzZY",
+          "Content-Length": "6429",
+          "Connection": "keep-alive",
+          "Cache-Control": "private",
+          "X-Powered-By": "eBD/3.7.0",
+          "Vary": "Accept-Encoding",
+          "Content-Encoding": "gzip"
+        },
+        "file": "9e8220a180a9541111997d1aacdb0b69fdcabc7edd093285109c44b722e68efe.bin"
+      },
+      "photo_metadata": {
+        "/Author": "",
+        "/CreationDate": "D:20260422120437+02'00'",
+        "/ModDate": "D:20260422120437+02'00'",
+        "/Producer": "Microsoft: Print To PDF",
+        "/Title": "Imprimir la Imagen de FinishLynx"
+      },
+      "extracted_text": "22/04/2026 12:04:31                                                       3  PREMIO ELECTRICIDAD ARREGUI - 1600 M (1-1-3)\n\n                                                                                                     Llegada - Cámara 1                                                                                                Camera S/N: 70766\n\n                                                                                    Hora de la Salida: 22/04/2026 12:00:26.44\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n             1:42.50                     1:42.60                     1:42.70                     1:42.80               1:42.891:43.30                     1:43.40                     1:43.50                     1:43.60                     1:43.70\n                                                                                                       1:43.20\n\n\n\n    Puesto     Dorsal      Caballo                Nombre                                            Apellidos                                              Tiempo                   Longitudes\n\n        1           5                HAYA TAAL                   V.                                                        JANACEK                                                         1:42.59\n\n        2           1                LADY COCODY                 R.N.                                                      VALLE                                                           1:43.23                                3 1/4\n\n        3           4                NORDESTE                    R.                                                        DUBORD                                                          1:43.43                                     1\n\n        4           7                DANCE AHEAD                 J.                                                        GELABERT                                                        1:43.54                                   1/2\n\n        5           3                RAIKU                       V.                                                        ALONSO V.                                                       1:44.62                                5 1/2\n\n        6           2                GAST A GAST                 A.                                                        BAEZA                                                           1:46.84                                    11\n\n        7           8                MUGUETAJARRA                R.                                                        SOUSA                                                           1:47.29                                2 1/4\n\n      DNS           6                NUMBER                      D.                                                        SIKOROVA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCopyright (c) 1991-2021 Lynx System Developers, Inc.",
+      "arrival_names": [
+        "DANCE AHEAD",
+        "GAST A GAST",
+        "HAYA TAAL",
+        "LADY COCODY",
+        "MUGUETAJARRA",
+        "NORDESTE",
+        "RAIKU"
+      ],
+      "pmu_url": "https://online.turfinfo.api.pmu.fr/rest/client/1/programme/22042026/R2/C3/participants"
+    },
+    {
+      "date": "2026-04-22",
+      "actual_start_at": "2026-04-22T10:36:01.560000+00:00",
+      "local_start": "2026-04-22T12:36:01.560000+02:00",
+      "precision_seconds": 0.01,
+      "proof_kind": "official_photo_finish_explicit_start_clock",
+      "source_url": "https://www.hipodromoa.com/files/303-23715-carr_foto_finish/4 PREMIO ORMAZABAL LORADENDA - 1600 M.pdf",
+      "source_sha256": "5a5d47617f7a589d3f94a72e135fffc969a7eeaece9520b73ec320c78c3d1b2d",
+      "source_observed_at": "2026-11-05T12:15:35+00:00",
+      "course_url": "https://www.hipodromoa.com/temporada/reunion/22-04/_IqQzNPbID9iDeySwjJMhudgIzR2XaLwJ0RZk9s_UephbcDg8zCwthcgp_GmkbjneLSuMs1uhDyU",
+      "course_receipt": {
+        "url": "https://www.hipodromoa.com/temporada/reunion/22-04/_IqQzNPbID9iDeySwjJMhudgIzR2XaLwJ0RZk9s_UephbcDg8zCwthcgp_GmkbjneLSuMs1uhDyU",
+        "final_url": "https://www.hipodromoa.com/temporada/reunion/22-04/_IqQzNPbID9iDeySwjJMhudgIzR2XaLwJ0RZk9s_UephbcDg8zCwthcgp_GmkbjneLSuMs1uhDyU",
+        "status": 200,
+        "observed_at": "2026-11-05T12:15:33+00:00",
+        "sha256": "0152dc08b04e57d1e3b1a35417f7586b9a23ff32d9b45f957eeea8e7c7909e3b",
+        "headers": {
+          "Server": "nginx/1.16.1",
+          "Date": "Thu, 05 Nov 2026 12:15:33 GMT",
+          "Content-Type": "text/html; charset=utf-8; boundary=xYzZY",
+          "Content-Length": "6553",
+          "Connection": "keep-alive",
+          "Cache-Control": "private",
+          "X-Powered-By": "eBD/3.7.0",
+          "Vary": "Accept-Encoding",
+          "Content-Encoding": "gzip"
+        },
+        "file": "219a6dd29e2bf9f705c9007d822a6254ea51ccc756029d63f65bbbb788d6eb18.bin"
+      },
+      "photo_metadata": {
+        "/Author": "",
+        "/CreationDate": "D:20260422123941+02'00'",
+        "/ModDate": "D:20260422123941+02'00'",
+        "/Producer": "Microsoft: Print To PDF",
+        "/Title": "Imprimir la Imagen de FinishLynx"
+      },
+      "extracted_text": "22/04/2026 12:39:37                                                    4 PREMIO ORMAZABAL LORADENDA - 1600 M (1-1-4)\n\n                                                                                                  Llegada - Cámara 1                                                                                             Camera S/N: 70766\n\n                                                                                  Hora de la Salida: 22/04/2026 12:36:01.56\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                     1:43.50                    1:43.60                    1:43.70                    1:43.80                    1:43.90                    1:44.00                    1:44.10                    1:44.20                    1:44.30                    1:44.401:44.50\n\n\n\n\n\n    Puesto     Dorsal      Caballo                Nombre                                            Apellidos                                              Tiempo                   Longitudes\n\n        1          6                PINSAPO                    D.                                                      SIKOROVA                                                        1:43.49\n\n        2          2                KATALINA                   J.                                                      GOMEZ                                                           1:43.61                                 1/2\n\n        3          4                QUELI                      R.                                                      SOUSA                                                           1:43.93                               1 1/2\n\n        4          8                PENRHEAD                   V.                                                      JANACEK                                                         1:44.16                               1 1/4\n\n        5          11               PORT GALLAND               R.N.                                                    VALLE                                                           1:44.24                                 1/2\n\n        6          9                DIMANCHE SOIR              N.                                                      DE JULIAN                                                       1:44.80                               2 3/4\n\n        7          3                MAIMOUNA                   V.                                                      ALONSO V.                                                       1:45.49                               3 1/2\n\n        8          7                BIG BAD WOLF               J.                                                      GELABERT                                                        1:45.55                                 1/4\n\n        9          5                PADME                      J.                                                      ZAMBUDIO                                                        1:46.77                                   6\n\n       10          1                NURTURE                    R.                                                      DUBORD                                                          1:47.08                               1 1/2\n\n      DNS          10               BRUMA                      C.                                                      PEREZ\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCopyright (c) 1991-2021 Lynx System Developers, Inc.",
+      "arrival_names": [
+        "BIG BAD WOLF",
+        "DIMANCHE SOIR",
+        "KATALINA",
+        "MAIMOUNA",
+        "NURTURE",
+        "PADME",
+        "PENRHEAD",
+        "PINSAPO",
+        "PORT GALLAND",
+        "QUELI"
+      ],
+      "pmu_url": "https://online.turfinfo.api.pmu.fr/rest/client/1/programme/22042026/R2/C4/participants"
+    },
+    {
+      "date": "2026-04-22",
+      "actual_start_at": "2026-04-22T11:12:18.750000+00:00",
+      "local_start": "2026-04-22T13:12:18.750000+02:00",
+      "precision_seconds": 0.01,
+      "proof_kind": "official_photo_finish_explicit_start_clock",
+      "source_url": "https://www.hipodromoa.com/files/303-23713-carr_foto_finish/5 PREMIO LASARTE ORIA ORAIN- ISAAC FARRE FOTOGRAFIA - 1600 M.pdf",
+      "source_sha256": "ef3e26c9fffd62864e1127db7b1816ff69f3ae7fa7c4a9c0a25a0e299220fba9",
+      "source_observed_at": "2026-11-05T12:15:36+00:00",
+      "course_url": "https://www.hipodromoa.com/temporada/reunion/22-04/_IqQzNPbID9iDeySwjJMhudgIzR2XaLwJlSN364ArGVFL2Tu2z25gKphTAQJ-HkjIQrSFd1q869k",
+      "course_receipt": {
+        "url": "https://www.hipodromoa.com/temporada/reunion/22-04/_IqQzNPbID9iDeySwjJMhudgIzR2XaLwJlSN364ArGVFL2Tu2z25gKphTAQJ-HkjIQrSFd1q869k",
+        "final_url": "https://www.hipodromoa.com/temporada/reunion/22-04/_IqQzNPbID9iDeySwjJMhudgIzR2XaLwJlSN364ArGVFL2Tu2z25gKphTAQJ-HkjIQrSFd1q869k",
+        "status": 200,
+        "observed_at": "2026-11-05T12:15:35+00:00",
+        "sha256": "e7e54d113bf760229e1d5620ab36613167a9d3f2c860b0026bb611635ac59fe0",
+        "headers": {
+          "Server": "nginx/1.16.1",
+          "Date": "Thu, 05 Nov 2026 12:15:35 GMT",
+          "Content-Type": "text/html; charset=utf-8; boundary=xYzZY",
+          "Content-Length": "6442",
+          "Connection": "keep-alive",
+          "Cache-Control": "private",
+          "X-Powered-By": "eBD/3.7.0",
+          "Vary": "Accept-Encoding",
+          "Content-Encoding": "gzip"
+        },
+        "file": "ddcad9ba9e4d701046cc6db175de10cbc252ec62f31a05c3b497df1dfee8d9ec.bin"
+      },
+      "photo_metadata": {
+        "/Author": "",
+        "/CreationDate": "D:20260422131807+02'00'",
+        "/ModDate": "D:20260422131807+02'00'",
+        "/Producer": "Microsoft: Print To PDF",
+        "/Title": "Imprimir la Imagen de FinishLynx"
+      },
+      "extracted_text": "22/04/2026 13:18:04                                    5 PREMIO LASARTE ORIA ORAIN- ISAAC FARRE FOTOGRAFIA - 1600 M (1-1-5)\n\n                                                                                                      Llegada - Cámara 1                                                                                                 Camera S/N: 70766\n\n                                                                                     Hora de la Salida: 22/04/2026 13:12:18.75\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n            1:40.50                    1:40.60                    1:40.70                    1:40.80                    1:40.90                    1:41.00                    1:41.10                    1:41.20                    1:41.30                    1:41.40                    1:41.50\n\n\n\n\n    Puesto     Dorsal      Caballo                Nombre                                            Apellidos                                              Tiempo                   Longitudes\n\n        1           2                SMOKY MOUNTA                R.                                                         SOUSA                                                            1:40.55\n\n        2           4                BAILEN                      J.                                                         GELABERT                                                         1:41.06                                 2 1/2\n\n        3           5                AMPARITO                    V.                                                         JANACEK                                                          1:41.28                                      1\n\n        4           7                ALMANSA                     J.                                                         ZAMBUDIO                                                         1:41.31                               Cuello\n\n        5           1                SHUTTERWOOD                 V.                                                         ALONSO V.                                                        1:41.90                                      3\n\n        6           6                ZAPATER                     R.N.                                                       VALLE                                                            1:42.33                                 2 1/4\n\n        7           8                ZACARIAS                    J.                                                         GOMEZ                                                            1:42.99                                 3 1/4\n\n        8           3                BERIA                       C.                                                         PEREZ                                                            1:43.02                               Cuello\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCopyright (c) 1991-2021 Lynx System Developers, Inc.",
+      "arrival_names": [
+        "ALMANSA",
+        "AMPARITO",
+        "BAILEN",
+        "BERIA",
+        "SHUTTERWOOD",
+        "SMOKY MOUNTAIN",
+        "ZACARIAS",
+        "ZAPATER"
+      ],
+      "pmu_url": "https://online.turfinfo.api.pmu.fr/rest/client/1/programme/22042026/R2/C5/participants"
+    },
+    {
+      "date": "2026-04-29",
+      "actual_start_at": "2026-04-29T09:06:34.440000+00:00",
+      "local_start": "2026-04-29T11:06:34.440000+02:00",
+      "precision_seconds": 0.01,
+      "proof_kind": "official_photo_finish_explicit_start_clock",
+      "source_url": "https://www.hipodromoa.com/files/303-23717-carr_foto_finish/1 PREMIO ARIMA GASTROTABERNA - 1600 M.pdf",
+      "source_sha256": "ffcbb87052ca4b2b16bd3cd270af60a0dd6462a6b21a2b7f1b3967d18bd1eda9",
+      "source_observed_at": "2026-11-05T12:15:38+00:00",
+      "course_url": "https://www.hipodromoa.com/temporada/reunion/29-04/_IqQzNPbID9iDeySwjJMhuYiylhnXY7FH7VhCpQMysvxbJlBt6Y5RXqXyEPHIuMPr2ygtgpwbyQM",
+      "course_receipt": {
+        "url": "https://www.hipodromoa.com/temporada/reunion/29-04/_IqQzNPbID9iDeySwjJMhuYiylhnXY7FH7VhCpQMysvxbJlBt6Y5RXqXyEPHIuMPr2ygtgpwbyQM",
+        "final_url": "https://www.hipodromoa.com/temporada/reunion/29-04/_IqQzNPbID9iDeySwjJMhuYiylhnXY7FH7VhCpQMysvxbJlBt6Y5RXqXyEPHIuMPr2ygtgpwbyQM",
+        "status": 200,
+        "observed_at": "2026-11-05T12:15:37+00:00",
+        "sha256": "02351718fa2813440b349189f3b7a1f8b639041aae00589e84df24b736893602",
+        "headers": {
+          "Server": "nginx/1.16.1",
+          "Date": "Thu, 05 Nov 2026 12:15:37 GMT",
+          "Content-Type": "text/html; charset=utf-8; boundary=xYzZY",
+          "Content-Length": "6369",
+          "Connection": "keep-alive",
+          "Cache-Control": "private",
+          "X-Powered-By": "eBD/3.7.0",
+          "Vary": "Accept-Encoding",
+          "Content-Encoding": "gzip"
+        },
+        "file": "1afc72d5b6c78a791725126c39f617905c22f0ee19ca46437cd02a5a9fa057c0.bin"
+      },
+      "photo_metadata": {
+        "/Author": "",
+        "/CreationDate": "D:20260429111057+02'00'",
+        "/ModDate": "D:20260429111057+02'00'",
+        "/Producer": "Microsoft: Print To PDF",
+        "/Title": "Imprimir la Imagen de FinishLynx"
+      },
+      "extracted_text": "29/04/2026 11:10:54                                                           1 PREMIO ARIMA GASTROTABERNA - 1600 M (1-1-1)\n\n                                                                                                          Llegada - Cámara 1                                                                                                      Camera S/N: 70766\n\n                                                                                         Hora de la Salida: 29/04/2026 11:06:34.44\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n     1:42.60                             1:42.70                              1:42.80                             1:42.90                              1:43.00                             1:43.10                             1:43.20                              1:43.30                             1:43.40\n\n\n\n\n    Puesto     Dorsal      Caballo                Nombre                                            Apellidos                                              Tiempo                   Longitudes\n\n         1           2                 NEVER EVER                   B.                                                           FAYOS                                                               1:42.75\n\n         2           6                 UNFOLLOW                     C.                                                           PEREZ                                                               1:43.16                                        2\n\n         3           5                 LAGUNA                       V.                                                           JANACEK                                                             1:43.18                               Cabeza\n\n         4           4                 BORN TO BRIGHT               R.                                                           DUBORD                                                              1:43.53                                   1 3/4\n\n         5           1                 WOOD LAND                    R.N.                                                         VALLE                                                               1:43.85                                   1 1/2\n\n         6           3                 ARAVACA                      R.                                                           SOUSA                                                               1:45.58                                   8 3/4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCopyright (c) 1991-2021 Lynx System Developers, Inc.",
+      "arrival_names": [
+        "ARAVACA",
+        "BORN TO BRIGHT",
+        "LAGUNA",
+        "NEVER EVER",
+        "UNFOLLOW",
+        "WOOD LAND"
+      ],
+      "pmu_url": "https://online.turfinfo.api.pmu.fr/rest/client/1/programme/29042026/R2/C1/participants"
+    },
+    {
+      "date": "2026-04-29",
+      "actual_start_at": "2026-04-29T09:36:26.430000+00:00",
+      "local_start": "2026-04-29T11:36:26.430000+02:00",
+      "precision_seconds": 0.01,
+      "proof_kind": "official_photo_finish_explicit_start_clock",
+      "source_url": "https://www.hipodromoa.com/files/303-23721-carr_foto_finish/2 PREMIO RESTAURANTE HERRIKO ETXEA - 1200 M.pdf",
+      "source_sha256": "9ed93c02b2830d8af4546a09b82d366e2727fe3e624ec1169acfd51831f94e29",
+      "source_observed_at": "2026-11-05T12:15:39+00:00",
+      "course_url": "https://www.hipodromoa.com/temporada/reunion/29-04/_IqQzNPbID9iDeySwjJMhuYiylhnXY7FHTu2TmuDLkwywvMgWAGrAvdPgDxi0yVB6mgdsJ1nYXfE",
+      "course_receipt": {
+        "url": "https://www.hipodromoa.com/temporada/reunion/29-04/_IqQzNPbID9iDeySwjJMhuYiylhnXY7FHTu2TmuDLkwywvMgWAGrAvdPgDxi0yVB6mgdsJ1nYXfE",
+        "final_url": "https://www.hipodromoa.com/temporada/reunion/29-04/_IqQzNPbID9iDeySwjJMhuYiylhnXY7FHTu2TmuDLkwywvMgWAGrAvdPgDxi0yVB6mgdsJ1nYXfE",
+        "status": 200,
+        "observed_at": "2026-11-05T12:15:38+00:00",
+        "sha256": "583f9e42572474015060ef29744fea360386da4465ebde2ba6f785cb8f0865ba",
+        "headers": {
+          "Server": "nginx/1.16.1",
+          "Date": "Thu, 05 Nov 2026 12:15:38 GMT",
+          "Content-Type": "text/html; charset=utf-8; boundary=xYzZY",
+          "Content-Length": "6363",
+          "Connection": "keep-alive",
+          "Cache-Control": "private",
+          "X-Powered-By": "eBD/3.7.0",
+          "Vary": "Accept-Encoding",
+          "Content-Encoding": "gzip"
+        },
+        "file": "b5a0fb295ae9e9b9e6fcb24e93fb1126817dbeafdf1a83e5776cf4c1f41195d0.bin"
+      },
+      "photo_metadata": {
+        "/Author": "",
+        "/CreationDate": "D:20260429114024+02'00'",
+        "/ModDate": "D:20260429114024+02'00'",
+        "/Producer": "Microsoft: Print To PDF",
+        "/Title": "Imprimir la Imagen de FinishLynx"
+      },
+      "extracted_text": "29/04/2026 11:40:21                                                   2 PREMIO RESTAURANTE HERRIKO ETXEA - 1200 M (1-1-2)\n\n                                                                                                      Llegada - Cámara 1                                                                                                 Camera S/N: 70766\n\n                                                                                     Hora de la Salida: 29/04/2026 11:36:26.43\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                            1:16.10                          1:16.20                           1:16.30                           1:16.40                           1:16.50                          1:16.60                           1:16.70                           1:16.80\n\n\n\n\n\n\n    Puesto     Dorsal      Caballo                Nombre                                            Apellidos                                              Tiempo                   Longitudes\n\n        1           4                HAUSSMANNIEN                I.                                                         MELGAREJO                                                        1:16.09\n\n        2           6                KATALINA                    D.                                                         SIKOROVA                                                         1:16.36                                 1 1/4\n\n        3           1                SHUTTERWOOD                 V.                                                         ALONSO V.                                                        1:16.38                             Cabeza\n\n        4           3                ROMEO                       J.                                                         GELABERT                                                         1:16.72                                 1 3/4\n\n        5           7                VILLAIRES                   C.                                                         PEREZ                                                            1:16.91                                      1\n\n        6           5                DANCE AHEAD                 N.M.                                                       LOPES                                                            1:17.62                                 3 1/2\n\n        7           2                ANNIES SONG                 R.                                                         SOUSA                                                            1:19.60                                    10\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCopyright (c) 1991-2021 Lynx System Developers, Inc.",
+      "arrival_names": [
+        "ANNIE'S SONG",
+        "DANCE AHEAD",
+        "HAUSSMANNIEN",
+        "KATALINA",
+        "ROMEO",
+        "SHUTTERWOOD",
+        "VILLAIRES"
+      ],
+      "pmu_url": "https://online.turfinfo.api.pmu.fr/rest/client/1/programme/29042026/R2/C2/participants"
+    },
+    {
+      "date": "2026-04-29",
+      "actual_start_at": "2026-04-29T10:09:35.180000+00:00",
+      "local_start": "2026-04-29T12:09:35.180000+02:00",
+      "precision_seconds": 0.01,
+      "proof_kind": "official_photo_finish_explicit_start_clock",
+      "source_url": "https://www.hipodromoa.com/files/303-23720-carr_foto_finish/3 PREMIO CAFE BAR BUENETXEA - 2200 M.pdf",
+      "source_sha256": "bdaa795cf94791936d91bf72d1ea333b615fde48c5fe5d1053417962ee42f38d",
+      "source_observed_at": "2026-11-05T12:15:41+00:00",
+      "course_url": "https://www.hipodromoa.com/temporada/reunion/29-04/_IqQzNPbID9iDeySwjJMhuYiylhnXY7FHn1U_rJeRwxnxsDWA-AuvMhkiBA7hz02nV6gSOpwjMaI",
+      "course_receipt": {
+        "url": "https://www.hipodromoa.com/temporada/reunion/29-04/_IqQzNPbID9iDeySwjJMhuYiylhnXY7FHn1U_rJeRwxnxsDWA-AuvMhkiBA7hz02nV6gSOpwjMaI",
+        "final_url": "https://www.hipodromoa.com/temporada/reunion/29-04/_IqQzNPbID9iDeySwjJMhuYiylhnXY7FHn1U_rJeRwxnxsDWA-AuvMhkiBA7hz02nV6gSOpwjMaI",
+        "status": 200,
+        "observed_at": "2026-11-05T12:15:40+00:00",
+        "sha256": "bdf37f97785ac7943f76fc4097ad42f3eab7439c0f86c7a451c8af49cbe7b535",
+        "headers": {
+          "Server": "nginx/1.16.1",
+          "Date": "Thu, 05 Nov 2026 12:15:39 GMT",
+          "Content-Type": "text/html; charset=utf-8; boundary=xYzZY",
+          "Content-Length": "6437",
+          "Connection": "keep-alive",
+          "Cache-Control": "private",
+          "X-Powered-By": "eBD/3.7.0",
+          "Vary": "Accept-Encoding",
+          "Content-Encoding": "gzip"
+        },
+        "file": "7d6f9d9e14ffb0165ac028044d9d44a6dd03f20515191b5fe91e433b408a7862.bin"
+      },
+      "photo_metadata": {
+        "/Author": "",
+        "/CreationDate": "D:20260429121427+02'00'",
+        "/ModDate": "D:20260429121427+02'00'",
+        "/Producer": "Microsoft: Print To PDF",
+        "/Title": "Imprimir la Imagen de FinishLynx"
+      },
+      "extracted_text": "29/04/2026 12:14:23                                                          3 PREMIO CAFE BAR BUENETXEA - 2200 M (1-1-3)\n\n                                                                                                      Llegada - Cámara 1                                                                                                 Camera S/N: 70766\n\n                                                                                     Hora de la Salida: 29/04/2026 12:09:35.18\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n               2:28.40                 2:28.50                 2:28.60                 2:28.702:29.90                 2:30.00                 2:30.10                 2:30.202:30.60                 2:30.70                 2:30.80                 2:30.90\n                                                                                  2:28.75                                                              2:30.24\n\n\n\n\n    Puesto     Dorsal      Caballo                Nombre                                            Apellidos                                              Tiempo                   Longitudes\n\n        1           1                SAN SEBASTIAN               V.                                                         JANACEK                                                          2:28.41\n\n        2           3                SANLAK                      I.                                                         MELGAREJO                                                        2:29.95                                 7 3/4\n\n        3           7                KHANDELA                    J.                                                         ZAMBUDIO                                                         2:30.68                                 3 1/2\n\n        4           2                MISS ELORZ                  J.                                                         GELABERT                                                         2:30.71                               Cuello\n\n        5           4                JAVA RAJA                   N.                                                         DE JULIAN                                                        2:31.24                                 2 3/4\n\n        6           6                BLUESPUR                    D.                                                         RODRIGUEZ                                                        2:36.36                               25 1/2\n\n        7           5                SON OF REALITY              N.M.                                                       LOPES                                                            2:36.91                                 2 3/4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCopyright (c) 1991-2021 Lynx System Developers, Inc.",
+      "arrival_names": [
+        "BLUESPUR",
+        "JAVA RAJA",
+        "KHANDELA",
+        "MISS ELORZ",
+        "SAN SEBASTIAN",
+        "SANLAK",
+        "SON OF REALITY"
+      ],
+      "pmu_url": "https://online.turfinfo.api.pmu.fr/rest/client/1/programme/29042026/R2/C3/participants"
+    },
+    {
+      "date": "2026-04-29",
+      "actual_start_at": "2026-04-29T10:43:57.860000+00:00",
+      "local_start": "2026-04-29T12:43:57.860000+02:00",
+      "precision_seconds": 0.01,
+      "proof_kind": "official_photo_finish_explicit_start_clock",
+      "source_url": "https://www.hipodromoa.com/files/303-23718-carr_foto_finish/4 PREMIO MONKEY PARK - 2000 M.pdf",
+      "source_sha256": "eb1cacd5d140e32ff2e5b75f68d3d1ee0f8626c69854f597e50f09574e152886",
+      "source_observed_at": "2026-11-05T12:15:42+00:00",
+      "course_url": "https://www.hipodromoa.com/temporada/reunion/29-04/_IqQzNPbID9iDeySwjJMhuYiylhnXY7FHEYYVJ7jNb11QeydfpILKIaxO0LYYAtO95xKHmf0lWFI",
+      "course_receipt": {
+        "url": "https://www.hipodromoa.com/temporada/reunion/29-04/_IqQzNPbID9iDeySwjJMhuYiylhnXY7FHEYYVJ7jNb11QeydfpILKIaxO0LYYAtO95xKHmf0lWFI",
+        "final_url": "https://www.hipodromoa.com/temporada/reunion/29-04/_IqQzNPbID9iDeySwjJMhuYiylhnXY7FHEYYVJ7jNb11QeydfpILKIaxO0LYYAtO95xKHmf0lWFI",
+        "status": 200,
+        "observed_at": "2026-11-05T12:15:41+00:00",
+        "sha256": "f42f9ac3eab0e08822dc8db5ed239e428e3236d25e4a17bca7839de537fb273c",
+        "headers": {
+          "Server": "nginx/1.16.1",
+          "Date": "Thu, 05 Nov 2026 12:15:41 GMT",
+          "Content-Type": "text/html; charset=utf-8; boundary=xYzZY",
+          "Content-Length": "6612",
+          "Connection": "keep-alive",
+          "Cache-Control": "private",
+          "X-Powered-By": "eBD/3.7.0",
+          "Vary": "Accept-Encoding",
+          "Content-Encoding": "gzip"
+        },
+        "file": "145700d99d9951569eb8b63bb6bc35bab07619adfc89aff08dc6380b19877542.bin"
+      },
+      "photo_metadata": {
+        "/Author": "",
+        "/CreationDate": "D:20260429124843+02'00'",
+        "/ModDate": "D:20260429124843+02'00'",
+        "/Producer": "Microsoft: Print To PDF",
+        "/Title": "Imprimir la Imagen de FinishLynx"
+      },
+      "extracted_text": "29/04/2026 12:48:42                                                             4 PREMIO MONKEY PARK - 2000 M (1-1-4)\n\n                                                                                                  Llegada - Cámara 1                                                                                            Camera S/N: 70766\n\n                                                                                  Hora de la Salida: 29/04/2026 12:43:57.86\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                 2:07.90                                                2:08.00                                                2:08.10                                                2:08.20                                                2:08.30\n\n\n\n\n\n    Puesto     Dorsal      Caballo                Nombre                                            Apellidos                                              Tiempo                   Longitudes\n\n        1          4                LOSE YOUR WAD              V.                                                      ALONSO V.                                                     2:07.90\n\n        2          6                ISTANBUL                   V.                                                      JANACEK                                                       2:08.14                               1 1/4\n\n        3          7                PINARELLU                  D.                                                      SIKOROVA                                                      2:08.15                               Nariz\n\n        4          1                SANBER                     A.                                                      GUTIERREZ V.                                                  2:08.90                               3 3/4\n\n        5          11               PARTY ZONE                 C.                                                      PEREZ                                                         2:08.90                               Nariz\n\n        6          8                NORDESTE                   R.                                                      DUBORD                                                        2:09.02                                 1/2\n\n        7          3                GAUCIN                     J.                                                      GELABERT                                                      2:09.98                               4 3/4\n\n        8          12               PLACIDOO                   N.                                                      DE JULIAN                                                     2:10.65                               3 1/4\n\n        9          10               GAST A GAST                M.                                                      FOULON                                                        2:10.66                               Nariz\n\n       10          9                RAIKU                      M.                                                      LAURON                                                        2:11.10                               2 1/4\n\n       11          5                ALWIN BRAM                 V.M.                                                    VALENZUELA                                                    2:11.34                               1 1/4\n\n       12          2                ARCHIES DREAM              B.                                                      FAYOS                                                         2:20.54                                   46\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCopyright (c) 1991-2021 Lynx System Developers, Inc.",
+      "arrival_names": [
+        "ALWIN BRAM",
+        "ARCHIE'S DREAM",
+        "GAST A GAST",
+        "GAUCIN",
+        "ISTANBUL",
+        "LOSE YOUR WAD",
+        "NORDESTE",
+        "PARTY ZONE",
+        "PINARELLU",
+        "PLACID'OO",
+        "RAIKU",
+        "SANBER"
+      ],
+      "pmu_url": "https://online.turfinfo.api.pmu.fr/rest/client/1/programme/29042026/R2/C4/participants"
+    },
+    {
+      "date": "2026-04-29",
+      "actual_start_at": "2026-04-29T11:16:48.030000+00:00",
+      "local_start": "2026-04-29T13:16:48.030000+02:00",
+      "precision_seconds": 0.01,
+      "proof_kind": "official_photo_finish_explicit_start_clock",
+      "source_url": "https://www.hipodromoa.com/files/303-23719-carr_foto_finish/5 PREMIO ADMINISTRACION DE FINCAS MILLA - 2000 M.pdf",
+      "source_sha256": "24e8800a1dc0e7cb120a9cb290b468d7220c313293d930ffc2dd19547c4516ba",
+      "source_observed_at": "2026-11-05T12:15:43+00:00",
+      "course_url": "https://www.hipodromoa.com/temporada/reunion/29-04/_IqQzNPbID9iDeySwjJMhuYiylhnXY7FHLYyEDIvUOyqPG3HPp51ywk_uUh1mJ7Ug0dWLXYAvqf0",
+      "course_receipt": {
+        "url": "https://www.hipodromoa.com/temporada/reunion/29-04/_IqQzNPbID9iDeySwjJMhuYiylhnXY7FHLYyEDIvUOyqPG3HPp51ywk_uUh1mJ7Ug0dWLXYAvqf0",
+        "final_url": "https://www.hipodromoa.com/temporada/reunion/29-04/_IqQzNPbID9iDeySwjJMhuYiylhnXY7FHLYyEDIvUOyqPG3HPp51ywk_uUh1mJ7Ug0dWLXYAvqf0",
+        "status": 200,
+        "observed_at": "2026-11-05T12:15:42+00:00",
+        "sha256": "45077194f38d2c1bba972c0e5472516c44ee3346b9aaf2145a2d8d916fecacda",
+        "headers": {
+          "Server": "nginx/1.16.1",
+          "Date": "Thu, 05 Nov 2026 12:15:42 GMT",
+          "Content-Type": "text/html; charset=utf-8; boundary=xYzZY",
+          "Content-Length": "6734",
+          "Connection": "keep-alive",
+          "Cache-Control": "private",
+          "X-Powered-By": "eBD/3.7.0",
+          "Vary": "Accept-Encoding",
+          "Content-Encoding": "gzip"
+        },
+        "file": "eb1103e5f3bed51f71f17109a10a9297ba6ab4b7c8ab4f565dea2221e958b6cc.bin"
+      },
+      "photo_metadata": {
+        "/Author": "",
+        "/CreationDate": "D:20260429132457+02'00'",
+        "/ModDate": "D:20260429132457+02'00'",
+        "/Producer": "Microsoft: Print To PDF",
+        "/Title": "Imprimir la Imagen de FinishLynx"
+      },
+      "extracted_text": "29/04/2026 13:24:54                                         5 PREMIO ADMINISTRACION DE FINCAS MILLA - 2000 M (1-1-5)\n\n                                                                                              Llegada - Cámara 1                                                                                        Camera S/N: 70766\n\n                                                                              Hora de la Salida: 29/04/2026 13:16:48.03\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                         2:10.00                    2:10.10                   2:10.20                    2:10.30                   2:10.40                    2:10.50                    2:10.60                   2:10.70                    2:10.80                   2:10.90\n\n\n\n\n\n   Puesto     Dorsal      Caballo                Nombre                                            Apellidos                                              Tiempo                   Longitudes\n\n        1         4               ONE MORE NIGH             A.                                                    GUTIERREZ V.                                                2:09.96\n\n        2         14              WALKCZAK                  D.                                                    RODRIGUEZ                                                   2:10.24                              1 1/2\n\n        3         9               TONY MONTANA              M.                                                    FOULON                                                      2:10.73                              2 1/2\n\n        4         1               SAVE YOUR BREA            D.                                                    SIKOROVA                                                    2:11.03                              1 1/2\n\n        5         3               NURTURE                   R.                                                    DUBORD                                                      2:11.43                                  2\n\n        6         10              SHANGAR                   R.                                                    SOUSA                                                       2:11.45                           Cabeza\n\n        7         6               SOFUNNY                   E.A.                                                  RODRIGUEZ                                                   2:11.65                                  1\n\n        8         2               SMOOTH TRANSI             B.                                                    FAYOS                                                       2:11.94                              1 1/2\n\n        9         5               MUGUETAJARRA              N.M.                                                  LOPES                                                       2:12.26                              1 1/2\n\n       10         8               YIRA                      J.                                                    GOMEZ                                                       2:12.28                           Cabeza\n\n       11         13              PORT GALLAND              V.                                                    JANACEK                                                     2:13.08                                  4\n\n       12         7               MAIMOUNA                  V.                                                    ALONSO V.                                                   2:15.19                            10 1/2\n\n       13         11              LEHEN                     J.                                                    ZAMBUDIO                                                    2:18.41                                 16\n\n     DNS          12              DIMANCHE SOIR             M.                                                    LAURON\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCopyright (c) 1991-2021 Lynx System Developers, Inc.",
+      "arrival_names": [
+        "LEHEN",
+        "MAIMOUNA",
+        "MUGUETAJARRA",
+        "NURTURE",
+        "ONE MORE NIGHT",
+        "PORT GALLAND",
+        "SAVE YOUR BREATH",
+        "SHANGAR",
+        "SMOOTH TRANSITION",
+        "SOFUNNY",
+        "TONY MONTANA",
+        "WALKCZAK",
+        "YIRA"
+      ],
+      "pmu_url": "https://online.turfinfo.api.pmu.fr/rest/client/1/programme/29042026/R2/C5/participants"
+    }
+  ],
+  "unmatched": [
+    {
+      "date": "2026-04-16",
+      "actual_start_at": "2026-04-16T10:13:24.620000+00:00",
+      "local_start": "2026-04-16T12:13:24.620000+02:00",
+      "precision_seconds": 0.01,
+      "proof_kind": "official_photo_finish_explicit_start_clock",
+      "source_url": "https://www.hipodromoa.com/files/303-23708-carr_foto_finish/3 CARRERA PREMIO VENTANAS ALCAR-VENTA - 1400 M.pdf",
+      "source_sha256": "a9af0168f04ec35b5b3fcbb8a621a70632f401a3ae52d0f8eac5b64646dfa858",
+      "source_observed_at": "2026-11-05T12:15:24+00:00",
+      "course_url": "https://www.hipodromoa.com/temporada/reunion/16-04/_IqQzNPbID9iDeySwjJMhudBPsbZjR25ynnYMO6x-sdQMc1ut2S3BlDRI1b1FU1t-LwarlI6nAIw",
+      "course_receipt": {
+        "url": "https://www.hipodromoa.com/temporada/reunion/16-04/_IqQzNPbID9iDeySwjJMhudBPsbZjR25ynnYMO6x-sdQMc1ut2S3BlDRI1b1FU1t-LwarlI6nAIw",
+        "final_url": "https://www.hipodromoa.com/temporada/reunion/16-04/_IqQzNPbID9iDeySwjJMhudBPsbZjR25ynnYMO6x-sdQMc1ut2S3BlDRI1b1FU1t-LwarlI6nAIw",
+        "status": 200,
+        "observed_at": "2026-11-05T12:15:24+00:00",
+        "sha256": "d56cad2ccbe3d1e9b6447baefe20ddd7680e4a8a7be7ec430b01836f7c328816",
+        "headers": {
+          "Server": "nginx/1.16.1",
+          "Date": "Thu, 05 Nov 2026 12:15:24 GMT",
+          "Content-Type": "text/html; charset=utf-8; boundary=xYzZY",
+          "Content-Length": "6618",
+          "Connection": "keep-alive",
+          "Cache-Control": "private",
+          "X-Powered-By": "eBD/3.7.0",
+          "Vary": "Accept-Encoding",
+          "Content-Encoding": "gzip"
+        },
+        "file": "62a6ee780e8a630a1696cf0da3e580427a0fdbcf28c46463f5c4f3a77fbf8eb5.bin"
+      },
+      "photo_metadata": {
+        "/Author": "",
+        "/CreationDate": "D:20260416121706+02'00'",
+        "/ModDate": "D:20260416121706+02'00'",
+        "/Producer": "Microsoft: Print To PDF",
+        "/Title": "Imprimir la Imagen de FinishLynx"
+      },
+      "extracted_text": "16/04/2026 12:17:04                                               3 CARRERA PREMIO VENTANAS ALCAR-VENTA - 1400 M (1-1-3)\n\n                                                                                                      Llegada - Cámara 1                                                                                                 Camera S/N: 70766\n\n                                                                                     Hora de la Salida: 16/04/2026 12:13:24.62\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                             1:31.50                                                       1:31.60                                                       1:31.70                                                      1:31.80                                                       1:31.90\n\n\n\n\n\n\n    Puesto     Dorsal      Caballo                Nombre                                            Apellidos                                              Tiempo                   Longitudes\n\n        1           3                TAMMANI                     R.                                                         SOUSA                                                            1:31.50\n\n        2           2                IFACH                       D.A.                                                       SARABIA                                                          1:31.55                                   1/4\n\n        3           1                BRAVO                       V.                                                         JANACEK                                                          1:31.65                                   1/2\n\n        4           8                DANCE AHEAD                 J.                                                         GELABERT                                                         1:32.08                                2 1/4\n\n        5           4                HAUSSMANNIEN                I.                                                         MELGAREJO                                                        1:32.26                                     1\n\n        6           7                RAIKU                       V.                                                         ALONSO V.                                                        1:33.11                                4 1/4\n\n        7           9                BOEZA                       J.                                                         ZAMBUDIO                                                         1:34.46                                6 3/4\n\n        8           5                JUSTE BERE                  N.M.                                                       LOPES                                                            1:44.16                               48 1/2\n\n                    6                OCTAVIO                     C.                                                         PEREZ\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCopyright (c) 1991-2021 Lynx System Developers, Inc.",
+      "arrival_names": [
+        "BOEZA",
+        "BRAVO",
+        "DANCE AHEAD",
+        "HAUSSMANNIEN",
+        "IFACH",
+        "JUSTE BERE",
+        "RAIKU",
+        "TAMMANI"
+      ],
+      "pmu_url": null
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,84 @@
+{
+  "saved_at": "2026-11-12T18:23:25.549764+00:00",
+  "project": "/app/more_studies/horse-race-forecast-private",
+  "handover": "/app/more_studies/horse-race-forecast-private/_agent_state/HANDOVER_20261112.md",
+  "run": "/app/more_studies/horse-race-forecast-private/runs/agent_features_20261111_v2",
+  "verified_run_status": {
+    "status": "completed",
+    "controller_pid": 2562094,
+    "service_pid": 2562098,
+    "gpu": 3,
+    "gpu_uuid": "GPU-c20e7fb3-7393-c302-a180-820db648e5e0",
+    "api": "http://127.0.0.1:11440",
+    "planned": 48,
+    "updated_at": "2026-11-11T14:58:28.173405+00:00",
+    "current_race": "race_d515897aba3bcbd540b8d8b46c326c4f",
+    "completed": 48,
+    "service_stopped": true,
+    "input_drift": [],
+    "evaluation_exit_code": 0
+  },
+  "extraction": {
+    "completed_cases": 48,
+    "statuses": {
+      "complete": 33,
+      "failed": 15
+    },
+    "valid_extractions": 33,
+    "expected": 48,
+    "feature_names": [
+      "form_known",
+      "declared_debutant",
+      "mean_reciprocal_place",
+      "win_fraction",
+      "printed_code_count_scaled",
+      "unknown_code_fraction",
+      "preview_favourable",
+      "preview_unfavourable",
+      "preview_assessment_known",
+      "prior_trouble",
+      "prior_trouble_known"
+    ]
+  },
+  "failure_reasons": {
+    "ValueError('Feature lacks an exact admitted-source quotation')": 8,
+    "ValueError('Form extraction disagrees with literal source')": 6,
+    "ValueError('Quotation does not explicitly name the horse')": 1
+  },
+  "successful_runner_rows": 251,
+  "runner_rows_with_any_nonzero_article_feature": 0,
+  "matched_evaluation": {
+    "baseline": {
+      "valid_races": 17,
+      "metrics": {
+        "brier": 0.8038898524174208,
+        "log_loss": 1.8303719586123248
+      },
+      "errors": {}
+    },
+    "baseline_plus_deterministic_form": {
+      "valid_races": 17,
+      "metrics": {
+        "brier": 0.8008514386229454,
+        "log_loss": 1.8058612994793521
+      },
+      "errors": {}
+    },
+    "baseline_plus_agent_features": {
+      "valid_races": 17,
+      "metrics": {
+        "brier": 0.808210594449864,
+        "log_loss": 1.823383546464649
+      },
+      "errors": {}
+    }
+  },
+  "training_counts": {
+    "baseline_plus_deterministic_form": 20,
+    "baseline_plus_agent_features": 16
+  },
+  "critical_correction": "Training cohort confound: deterministic arm fit on 20 January races; agent arm fit on 16. Accepted form features identical; all text features zero. Same-16-race deterministic refit reproduced agent probabilities to 5.551115123125783e-17 in the preceding session. This does not establish that adding agent information hurts.",
+  "next_action": "See latest website release state: corrected evaluation now implemented; human-reviewed extraction set and independent article-only adapter remain next.",
+  "prior_central_state": "/app/more_studies/_agent_state was absent when checked on November 12; this project-local handover is the current entry point.",
+  "superseded_by": "/app/more_studies/horse-race-forecast-private/_agent_state/website_release_20261112.json"
+}

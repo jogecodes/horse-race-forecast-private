@@ -1,0 +1,135 @@
+{
+  "schema_version": 3,
+  "races": 1593,
+  "meetings": 312,
+  "source_result_rows": 12993,
+  "selected_runner_rows": 12872,
+  "source_snapshots": 1595,
+  "date_range": {
+    "first": "2022-11-27",
+    "last": "2026-11-01"
+  },
+  "by_year": [
+    {
+      "year": "2022",
+      "races": 43,
+      "runner_rows": 305,
+      "meetings": 9
+    },
+    {
+      "year": "2023",
+      "races": 422,
+      "runner_rows": 3410,
+      "meetings": 82
+    },
+    {
+      "year": "2024",
+      "races": 334,
+      "runner_rows": 2757,
+      "meetings": 62
+    },
+    {
+      "year": "2025",
+      "races": 432,
+      "runner_rows": 3436,
+      "meetings": 85
+    },
+    {
+      "year": "2026",
+      "races": 362,
+      "runner_rows": 2964,
+      "meetings": 74
+    }
+  ],
+  "by_venue": [
+    {
+      "venue": "La Zarzuela",
+      "races": 889,
+      "runner_rows": 7708,
+      "first": "2022-12-29",
+      "last": "2026-11-01"
+    },
+    {
+      "venue": "San Sebastián",
+      "races": 318,
+      "runner_rows": 2397,
+      "first": "2023-03-29",
+      "last": "2026-09-30"
+    },
+    {
+      "venue": "Dos Hermanas",
+      "races": 287,
+      "runner_rows": 2099,
+      "first": "2022-11-27",
+      "last": "2026-02-28"
+    },
+    {
+      "venue": "Sanlúcar de Barrameda",
+      "races": 65,
+      "runner_rows": 479,
+      "first": "2023-08-10",
+      "last": "2026-08-23"
+    },
+    {
+      "venue": "Pineda",
+      "races": 14,
+      "runner_rows": 91,
+      "first": "2022-12-08",
+      "last": "2025-01-04"
+    },
+    {
+      "venue": "Vila-seca",
+      "races": 9,
+      "runner_rows": 48,
+      "first": "2024-01-21",
+      "last": "2026-02-08"
+    },
+    {
+      "venue": "Zahara de los Atunes",
+      "races": 7,
+      "runner_rows": 31,
+      "first": "2023-10-28",
+      "last": "2025-10-25"
+    },
+    {
+      "venue": "Loredo",
+      "races": 4,
+      "runner_rows": 19,
+      "first": "2023-07-23",
+      "last": "2026-08-02"
+    }
+  ],
+  "by_source": [
+    {
+      "source_id": "jce",
+      "races": 12,
+      "runner_rows": 124,
+      "first": "2026-10-25",
+      "last": "2026-11-01"
+    },
+    {
+      "source_id": "masdehipodromos",
+      "races": 1593,
+      "runner_rows": 12869,
+      "first": "2022-11-27",
+      "last": "2026-11-01"
+    }
+  ],
+  "provider_horse_ids": {
+    "masdehipodromos": 1609
+  },
+  "quality_issues": {
+    "conflicting_source_annual_number": 3,
+    "conflicting_source_race_ordinal": 3,
+    "declaration_result_difference": 1,
+    "invalid_source_weight": 9,
+    "provider_status_not_finishing_place": 77
+  },
+  "snapshot_observation_range": {
+    "first": "2026-11-05T09:39:45+00:00",
+    "last": "2026-11-05T10:20:06+00:00"
+  },
+  "foreign_key_errors": [],
+  "integrity": "ok",
+  "historical_feature_eligibility": "Newly collected current pages are not evidence of pre-race historical availability."
+}

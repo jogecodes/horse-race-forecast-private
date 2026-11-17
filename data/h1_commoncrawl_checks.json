@@ -1,0 +1,25 @@
+{
+  "checks": [
+    {
+      "date": "2026-04-19",
+      "url": "https://www.hipodromodelazarzuela.es/sites/default/files/documentos_jornadas/PARTICIPANTES%20DEFINITIVOS%20HZ%2019.04.2026.pdf",
+      "index": "CC-MAIN-2026-17",
+      "status": "lookup_failed",
+      "error": "HTTP 504: https://index.commoncrawl.org/CC-MAIN-2026-17-index?url=https%3A%2F%2Fwww.hipodromodelazarzuela.es%2Fsites%2Fdefault%2Ffiles%2Fdocumentos_jornadas%2FPARTICIPANTES%2520DEFINITIVOS%2520HZ%252019.04.2026.pdf&output=json&filter=status%3A200"
+    },
+    {
+      "date": "2026-05-17",
+      "url": "https://www.hipodromodelazarzuela.es/sites/default/files/documentos_jornadas/PARTICIPANTES%20DEFINITIVOS%20HZ%2017.05.2026.pdf",
+      "index": "CC-MAIN-2026-21",
+      "status": "lookup_failed",
+      "error": "HTTP 504: https://index.commoncrawl.org/CC-MAIN-2026-21-index?url=https%3A%2F%2Fwww.hipodromodelazarzuela.es%2Fsites%2Fdefault%2Ffiles%2Fdocumentos_jornadas%2FPARTICIPANTES%2520DEFINITIVOS%2520HZ%252017.05.2026.pdf&output=json&filter=status%3A200"
+    },
+    {
+      "date": "2026-06-14",
+      "url": "https://www.hipodromodelazarzuela.es/sites/default/files/documentos_jornadas/PARTICIPANTES%20DEFINITIVOS%20HZ%2014.06.2026.pdf",
+      "index": "CC-MAIN-2026-25",
+      "status": "lookup_failed",
+      "error": "HTTP 504: https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=https%3A%2F%2Fwww.hipodromodelazarzuela.es%2Fsites%2Fdefault%2Ffiles%2Fdocumentos_jornadas%2FPARTICIPANTES%2520DEFINITIVOS%2520HZ%252014.06.2026.pdf&output=json&filter=status%3A200"
+    }
+  ]
+}

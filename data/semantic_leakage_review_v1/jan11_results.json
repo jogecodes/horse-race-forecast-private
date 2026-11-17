@@ -1,0 +1,37 @@
+{
+  "id": "jan11_results",
+  "url": "https://www.abc.com.py/deportes/polideportivo/2026/01/11/triplete-del-preparador-argentino-anaya-en-dos-hermanas-espana/?outputType=amp",
+  "observed_at": "2026-11-05T19:38:07+00:00",
+  "body_sha256": "1da75d6710cee72fdd4adc6b05881fa14f55e130bc572493baecedae5b685805",
+  "paragraphs": [
+    "Dos Hermanas (España), 11 ene (EFE).- El entrenador argentino Óscar Anaya selló este domingo un triplete de victorias en la primera jornada de 2026 en Dos Hermanas (España), en las tres carreras donde ensillaba caballos.",
+    "El argentino ganó con el tres años debutante en España “Justcallmesergio”, con el buen “Ifach” y con el prometedor y también nuevo en nuestros hipódromos “Flight Leader”.",
+    "El seis años “Flight Leader” apunta a caballo de grandes premios. Compra de la cántabra cuadra Río Cubas en Inglaterra, este nuevo pupilo de Anaya llegó a disputar y ganar todo un Grupo 3 en París cuando era un potro de tres años.",
+    "En su etapa británica no dejó buenos resultados y sólo compitió en tres ocasiones, pero ofrece todavía un alto valor, como ha demostrado hoy en la pista de hierba nazarena.",
+    "Otro argentino, en este caso el jockey José Gómez, dobló éxito en la tarde en los dos hándicaps de 2.200 metros. A lomos de “Yira”, una yegua que estaba rodando la victoria en sus últimas salidas en la campaña invernal, dominó de salida a meta; y con “Spanish Ruler” protagonizó un largo cabeza a cabeza con “Sweet Wish”, que cruzaría la meta con ligera ventaja y sería distanciada por haber molestado a su rival en la pelea."
+  ],
+  "date_claims": [
+    {
+      "kind": "modified",
+      "path": "meta:article:modified_time",
+      "value": "2026-01-11T14:30:09.581000+00:00",
+      "precision": "timestamp"
+    },
+    {
+      "kind": "published",
+      "path": "jsonld:datePublished",
+      "value": "2026-01-11T17:30:09+00:00",
+      "precision": "timestamp"
+    },
+    {
+      "kind": "modified",
+      "path": "jsonld:dateModified",
+      "value": "2026-01-11T17:30:09+00:00",
+      "precision": "timestamp"
+    }
+  ],
+  "metadata": {
+    "author": "EFE",
+    "title": "Triplete del preparador argentino Anaya en Dos Hermanas (España)"
+  }
+}

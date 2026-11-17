@@ -1,0 +1,12 @@
+[
+  {
+    "model": "llama3.1:8b",
+    "out": "runs/event_grounded_v2_llama_replay_20261106",
+    "exit_code": 0
+  },
+  {
+    "model": "gemma3:4b",
+    "out": "runs/event_grounded_v2_gemma_replay_20261106",
+    "exit_code": 0
+  }
+]

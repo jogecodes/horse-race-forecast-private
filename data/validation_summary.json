@@ -1,0 +1,10 @@
+{
+  "tests_passed": 37,
+  "cache_replay_unchanged": true,
+  "snapshot_hashes_verified": 1595,
+  "original_jce_snapshots_preserved": 2,
+  "official_provider_winner_disagreements": [],
+  "sqlite_integrity": "ok",
+  "foreign_key_errors": [],
+  "official_provider_compared_races": 12
+}

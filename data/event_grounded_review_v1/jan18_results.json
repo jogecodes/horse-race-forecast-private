@@ -1,0 +1,19 @@
+{
+  "id": "jan18_results",
+  "url": "https://www.todoturf.net/noticia.php?fecha=2026-01-18+12%3A08%3A55",
+  "observed_at": "2026-11-06T12:17:03+00:00",
+  "body_sha256": "b3a279283e89d8d80f7f48ab0ef57d2c86a3cd50cf17a063eb0b201798b8e4e3",
+  "paragraphs": [],
+  "date_claims": [
+    {
+      "kind": "published",
+      "path": "todoturf_news_url",
+      "value": "2026-01-18T11:08:55+00:00",
+      "precision": "timestamp"
+    }
+  ],
+  "metadata": {
+    "author": null,
+    "title": "Resultado de las carreras en el Gran Hipódromo de Andalucía (18 de enero)"
+  }
+}

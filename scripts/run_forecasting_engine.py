@@ -1,0 +1,23 @@
+import argparse,json,sys
+from pathlib import Path
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
+from horse_racing.engine.run import run_benchmark,audit_run
+p=argparse.ArgumentParser()
+p.add_argument('--bundle',default='benchmarks/h1_2026_v2')
+p.add_argument('--db',default='data/racing.sqlite')
+p.add_argument('--out',required=True)
+p.add_argument('--track',choices=['strict','diagnostic','publisher-documented'],default='publisher-documented')
+p.add_argument('--split',choices=['development','validation','test'],default='development')
+p.add_argument('--limit',type=int,default=2)
+p.add_argument('--rounds',type=int,default=2)
+p.add_argument('--model',default='llama3.1:8b')
+p.add_argument('--seed-url',action='append',default=[])
+p.add_argument('--research-policy',choices=['auto','strict','publisher-dated','exploratory','event-grounded'],default='auto')
+p.add_argument('--search-backend',choices=['builtin','stdio'],default='builtin')
+p.add_argument('--max-search-queries',type=int,default=12)
+p.add_argument('--max-research-pages',type=int,default=12)
+p.add_argument('--race-id',action='append',help='Explicit race IDs within selected split; overrides --limit')
+p.add_argument('--ollama-base',default='http://127.0.0.1:11434')
+a=p.parse_args()
+r=run_benchmark(a.bundle,a.out,db=a.db,split=a.split,limit=a.limit,track=a.track,model_name=a.model,rounds=a.rounds,seed_urls=a.seed_url,research_policy=a.research_policy,search_backend=a.search_backend,max_search_queries=a.max_search_queries,max_research_pages=a.max_research_pages,race_ids=a.race_id,ollama_base=a.ollama_base)
+print(json.dumps(r,ensure_ascii=False,indent=2));print(json.dumps(audit_run(a.out),indent=2))

@@ -1,0 +1,2492 @@
+{
+  "version": "event-grounded-review-v1",
+  "scope": "18 fresh assistant-reviewed scenarios from six new publisher snapshots; development diagnostic, not independent human validation",
+  "review": "Assistant assigned rationales/labels before model evaluation. New protocol was designed from the previous corpus failures; no tuning on this fresh set after model evaluation.",
+  "related_cases": "Four ambiguous cases reuse paragraphs against different future targets; these are dependent context probes, not independent observations.",
+  "metadata_ablations": "natural preserves genuinely absent supported parser dates. withheld deliberately removes known publication/update metadata; original URL/title remain visible. Full source dates are retained in supervisor snapshots.",
+  "previous_dataset_sha256": "45564123bebb55b0f85231f2061ce396ca2f8d00159808663629aa1d41fb620a",
+  "freshness": "All six source URLs and all case text differ from the previous 24-scenario dataset",
+  "bundle_manifest_sha256": "7493a77343b65fb375b2cf6fd351403ee2329d121e5da9d3e1d2bbf1b716822f",
+  "snapshots": {
+    "jan18_preview": {
+      "file": "jan18_preview.json",
+      "sha256": "8f4b16642a1810fa976368a58fefc63ff5af71875f5c5a648fac75ea3a095acf"
+    },
+    "jan25_preview": {
+      "file": "jan25_preview.json",
+      "sha256": "8034748a24ca334956f6713b0e1cf54c7a2f853b33e27b2382db15591203b743"
+    },
+    "jan18_form_preview": {
+      "file": "jan18_form_preview.json",
+      "sha256": "6f2bea5984b17da64396c23508f4f4870962f7ad71bf9360791b4169f1281c54"
+    },
+    "jan25_form_preview": {
+      "file": "jan25_form_preview.json",
+      "sha256": "5f25525a81c485fe58809ed529f7469cc7d60008d0fa3e42b604546550d8fc43"
+    },
+    "jan18_official_report": {
+      "file": "jan18_official_report.json",
+      "sha256": "a0f7fc18c07b56036450e9ec53953b7351a7c439ced77e53859aa4c8f883b96e"
+    },
+    "calendar_news": {
+      "file": "calendar_news.json",
+      "sha256": "8054e3bf68e2e2060a1c49aba80e358d4a71bcf05f2e7c9f88bf788dc6db3274"
+    }
+  },
+  "cases": [
+    {
+      "id": "a01_undated_meeting_preview",
+      "source_snapshot": "jan18_preview",
+      "paragraph_indices": [
+        0
+      ],
+      "text": "Abre la jornada, a las doce horas, el Premio Ocio Caballo, a disputar sobre una distancia 2.100 metros en la pista de hierba. Esta prueba reservada para caballos y yeguas de cuatro años en adelante contará con ocho participantes entre los que destaca la presencia de (7) Leivinha con la monta del checo Vaclav Janacek y (2) Flaming Glass con la conducción de la joven Sara Horcajada.",
+      "text_sha256": "9922f0f2cfce5e6ffb8b42c50bfdc989dc0c67cfc10def6a38d65ed7b8946b68",
+      "dating_scenario": "natural",
+      "task": {
+        "benchmark_version": "spain-h1-2026-declarations-v2",
+        "race_id": "race_4f2b5ebaf8fa5dda9a445072755fd12a",
+        "date": "2026-01-18",
+        "venue": "Dos Hermanas",
+        "split": "development",
+        "cutoff_utc": "2026-01-17T22:59:00+00:00",
+        "distance_m": 2100,
+        "track": "publisher_documented",
+        "input_availability": "official_pre_race_document_publisher_dated",
+        "runners": [
+          {
+            "runner_id": "runner_0b2309c48904f8635c0d6fc5ba61b0c0",
+            "horse_name": "FLAMING GLASS",
+            "jockey_name": "SRTA. HORCAJADA, S (54,5)",
+            "trainer_name": "A. SOTO",
+            "stable_name": "YEGUADA URDIÑ-ORIYA",
+            "age": 6,
+            "cloth": 2,
+            "draw": 3,
+            "declared_weight_kg": 58.5,
+            "prior_form_raw": "[1,2,Ret,2]"
+          },
+          {
+            "runner_id": "runner_13e9ce7117bfd3e0bdee8f13e2e6a7a4",
+            "horse_name": "STORY HORSE (GB)",
+            "jockey_name": "D. SIKOROVA (54,5)",
+            "trainer_name": "O. ANAYA",
+            "stable_name": "ZACARIAS SARMIENTO",
+            "age": 6,
+            "cloth": 4,
+            "draw": 5,
+            "declared_weight_kg": 55.5,
+            "prior_form_raw": "[9,2,1,3]"
+          },
+          {
+            "runner_id": "runner_14bf8dbc47910e55ae55cf0f0ad37739",
+            "horse_name": "GAST A GAST (FR)",
+            "jockey_name": "V. ALONSO, V. (53,5)",
+            "trainer_name": "I. ELARRE",
+            "stable_name": "LOS PIRATAS",
+            "age": 4,
+            "cloth": 6,
+            "draw": 6,
+            "declared_weight_kg": 54.5,
+            "prior_form_raw": "[4,13,4,13]"
+          },
+          {
+            "runner_id": "runner_30c04398f225cb720c89337ad8e9d466",
+            "horse_name": "ARCHIE'S DREAM (GB)",
+            "jockey_name": "B. FAYOS",
+            "trainer_name": "B. RAMA",
+            "stable_name": "CANARIAS",
+            "age": 4,
+            "cloth": 3,
+            "draw": 2,
+            "declared_weight_kg": 58.0,
+            "prior_form_raw": "[1,14,5,3]"
+          },
+          {
+            "runner_id": "runner_45617f38f1c53b08ce92701d1dd81a3c",
+            "horse_name": "LEIVINHA (IRE)",
+            "jockey_name": "V. JANACEK (55)",
+            "trainer_name": "G. ARIZKORRETA",
+            "stable_name": "ONE",
+            "age": 5,
+            "cloth": 7,
+            "draw": 1,
+            "declared_weight_kg": 54.0,
+            "prior_form_raw": "[2,9,5,6]"
+          },
+          {
+            "runner_id": "runner_4711b1fd48bf58c9de178b0265fc7226",
+            "horse_name": "ROLLING LUCK (GB)",
+            "jockey_name": "A. MARTINEZ (53,5)",
+            "trainer_name": "M. AUGELLI",
+            "stable_name": "PATRIZIA ROSSANA TESTA",
+            "age": 4,
+            "cloth": 5,
+            "draw": 4,
+            "declared_weight_kg": 55.0,
+            "prior_form_raw": "[4,5,5,4]"
+          },
+          {
+            "runner_id": "runner_79f10800fc0ce69226e3679733d31239",
+            "horse_name": "DAMA DE PICAS",
+            "jockey_name": "F. MARTINEZ",
+            "trainer_name": "D. DIEZ",
+            "stable_name": "FORRAJES Y CEREALES D. DIEZ",
+            "age": 4,
+            "cloth": 8,
+            "draw": 8,
+            "declared_weight_kg": 53.5,
+            "prior_form_raw": "[7]"
+          },
+          {
+            "runner_id": "runner_cc57f842c54efeb76f34753a1872cdb4",
+            "horse_name": "SIR POLO (IRE)",
+            "jockey_name": "D. RODRIGUEZ (55)",
+            "trainer_name": "J. LOPEZ",
+            "stable_name": "CORREDORES AGRUPADOS",
+            "age": 5,
+            "cloth": 1,
+            "draw": 7,
+            "declared_weight_kg": 59.5,
+            "prior_form_raw": "[Desc,5,11,1]"
+          }
+        ]
+      },
+      "information_need": {
+        "id": 1,
+        "need": "Pre-cutoff racing background about LEIVINHA",
+        "query": "LEIVINHA"
+      },
+      "expected": "allow",
+      "category": "preview",
+      "review_rationale": "Future race conditions and participant preferences are plans/opinions, not a completed result."
+    },
+    {
+      "id": "a02_undated_favorite_prediction",
+      "source_snapshot": "jan18_preview",
+      "paragraph_indices": [
+        1
+      ],
+      "text": "El Premio A Galopar será la segunda entrega de esta dominical a disputar, esta vez, sobre una distancia de 1.800 metros pero también reservada para caballos y yeguas de cuatro años en adelante. Este hándicap se celebrará a partir de las 12,35 horas sobre el verde nazareno con ocho ejemplares. La prensa especializada destaca del lote a: (5) Misstifly y (2) Shutterwood con las montas de la checa Denisa Sikorova y Vicky Alonso respectivamente.",
+      "text_sha256": "df840373001e6c34e145cc019948080c388534f32f1fcf06e7481190b332673c",
+      "dating_scenario": "natural",
+      "task": {
+        "benchmark_version": "spain-h1-2026-declarations-v2",
+        "race_id": "race_bd9262afd4cba3713f6d9747a7c72f80",
+        "date": "2026-01-18",
+        "venue": "Dos Hermanas",
+        "split": "development",
+        "cutoff_utc": "2026-01-17T22:59:00+00:00",
+        "distance_m": 1800,
+        "track": "publisher_documented",
+        "input_availability": "official_pre_race_document_publisher_dated",
+        "runners": [
+          {
+            "runner_id": "runner_06c27058569e5e7945d0d600e691cef6",
+            "horse_name": "YO ROQUE (FR)",
+            "jockey_name": "V. JANACEK",
+            "trainer_name": "G. ARIZKORRETA",
+            "stable_name": "PEQUES",
+            "age": 4,
+            "cloth": 1,
+            "draw": 2,
+            "declared_weight_kg": 63.0,
+            "prior_form_raw": "[1,10,1,1]"
+          },
+          {
+            "runner_id": "runner_346ca8d65de034dc4605d06e2a50aa47",
+            "horse_name": "NORDESTE (FR)",
+            "jockey_name": "J. GELABERT",
+            "trainer_name": "I. ELARRE",
+            "stable_name": "ALVELA",
+            "age": 9,
+            "cloth": 4,
+            "draw": 4,
+            "declared_weight_kg": 60.0,
+            "prior_form_raw": "[5,7,14,12]"
+          },
+          {
+            "runner_id": "runner_7088121c47d385a6cb666329e24d95ba",
+            "horse_name": "SAVE YOUR BREATH (GB)",
+            "jockey_name": "C. PEREZ (52,5)",
+            "trainer_name": "J. CALDERON",
+            "stable_name": "MANUELA",
+            "age": 7,
+            "cloth": 8,
+            "draw": 1,
+            "declared_weight_kg": 53.5,
+            "prior_form_raw": "[1,12,8,4]"
+          },
+          {
+            "runner_id": "runner_76691efde797b4193a4fe1ba0f6849df",
+            "horse_name": "GUERREIRA (IRE)",
+            "jockey_name": "N. DE JULIAN",
+            "trainer_name": "H. PEREIRA",
+            "stable_name": "NOSSA SENHORA DO VALE",
+            "age": 9,
+            "cloth": 7,
+            "draw": 7,
+            "declared_weight_kg": 54.0,
+            "prior_form_raw": "[8,9,9,3]"
+          },
+          {
+            "runner_id": "runner_8718c6d7a81c9897948743485ba2f090",
+            "horse_name": "AFRODITA",
+            "jockey_name": "B. FAYOS",
+            "trainer_name": "J.L. MAROTO",
+            "stable_name": "BABIECA",
+            "age": 6,
+            "cloth": 6,
+            "draw": 3,
+            "declared_weight_kg": 56.5,
+            "prior_form_raw": "[6,5,3,6]"
+          },
+          {
+            "runner_id": "runner_a06c6c0d9db3424f71b988fb0b75ca94",
+            "horse_name": "MISSTIFLY (FR)",
+            "jockey_name": "D. SIKOROVA (56,5)",
+            "trainer_name": "O. ANAYA",
+            "stable_name": "SPORT HG",
+            "age": 5,
+            "cloth": 5,
+            "draw": 5,
+            "declared_weight_kg": 57.5,
+            "prior_form_raw": "[3,4,1,3]"
+          },
+          {
+            "runner_id": "runner_c25a816d98af8f1e2b4ce936486d8b2d",
+            "horse_name": "SHUTTERWOOD (FR)",
+            "jockey_name": "V. ALONSO, V. (61,5)",
+            "trainer_name": "A. SANCHEZ M",
+            "stable_name": "LOS MELENEROS",
+            "age": 4,
+            "cloth": 2,
+            "draw": 6,
+            "declared_weight_kg": 62.5,
+            "prior_form_raw": "[1,1,2,15]"
+          },
+          {
+            "runner_id": "runner_fbb1bd43f04859df91d2d66f34caafa2",
+            "horse_name": "SPIELMAN (GB)",
+            "jockey_name": "I. MELGAREJO",
+            "trainer_name": "J.C. ROSELL",
+            "stable_name": "NAZARENA",
+            "age": 5,
+            "cloth": 3,
+            "draw": 8,
+            "declared_weight_kg": 62.5,
+            "prior_form_raw": "[4,4,11,2]"
+          }
+        ]
+      },
+      "information_need": {
+        "id": 1,
+        "need": "Pre-cutoff racing background about SHUTTERWOOD",
+        "query": "SHUTTERWOOD"
+      },
+      "expected": "allow",
+      "category": "preview",
+      "review_rationale": "This is a future 1800m handicap preview. Naming a favorite does not identify a realized winner."
+    },
+    {
+      "id": "a03_undated_pair_prediction",
+      "source_snapshot": "jan25_preview",
+      "paragraph_indices": [
+        1
+      ],
+      "text": "Abre la dominical, a las doce horas el Premio Aceituna Manzanilla Sevillana , a disputar sobre una distancia 2.200 metros sobre el verde nazareno. Esta prueba, reservada para caballos y yeguas de cuatro años en adelante, contará con cinco participantes entre los que destaca la presencia de (3) Aniol con la monta de S. Donohoe y (2) Pasapalabra con la conducción del sevillano Ignacio Melgarejo.",
+      "text_sha256": "a2bf7eee9cd1fcd5af9d21826ac27c3043a9a96917b0ecb2f88927594c69dcd3",
+      "dating_scenario": "natural",
+      "task": {
+        "benchmark_version": "spain-h1-2026-declarations-v2",
+        "race_id": "race_f960c5df7fda81fdd12d574acfb30938",
+        "date": "2026-01-25",
+        "venue": "Dos Hermanas",
+        "split": "development",
+        "cutoff_utc": "2026-01-24T22:59:00+00:00",
+        "distance_m": 2200,
+        "track": "publisher_documented",
+        "input_availability": "official_pre_race_document_publisher_dated",
+        "runners": [
+          {
+            "runner_id": "runner_395d563332bf22e9aaa17e28b2a99c16",
+            "horse_name": "ALMANSA",
+            "jockey_name": "J. GELABERT",
+            "trainer_name": "R. MARTIN A",
+            "stable_name": "KILOMETRO 0",
+            "age": 5,
+            "cloth": 4,
+            "draw": 2,
+            "declared_weight_kg": 57.5,
+            "prior_form_raw": "[3,7,2,4]"
+          },
+          {
+            "runner_id": "runner_4ff23cf41107227a278b0ee600307502",
+            "horse_name": "SOGALINDA",
+            "jockey_name": "V. ALONSO V. (56,5)",
+            "trainer_name": "J.C. CERQUEIRA",
+            "stable_name": "ZEZINHO",
+            "age": 8,
+            "cloth": 5,
+            "draw": 4,
+            "declared_weight_kg": 57.5,
+            "prior_form_raw": "[5,4,2,7]"
+          },
+          {
+            "runner_id": "runner_6e67518be15c1471a1aabff86a92ff4a",
+            "horse_name": "SWEET WISH (FR)",
+            "jockey_name": "E.A. RODRIGUEZ (59)",
+            "trainer_name": "V.H. ROMEA",
+            "stable_name": "OLYMPUS",
+            "age": 6,
+            "cloth": 1,
+            "draw": 3,
+            "declared_weight_kg": 61.5,
+            "prior_form_raw": "[2,1,2,5]"
+          },
+          {
+            "runner_id": "runner_76dad6693580a73627b9d19f1c857cd2",
+            "horse_name": "ANIOL (FR)",
+            "jockey_name": "S. DONOHOE",
+            "trainer_name": "J.C. ROSELL",
+            "stable_name": "SAN JOSE",
+            "age": 4,
+            "cloth": 3,
+            "draw": 1,
+            "declared_weight_kg": 58.0,
+            "prior_form_raw": "[2,3,2,7]"
+          },
+          {
+            "runner_id": "runner_b8459418f45b63d7c84037f7ddbe05ca",
+            "horse_name": "PASAPALABRA",
+            "jockey_name": "I. MELGAREJO",
+            "trainer_name": "J. JIMENEZ",
+            "stable_name": "TARAMUNDI",
+            "age": 6,
+            "cloth": 2,
+            "draw": 5,
+            "declared_weight_kg": 60.0,
+            "prior_form_raw": "[4,1,6,3]"
+          }
+        ]
+      },
+      "information_need": {
+        "id": 1,
+        "need": "Pre-cutoff racing background about PASAPALABRA",
+        "query": "PASAPALABRA"
+      },
+      "expected": "allow",
+      "category": "preview",
+      "review_rationale": "The five-runner 2200m target is explicitly prospective; Aniol and Pasapalabra are preferences."
+    },
+    {
+      "id": "a04_same_horse_different_earlier_win",
+      "source_snapshot": "jan18_form_preview",
+      "paragraph_indices": [
+        3
+      ],
+      "text": "Tercera. Handicap. 2da parte. 1500 metros. Pista de arena. Complicada. Para ganar: 3-HAYA TAAL (IRE) Viene de quedar 2do en una 2da parte de handicap más dura que ésta. Mostró gusto por la pista de DH, y sobre todo por el terreno blando. Con la duda de su rendimiento en la arena, es la opción que viene de mostrar más forma. 6-MUGUETAJARRA Viene de correr fatal en la hierba de DH, pero la arena del DH es su pista favorita. En ella ganó en valor 31 y hoy está en 27,5. Peligro de resurrección. 8-COGSWORTH (GB) No está siendo regular, pero tras su convincente victoria en otoño en LZ, dio la impresión de tener otro handicap en el cuerpo más pronto que tarde. En DH, los handicaps son más baratos y puede llevarse uno esta temporada.",
+      "text_sha256": "d0f19b34819dccb6dee97b88e68d24e043d058a1e14c0e1bf281bf60754b4ecd",
+      "dating_scenario": "publisher",
+      "task": {
+        "benchmark_version": "spain-h1-2026-declarations-v2",
+        "race_id": "race_74441527d893aabf5e0384efe10fc51a",
+        "date": "2026-01-18",
+        "venue": "Dos Hermanas",
+        "split": "development",
+        "cutoff_utc": "2026-01-17T22:59:00+00:00",
+        "distance_m": 1500,
+        "track": "publisher_documented",
+        "input_availability": "official_pre_race_document_publisher_dated",
+        "runners": [
+          {
+            "runner_id": "runner_0ed35fa92c253388d3a3eadb69830f26",
+            "horse_name": "SMOOTH TRANSITION (IRE)",
+            "jockey_name": "C. PEREZ (61)",
+            "trainer_name": "B. RAMA",
+            "stable_name": "SOÑADOR",
+            "age": 5,
+            "cloth": 2,
+            "draw": 1,
+            "declared_weight_kg": 62.0,
+            "prior_form_raw": "[5,1,5,8]"
+          },
+          {
+            "runner_id": "runner_38d8adf933429db4001fd575270b7877",
+            "horse_name": "MUGUETAJARRA",
+            "jockey_name": "N. DE JULIAN",
+            "trainer_name": "H. PEREIRA",
+            "stable_name": "PIGUINHA",
+            "age": 9,
+            "cloth": 6,
+            "draw": 7,
+            "declared_weight_kg": 60.5,
+            "prior_form_raw": "[10,3,6,Ret]"
+          },
+          {
+            "runner_id": "runner_3e1ce3b3c6cdafe0e3af2b7b529f5855",
+            "horse_name": "BRIGHT FIRE (IRE)",
+            "jockey_name": "I. MELGAREJO",
+            "trainer_name": "J. JIMENEZ",
+            "stable_name": "EDUARDO GARCIA",
+            "age": 5,
+            "cloth": 1,
+            "draw": 9,
+            "declared_weight_kg": 63.0,
+            "prior_form_raw": "[7,3,5]"
+          },
+          {
+            "runner_id": "runner_7aa9c34401bcdb3b718e27d9f342f095",
+            "horse_name": "NORTH BREEZE (FR)",
+            "jockey_name": "V.M. VALENZUELA (G. Roja)",
+            "trainer_name": "J. OLIVEIRA",
+            "stable_name": "MAIA LIDADOR",
+            "age": 4,
+            "cloth": 9,
+            "draw": 5,
+            "declared_weight_kg": 59.0,
+            "prior_form_raw": "[10,4,6,8]"
+          },
+          {
+            "runner_id": "runner_a94226d2844b0c6d92f040c2e6d55280",
+            "horse_name": "SIGMUND (IRE)",
+            "jockey_name": "V. JANACEK",
+            "trainer_name": "J. OLIVEIRA",
+            "stable_name": "RUSSIFOREVER",
+            "age": 6,
+            "cloth": 7,
+            "draw": 3,
+            "declared_weight_kg": 60.0,
+            "prior_form_raw": "[7,13,1,15]"
+          },
+          {
+            "runner_id": "runner_bb6192422f7d126cf9484ad15408b17d",
+            "horse_name": "HAYA TAAL (IRE)",
+            "jockey_name": "J. GELABERT",
+            "trainer_name": "J. LOPEZ",
+            "stable_name": "CAÑO QUEBRADO",
+            "age": 5,
+            "cloth": 3,
+            "draw": 2,
+            "declared_weight_kg": 61.5,
+            "prior_form_raw": "[2,10,8,4]"
+          },
+          {
+            "runner_id": "runner_c82f3c373d1c78f1d04b282f3782e880",
+            "horse_name": "NURTURE (FR)",
+            "jockey_name": "V. ALONSO V. (60,5)",
+            "trainer_name": "I. ELARRE",
+            "stable_name": "VILLAR DE LA YEGUA",
+            "age": 5,
+            "cloth": 5,
+            "draw": 4,
+            "declared_weight_kg": 61.5,
+            "prior_form_raw": "[9,8,4,11]"
+          },
+          {
+            "runner_id": "runner_f4c8c0837c23eb0a97509577f7deb6b2",
+            "horse_name": "ROCKENVOY (IRE)",
+            "jockey_name": "B. LOPES",
+            "trainer_name": "J. OLIVEIRA",
+            "stable_name": "MAIA LIDADOR",
+            "age": 7,
+            "cloth": 4,
+            "draw": 8,
+            "declared_weight_kg": 61.5,
+            "prior_form_raw": "[7,1,2,10]"
+          },
+          {
+            "runner_id": "runner_fcd8aacd2f139ac9b8a0d37153b168c8",
+            "horse_name": "COGSWORTH (GB)",
+            "jockey_name": "B. FAYOS",
+            "trainer_name": "M.A. GOICOECHEA",
+            "stable_name": "ISLA DE FUERTEVENTURA",
+            "age": 5,
+            "cloth": 8,
+            "draw": 6,
+            "declared_weight_kg": 60.0,
+            "prior_form_raw": "[5,3,6,1]"
+          }
+        ]
+      },
+      "information_need": {
+        "id": 1,
+        "need": "Pre-cutoff racing background about COGSWORTH",
+        "query": "COGSWORTH"
+      },
+      "expected": "allow",
+      "category": "earlier_history",
+      "review_rationale": "January 15 publication anchors earlier performances, including Cogsworth autumn win in Madrid, before the January 18 target; predictions are separate from realized results."
+    },
+    {
+      "id": "a05_prior_form_and_conditional_forecast",
+      "source_snapshot": "jan18_form_preview",
+      "paragraph_indices": [
+        4
+      ],
+      "text": "Cuarta. Handicap. 3da parte. 1500 metros. Pista de arena. Para ganar: 6-FIJI GOLD (GB) Lleva 3 segundos en handicaps en sus 3 últimas actuaciones tanto arena como hierba. Tanto va el cántaro a la fuente… 8-HELHEIM (FR) Entrena, y, prácticamente, sólo corre en DH. Ya ha reaparecido, y en su 2da salida en la temporada quedó 3ro, tras 6-Fiji Gold. Está en su peso ganador de hace 1 año (21,5) y tiene una opción clara de triunfo. 5-GLOOMY ROSE (FR) Salió de maiden en una 3ra parte de handicap en DH, dejando a 4,5 cuerpos a 6-Fiji Gold. No asimiló la subida en las siguientes, pero una fue en la hierba de DH, y otra en 2 curvas en la arena de Madrid. De vuelta a la distancia y pista de su victoria puede asimilar la subida de 3 kilos. Alternativa: 2-PINSAPO (IRE) Especialista en la arena de Madrid. Viene de ganar y de ser penalizado con 2 kilos, que pueden ser asumibles. Debuta en la arena de DH.",
+      "text_sha256": "436666655c10489ca75f76125289b5e72047badd264213c0a7e12c1f650ddfa5",
+      "dating_scenario": "publisher",
+      "task": {
+        "benchmark_version": "spain-h1-2026-declarations-v2",
+        "race_id": "race_9f440c598c5858a6f3b309ebac4abedc",
+        "date": "2026-01-18",
+        "venue": "Dos Hermanas",
+        "split": "development",
+        "cutoff_utc": "2026-01-17T22:59:00+00:00",
+        "distance_m": 1500,
+        "track": "publisher_documented",
+        "input_availability": "official_pre_race_document_publisher_dated",
+        "runners": [
+          {
+            "runner_id": "runner_1a3160bd51d8c67781922f75cd1945c4",
+            "horse_name": "YSSINGEAUX (FR)",
+            "jockey_name": "B. FAYOS",
+            "trainer_name": "O.M. IGLESIAS",
+            "stable_name": "HORSE MIÑO",
+            "age": 10,
+            "cloth": 7,
+            "draw": 6,
+            "declared_weight_kg": 59.0,
+            "prior_form_raw": "[8,Des,Ret,Ret]"
+          },
+          {
+            "runner_id": "runner_27fe49869ba068cb1feef7a5a12b21de",
+            "horse_name": "CONSPIRACY (GB)",
+            "jockey_name": "A. MARTINEZ (56)",
+            "trainer_name": "M. AUGELLI",
+            "stable_name": "PATRIZIA ROSSANA TESTA",
+            "age": 8,
+            "cloth": 9,
+            "draw": 5,
+            "declared_weight_kg": 57.0,
+            "prior_form_raw": "[3,3,11,5]"
+          },
+          {
+            "runner_id": "runner_28258f36567dd458d0d25033fb83615d",
+            "horse_name": "FIJI GOLD (GB)",
+            "jockey_name": "V. JANACEK",
+            "trainer_name": "B. RAMA",
+            "stable_name": "SOÑADOR",
+            "age": 7,
+            "cloth": 6,
+            "draw": 4,
+            "declared_weight_kg": 59.0,
+            "prior_form_raw": "[2,2,2,5]"
+          },
+          {
+            "runner_id": "runner_4c26c2e71baa521c4a29de11284ced4a",
+            "horse_name": "EBONY NOIR (FR)",
+            "jockey_name": "C. PEREZ (53,5)",
+            "trainer_name": "I. OLIVA",
+            "stable_name": "LA MATA",
+            "age": 4,
+            "cloth": 10,
+            "draw": 7,
+            "declared_weight_kg": 54.5,
+            "prior_form_raw": "[RET,6,6,8]"
+          },
+          {
+            "runner_id": "runner_57e3485e0dc35dff8ab3f422969cf495",
+            "horse_name": "CYN RABY",
+            "jockey_name": "F. MARTINEZ",
+            "trainer_name": "J. EXPOSITO",
+            "stable_name": "NASSER",
+            "age": 5,
+            "cloth": 4,
+            "draw": 2,
+            "declared_weight_kg": 59.5,
+            "prior_form_raw": "[7,5,DES,8]"
+          },
+          {
+            "runner_id": "runner_755cbc5a1c47392dfafcf7dc4afcd553",
+            "horse_name": "GLOOMY ROSE (FR)",
+            "jockey_name": "J. GELABERT",
+            "trainer_name": "J.C. CERQUEIRA",
+            "stable_name": "GALATEA RACING",
+            "age": 5,
+            "cloth": 5,
+            "draw": 8,
+            "declared_weight_kg": 59.0,
+            "prior_form_raw": "[3,7,1,4]"
+          },
+          {
+            "runner_id": "runner_763b3bb993a75f8f2b2ca66796897c43",
+            "horse_name": "HELHEIM (FR)",
+            "jockey_name": "I. MELGAREJO",
+            "trainer_name": "F.J. CASTILLO",
+            "stable_name": "GINEBRA",
+            "age": 6,
+            "cloth": 8,
+            "draw": 3,
+            "declared_weight_kg": 59.0,
+            "prior_form_raw": "[3,7,7,3]"
+          },
+          {
+            "runner_id": "runner_81b44697dbfe0dde21f73021ff08fd89",
+            "horse_name": "THE GORGEOUS (FR)",
+            "jockey_name": "N. DE JULIAN",
+            "trainer_name": "A.M. DA SILVA",
+            "stable_name": "NOVAIS & FERNANDES",
+            "age": 6,
+            "cloth": 1,
+            "draw": 10,
+            "declared_weight_kg": 63.0,
+            "prior_form_raw": "[8,6,1,10]"
+          },
+          {
+            "runner_id": "runner_ad0e51b807886615ea0cedb6e5cac7e1",
+            "horse_name": "VENECIA (FR)",
+            "jockey_name": "F. ALVARADO",
+            "trainer_name": "F. ALVARADO",
+            "stable_name": "SANTA LUCIA",
+            "age": 5,
+            "cloth": 3,
+            "draw": 9,
+            "declared_weight_kg": 59.5,
+            "prior_form_raw": "[7,8,4,8]"
+          },
+          {
+            "runner_id": "runner_bd6a7d17e0926dee234bd5df9d605246",
+            "horse_name": "PINSAPO (IRE)",
+            "jockey_name": "D. SIKOROVA (61)",
+            "trainer_name": "J.C. ROSELL",
+            "stable_name": "COMETA",
+            "age": 6,
+            "cloth": 2,
+            "draw": 1,
+            "declared_weight_kg": 62.0,
+            "prior_form_raw": "[1,16,6,3]"
+          }
+        ]
+      },
+      "information_need": {
+        "id": 1,
+        "need": "Pre-cutoff racing background about HELHEIM",
+        "query": "HELHEIM"
+      },
+      "expected": "allow",
+      "category": "earlier_history",
+      "review_rationale": "January 15 publication anchors Helheim and Fiji Gold earlier form. Conditional success predictions do not reveal the target winner."
+    },
+    {
+      "id": "a06_prior_winners_are_not_target_results",
+      "source_snapshot": "jan25_form_preview",
+      "paragraph_indices": [
+        2
+      ],
+      "text": "Segunda. Condicional para potros de 3 años. 1600 metros. Pista de hierba. Para ganar: 1-KING KAID (IRE): Mejoró mucho en su 2da salida a pista ganando con facilidad. Si repite, debería ganar. Alternativa, el otro ganador: 2-MI NIÑO (IRE) : Viene de ganar en la arena de Madrid en una distancia, que le pudo venir corta, a un lote con alguna buena referencia. Tiene progreso, y se postula como única alternativa al favorito. Tercero, el honrado, pero modesto 3-STEPINMYDIRECTION (IRE)",
+      "text_sha256": "2c35472de4abc2cea29580b090c0b23b060f048f938c9be832ca4e480a5ee079",
+      "dating_scenario": "publisher",
+      "task": {
+        "benchmark_version": "spain-h1-2026-declarations-v2",
+        "race_id": "race_c2e0eae45b167fdc24ef85bde6dbe8e9",
+        "date": "2026-01-25",
+        "venue": "Dos Hermanas",
+        "split": "development",
+        "cutoff_utc": "2026-01-24T22:59:00+00:00",
+        "distance_m": 1600,
+        "track": "publisher_documented",
+        "input_availability": "official_pre_race_document_publisher_dated",
+        "runners": [
+          {
+            "runner_id": "runner_015ccd0b358de7ec063f141cc121f4e1",
+            "horse_name": "SASHAY AWAY (GB)",
+            "jockey_name": "J. GELABERT",
+            "trainer_name": "H. PEREIRA",
+            "stable_name": "ESPECTACULO",
+            "age": 3,
+            "cloth": 4,
+            "draw": 1,
+            "declared_weight_kg": 55.5,
+            "prior_form_raw": "[Ret,9,12,6]"
+          },
+          {
+            "runner_id": "runner_08b1042295203028d5caa25cd7d6640d",
+            "horse_name": "BORN TO BRIGHT (GB)",
+            "jockey_name": "N. DE JULIAN",
+            "trainer_name": "H. PEREIRA",
+            "stable_name": "NOSSA SENHORA DO VALE",
+            "age": 3,
+            "cloth": 5,
+            "draw": 7,
+            "declared_weight_kg": 53.5,
+            "prior_form_raw": "[7,5,7,9]"
+          },
+          {
+            "runner_id": "runner_3129f001f404fe8183ca8902ba2a0504",
+            "horse_name": "KING KAID (IRE)",
+            "jockey_name": "V. JANACEK",
+            "trainer_name": "CH. DELCHER",
+            "stable_name": "MARQUES DE MIRAFLORES DE SAN ANTONIO",
+            "age": 3,
+            "cloth": 1,
+            "draw": 5,
+            "declared_weight_kg": 59.0,
+            "prior_form_raw": "[1,4,7]"
+          },
+          {
+            "runner_id": "runner_56555f029d58ee2c97bd4999350d00ca",
+            "horse_name": "STEPINMYDIRECTION (IRE)",
+            "jockey_name": "J. GOMEZ (56,5)",
+            "trainer_name": "O. ANAYA",
+            "stable_name": "DIAZ SARMIENTO",
+            "age": 3,
+            "cloth": 3,
+            "draw": 6,
+            "declared_weight_kg": 57.5,
+            "prior_form_raw": "[2,4,3,4]"
+          },
+          {
+            "runner_id": "runner_8bc5a5d6d1b2614b85f60c877fff784c",
+            "horse_name": "MI NIÑO (IRE)",
+            "jockey_name": "D. SIKOROVA (58)",
+            "trainer_name": "O. ANAYA",
+            "stable_name": "ZACARIAS SARMIENTO",
+            "age": 3,
+            "cloth": 2,
+            "draw": 2,
+            "declared_weight_kg": 59.0,
+            "prior_form_raw": "[1,6]"
+          },
+          {
+            "runner_id": "runner_bb695120e26da4e954c09fefdfd36d3b",
+            "horse_name": "RUNNING HOT (IRE)",
+            "jockey_name": "V. ALONSO V. (52,5)",
+            "trainer_name": "V.H. ROMEA",
+            "stable_name": "SCUDERIA DREAMS ROAD",
+            "age": 3,
+            "cloth": 6,
+            "draw": 3,
+            "declared_weight_kg": 53.5,
+            "prior_form_raw": "[8,7,5]"
+          },
+          {
+            "runner_id": "runner_bbfacefae7106f954089e33f0b8f7e8d",
+            "horse_name": "VINCELLE (GB)",
+            "jockey_name": "C. PEREZ (52,5)",
+            "trainer_name": "D. DIEZ",
+            "stable_name": "FORRAJES Y CEREALES D. DIEZ",
+            "age": 3,
+            "cloth": 7,
+            "draw": 4,
+            "declared_weight_kg": 53.5,
+            "prior_form_raw": "[7]"
+          }
+        ]
+      },
+      "information_need": {
+        "id": 1,
+        "need": "Pre-cutoff racing background about KING KAID",
+        "query": "KING KAID"
+      },
+      "expected": "allow",
+      "category": "earlier_history",
+      "review_rationale": "January 22 publication precedes the target. King Kaid and Mi Niño earlier wins inform a prospective opinion; the phrase third describes a selection, not a finish."
+    },
+    {
+      "id": "r01_target_with_jockey_substitution",
+      "source_snapshot": "jan18_official_report",
+      "paragraph_indices": [
+        1
+      ],
+      "text": "Abrió el día, en la pista de hierba, con el Premio Ocio Caballo , carrera disputada sobre una distancia de 2.100 metros reservada para caballos y yeguas de cuatro años en adelante. Ganó Archie’s Dream de la Cuadra Canarias y con una gran monta de Jaime Gelabert, que sustituyó a Borja Fayos que por un inconveniente de ultima hora en su desplazamiento a Dos Hermanas no consiguió llegar al recinto para esta primera prueba. El cuatro años entrenado por Blas Rama sorprendió al grupo imponiéndose con solvencia por tres cuerpos y medio sobre Flaming Glass con la fusta de joven Sara Horcajada. Gast a Gast con la conducción de Vicky Alonso firmó el trío muy cerca de la gemela.",
+      "text_sha256": "9d00cec6eb00f308cd4f622acb911aa9733aa34ea125b771aaca3fe7a56ca8ec",
+      "dating_scenario": "natural",
+      "task": {
+        "benchmark_version": "spain-h1-2026-declarations-v2",
+        "race_id": "race_4f2b5ebaf8fa5dda9a445072755fd12a",
+        "date": "2026-01-18",
+        "venue": "Dos Hermanas",
+        "split": "development",
+        "cutoff_utc": "2026-01-17T22:59:00+00:00",
+        "distance_m": 2100,
+        "track": "publisher_documented",
+        "input_availability": "official_pre_race_document_publisher_dated",
+        "runners": [
+          {
+            "runner_id": "runner_0b2309c48904f8635c0d6fc5ba61b0c0",
+            "horse_name": "FLAMING GLASS",
+            "jockey_name": "SRTA. HORCAJADA, S (54,5)",
+            "trainer_name": "A. SOTO",
+            "stable_name": "YEGUADA URDIÑ-ORIYA",
+            "age": 6,
+            "cloth": 2,
+            "draw": 3,
+            "declared_weight_kg": 58.5,
+            "prior_form_raw": "[1,2,Ret,2]"
+          },
+          {
+            "runner_id": "runner_13e9ce7117bfd3e0bdee8f13e2e6a7a4",
+            "horse_name": "STORY HORSE (GB)",
+            "jockey_name": "D. SIKOROVA (54,5)",
+            "trainer_name": "O. ANAYA",
+            "stable_name": "ZACARIAS SARMIENTO",
+            "age": 6,
+            "cloth": 4,
+            "draw": 5,
+            "declared_weight_kg": 55.5,
+            "prior_form_raw": "[9,2,1,3]"
+          },
+          {
+            "runner_id": "runner_14bf8dbc47910e55ae55cf0f0ad37739",
+            "horse_name": "GAST A GAST (FR)",
+            "jockey_name": "V. ALONSO, V. (53,5)",
+            "trainer_name": "I. ELARRE",
+            "stable_name": "LOS PIRATAS",
+            "age": 4,
+            "cloth": 6,
+            "draw": 6,
+            "declared_weight_kg": 54.5,
+            "prior_form_raw": "[4,13,4,13]"
+          },
+          {
+            "runner_id": "runner_30c04398f225cb720c89337ad8e9d466",
+            "horse_name": "ARCHIE'S DREAM (GB)",
+            "jockey_name": "B. FAYOS",
+            "trainer_name": "B. RAMA",
+            "stable_name": "CANARIAS",
+            "age": 4,
+            "cloth": 3,
+            "draw": 2,
+            "declared_weight_kg": 58.0,
+            "prior_form_raw": "[1,14,5,3]"
+          },
+          {
+            "runner_id": "runner_45617f38f1c53b08ce92701d1dd81a3c",
+            "horse_name": "LEIVINHA (IRE)",
+            "jockey_name": "V. JANACEK (55)",
+            "trainer_name": "G. ARIZKORRETA",
+            "stable_name": "ONE",
+            "age": 5,
+            "cloth": 7,
+            "draw": 1,
+            "declared_weight_kg": 54.0,
+            "prior_form_raw": "[2,9,5,6]"
+          },
+          {
+            "runner_id": "runner_4711b1fd48bf58c9de178b0265fc7226",
+            "horse_name": "ROLLING LUCK (GB)",
+            "jockey_name": "A. MARTINEZ (53,5)",
+            "trainer_name": "M. AUGELLI",
+            "stable_name": "PATRIZIA ROSSANA TESTA",
+            "age": 4,
+            "cloth": 5,
+            "draw": 4,
+            "declared_weight_kg": 55.0,
+            "prior_form_raw": "[4,5,5,4]"
+          },
+          {
+            "runner_id": "runner_79f10800fc0ce69226e3679733d31239",
+            "horse_name": "DAMA DE PICAS",
+            "jockey_name": "F. MARTINEZ",
+            "trainer_name": "D. DIEZ",
+            "stable_name": "FORRAJES Y CEREALES D. DIEZ",
+            "age": 4,
+            "cloth": 8,
+            "draw": 8,
+            "declared_weight_kg": 53.5,
+            "prior_form_raw": "[7]"
+          },
+          {
+            "runner_id": "runner_cc57f842c54efeb76f34753a1872cdb4",
+            "horse_name": "SIR POLO (IRE)",
+            "jockey_name": "D. RODRIGUEZ (55)",
+            "trainer_name": "J. LOPEZ",
+            "stable_name": "CORREDORES AGRUPADOS",
+            "age": 5,
+            "cloth": 1,
+            "draw": 7,
+            "declared_weight_kg": 59.5,
+            "prior_form_raw": "[Desc,5,11,1]"
+          }
+        ]
+      },
+      "information_need": {
+        "id": 1,
+        "need": "Pre-cutoff racing background about ARCHIE'S DREAM",
+        "query": "ARCHIE'S DREAM"
+      },
+      "expected": "reject",
+      "category": "target_leakage",
+      "review_rationale": "Ocio Caballo 2100m, Archie’s Dream beating Flaming Glass and Gast a Gast, plus a rider substitution, identify the actual target outcome despite no supported publication timestamp."
+    },
+    {
+      "id": "r02_target_order_same_field",
+      "source_snapshot": "jan18_official_report",
+      "paragraph_indices": [
+        2
+      ],
+      "text": "El Premio A Galopar fue la segunda entrega, también reservada para caballos y yeguas de cuatro años en adelante. Se disputó en la pista de hierba y sobre una distancia de 1.800 metros, en la que resultó ganador Shutterwood de la Cuadra Los Meleneros y con la inteligente monta de Vicky Alonso. Se impuso la yegua entrenada por Ángel Sánchez Martín por un cuerpo y medio de ventaja sobre Spielman con la conducción de Ignacio Melgarejo. Entró en el trío vencedor Misstifly con la fusta de Denisa Sikorova a medio cuerpo de la gemela.",
+      "text_sha256": "6fb24713b4fdf1efccf153cd5c3dafeaf38b15a49275921ad1a09de07b869c5c",
+      "dating_scenario": "natural",
+      "task": {
+        "benchmark_version": "spain-h1-2026-declarations-v2",
+        "race_id": "race_bd9262afd4cba3713f6d9747a7c72f80",
+        "date": "2026-01-18",
+        "venue": "Dos Hermanas",
+        "split": "development",
+        "cutoff_utc": "2026-01-17T22:59:00+00:00",
+        "distance_m": 1800,
+        "track": "publisher_documented",
+        "input_availability": "official_pre_race_document_publisher_dated",
+        "runners": [
+          {
+            "runner_id": "runner_06c27058569e5e7945d0d600e691cef6",
+            "horse_name": "YO ROQUE (FR)",
+            "jockey_name": "V. JANACEK",
+            "trainer_name": "G. ARIZKORRETA",
+            "stable_name": "PEQUES",
+            "age": 4,
+            "cloth": 1,
+            "draw": 2,
+            "declared_weight_kg": 63.0,
+            "prior_form_raw": "[1,10,1,1]"
+          },
+          {
+            "runner_id": "runner_346ca8d65de034dc4605d06e2a50aa47",
+            "horse_name": "NORDESTE (FR)",
+            "jockey_name": "J. GELABERT",
+            "trainer_name": "I. ELARRE",
+            "stable_name": "ALVELA",
+            "age": 9,
+            "cloth": 4,
+            "draw": 4,
+            "declared_weight_kg": 60.0,
+            "prior_form_raw": "[5,7,14,12]"
+          },
+          {
+            "runner_id": "runner_7088121c47d385a6cb666329e24d95ba",
+            "horse_name": "SAVE YOUR BREATH (GB)",
+            "jockey_name": "C. PEREZ (52,5)",
+            "trainer_name": "J. CALDERON",
+            "stable_name": "MANUELA",
+            "age": 7,
+            "cloth": 8,
+            "draw": 1,
+            "declared_weight_kg": 53.5,
+            "prior_form_raw": "[1,12,8,4]"
+          },
+          {
+            "runner_id": "runner_76691efde797b4193a4fe1ba0f6849df",
+            "horse_name": "GUERREIRA (IRE)",
+            "jockey_name": "N. DE JULIAN",
+            "trainer_name": "H. PEREIRA",
+            "stable_name": "NOSSA SENHORA DO VALE",
+            "age": 9,
+            "cloth": 7,
+            "draw": 7,
+            "declared_weight_kg": 54.0,
+            "prior_form_raw": "[8,9,9,3]"
+          },
+          {
+            "runner_id": "runner_8718c6d7a81c9897948743485ba2f090",
+            "horse_name": "AFRODITA",
+            "jockey_name": "B. FAYOS",
+            "trainer_name": "J.L. MAROTO",
+            "stable_name": "BABIECA",
+            "age": 6,
+            "cloth": 6,
+            "draw": 3,
+            "declared_weight_kg": 56.5,
+            "prior_form_raw": "[6,5,3,6]"
+          },
+          {
+            "runner_id": "runner_a06c6c0d9db3424f71b988fb0b75ca94",
+            "horse_name": "MISSTIFLY (FR)",
+            "jockey_name": "D. SIKOROVA (56,5)",
+            "trainer_name": "O. ANAYA",
+            "stable_name": "SPORT HG",
+            "age": 5,
+            "cloth": 5,
+            "draw": 5,
+            "declared_weight_kg": 57.5,
+            "prior_form_raw": "[3,4,1,3]"
+          },
+          {
+            "runner_id": "runner_c25a816d98af8f1e2b4ce936486d8b2d",
+            "horse_name": "SHUTTERWOOD (FR)",
+            "jockey_name": "V. ALONSO, V. (61,5)",
+            "trainer_name": "A. SANCHEZ M",
+            "stable_name": "LOS MELENEROS",
+            "age": 4,
+            "cloth": 2,
+            "draw": 6,
+            "declared_weight_kg": 62.5,
+            "prior_form_raw": "[1,1,2,15]"
+          },
+          {
+            "runner_id": "runner_fbb1bd43f04859df91d2d66f34caafa2",
+            "horse_name": "SPIELMAN (GB)",
+            "jockey_name": "I. MELGAREJO",
+            "trainer_name": "J.C. ROSELL",
+            "stable_name": "NAZARENA",
+            "age": 5,
+            "cloth": 3,
+            "draw": 8,
+            "declared_weight_kg": 62.5,
+            "prior_form_raw": "[4,4,11,2]"
+          }
+        ]
+      },
+      "information_need": {
+        "id": 1,
+        "need": "Pre-cutoff racing background about SHUTTERWOOD",
+        "query": "SHUTTERWOOD"
+      },
+      "expected": "reject",
+      "category": "target_leakage",
+      "review_rationale": "1800m A Galopar, Shutterwood/Spielman/Misstifly match the target field and disclose its finish."
+    },
+    {
+      "id": "r03_target_trainer_first_win",
+      "source_snapshot": "jan18_official_report",
+      "paragraph_indices": [
+        3
+      ],
+      "text": "Las últimas tres carreras del día, correspondientes al Hándicap dividido, se disputaron en la pista de arena sobre una distancia de 1.500 metros, estando reservadas para caballos y yeguas de cuatro años en adelante. La segunda parte del hándicap, Premio Hipotour, fue la tercera prueba de la dominical en la que triunfó Cogsworth de la Cuadra Isla de Fuerteventura, primer triunfo de Martín Alberto Goicoechea como preparador en nuestro país y con una laboriosa monta de Borja Fayos. Entraron en el trío de triunfador Haya Taal y Smooth Transition con las respectivas conducciones de Jaime Gelabert y Cristina Pérez.",
+      "text_sha256": "171bb41b42eb49deae4ca7e6dd481e1e33dfe2e4a1ba937de4939bc3eec8f6f4",
+      "dating_scenario": "natural",
+      "task": {
+        "benchmark_version": "spain-h1-2026-declarations-v2",
+        "race_id": "race_74441527d893aabf5e0384efe10fc51a",
+        "date": "2026-01-18",
+        "venue": "Dos Hermanas",
+        "split": "development",
+        "cutoff_utc": "2026-01-17T22:59:00+00:00",
+        "distance_m": 1500,
+        "track": "publisher_documented",
+        "input_availability": "official_pre_race_document_publisher_dated",
+        "runners": [
+          {
+            "runner_id": "runner_0ed35fa92c253388d3a3eadb69830f26",
+            "horse_name": "SMOOTH TRANSITION (IRE)",
+            "jockey_name": "C. PEREZ (61)",
+            "trainer_name": "B. RAMA",
+            "stable_name": "SOÑADOR",
+            "age": 5,
+            "cloth": 2,
+            "draw": 1,
+            "declared_weight_kg": 62.0,
+            "prior_form_raw": "[5,1,5,8]"
+          },
+          {
+            "runner_id": "runner_38d8adf933429db4001fd575270b7877",
+            "horse_name": "MUGUETAJARRA",
+            "jockey_name": "N. DE JULIAN",
+            "trainer_name": "H. PEREIRA",
+            "stable_name": "PIGUINHA",
+            "age": 9,
+            "cloth": 6,
+            "draw": 7,
+            "declared_weight_kg": 60.5,
+            "prior_form_raw": "[10,3,6,Ret]"
+          },
+          {
+            "runner_id": "runner_3e1ce3b3c6cdafe0e3af2b7b529f5855",
+            "horse_name": "BRIGHT FIRE (IRE)",
+            "jockey_name": "I. MELGAREJO",
+            "trainer_name": "J. JIMENEZ",
+            "stable_name": "EDUARDO GARCIA",
+            "age": 5,
+            "cloth": 1,
+            "draw": 9,
+            "declared_weight_kg": 63.0,
+            "prior_form_raw": "[7,3,5]"
+          },
+          {
+            "runner_id": "runner_7aa9c34401bcdb3b718e27d9f342f095",
+            "horse_name": "NORTH BREEZE (FR)",
+            "jockey_name": "V.M. VALENZUELA (G. Roja)",
+            "trainer_name": "J. OLIVEIRA",
+            "stable_name": "MAIA LIDADOR",
+            "age": 4,
+            "cloth": 9,
+            "draw": 5,
+            "declared_weight_kg": 59.0,
+            "prior_form_raw": "[10,4,6,8]"
+          },
+          {
+            "runner_id": "runner_a94226d2844b0c6d92f040c2e6d55280",
+            "horse_name": "SIGMUND (IRE)",
+            "jockey_name": "V. JANACEK",
+            "trainer_name": "J. OLIVEIRA",
+            "stable_name": "RUSSIFOREVER",
+            "age": 6,
+            "cloth": 7,
+            "draw": 3,
+            "declared_weight_kg": 60.0,
+            "prior_form_raw": "[7,13,1,15]"
+          },
+          {
+            "runner_id": "runner_bb6192422f7d126cf9484ad15408b17d",
+            "horse_name": "HAYA TAAL (IRE)",
+            "jockey_name": "J. GELABERT",
+            "trainer_name": "J. LOPEZ",
+            "stable_name": "CAÑO QUEBRADO",
+            "age": 5,
+            "cloth": 3,
+            "draw": 2,
+            "declared_weight_kg": 61.5,
+            "prior_form_raw": "[2,10,8,4]"
+          },
+          {
+            "runner_id": "runner_c82f3c373d1c78f1d04b282f3782e880",
+            "horse_name": "NURTURE (FR)",
+            "jockey_name": "V. ALONSO V. (60,5)",
+            "trainer_name": "I. ELARRE",
+            "stable_name": "VILLAR DE LA YEGUA",
+            "age": 5,
+            "cloth": 5,
+            "draw": 4,
+            "declared_weight_kg": 61.5,
+            "prior_form_raw": "[9,8,4,11]"
+          },
+          {
+            "runner_id": "runner_f4c8c0837c23eb0a97509577f7deb6b2",
+            "horse_name": "ROCKENVOY (IRE)",
+            "jockey_name": "B. LOPES",
+            "trainer_name": "J. OLIVEIRA",
+            "stable_name": "MAIA LIDADOR",
+            "age": 7,
+            "cloth": 4,
+            "draw": 8,
+            "declared_weight_kg": 61.5,
+            "prior_form_raw": "[7,1,2,10]"
+          },
+          {
+            "runner_id": "runner_fcd8aacd2f139ac9b8a0d37153b168c8",
+            "horse_name": "COGSWORTH (GB)",
+            "jockey_name": "B. FAYOS",
+            "trainer_name": "M.A. GOICOECHEA",
+            "stable_name": "ISLA DE FUERTEVENTURA",
+            "age": 5,
+            "cloth": 8,
+            "draw": 6,
+            "declared_weight_kg": 60.0,
+            "prior_form_raw": "[5,3,6,1]"
+          }
+        ]
+      },
+      "information_need": {
+        "id": 1,
+        "need": "Pre-cutoff racing background about COGSWORTH",
+        "query": "COGSWORTH"
+      },
+      "expected": "reject",
+      "category": "target_leakage",
+      "review_rationale": "1500m Hipotour, Cogsworth ahead of Haya Taal and Smooth Transition, matches the target and also reveals trainer first win."
+    },
+    {
+      "id": "r04_target_second_place_revealed",
+      "source_snapshot": "jan18_official_report",
+      "paragraph_indices": [
+        4
+      ],
+      "text": "En el Premio Groupe Carrus, tercera parte del hándicap dividido, consiguió el jockey sevillano Ignacio Melgarejo la victoria con Helheim de la nazarena Cuadra Ginebra. El seis años entrenado por Francisco J. Castillo demostró su calidad sobre el resto del lote donde solo tuvo la oposición del incombustible Fiji Gold con la silla del checo Vaclav Janacek entrando a mas de un cuerpo del vencedor. A tres cuerpos de la gemela entró tercero en el espejo de meta Gloomy Rose con la fusta de Jaime Gelabert pero a tres cuerpos de la gemela.",
+      "text_sha256": "12c1c97c4f6addd13a975c282c8ba241d90eaedb40e2a72b7d3a44054f665e3b",
+      "dating_scenario": "natural",
+      "task": {
+        "benchmark_version": "spain-h1-2026-declarations-v2",
+        "race_id": "race_9f440c598c5858a6f3b309ebac4abedc",
+        "date": "2026-01-18",
+        "venue": "Dos Hermanas",
+        "split": "development",
+        "cutoff_utc": "2026-01-17T22:59:00+00:00",
+        "distance_m": 1500,
+        "track": "publisher_documented",
+        "input_availability": "official_pre_race_document_publisher_dated",
+        "runners": [
+          {
+            "runner_id": "runner_1a3160bd51d8c67781922f75cd1945c4",
+            "horse_name": "YSSINGEAUX (FR)",
+            "jockey_name": "B. FAYOS",
+            "trainer_name": "O.M. IGLESIAS",
+            "stable_name": "HORSE MIÑO",
+            "age": 10,
+            "cloth": 7,
+            "draw": 6,
+            "declared_weight_kg": 59.0,
+            "prior_form_raw": "[8,Des,Ret,Ret]"
+          },
+          {
+            "runner_id": "runner_27fe49869ba068cb1feef7a5a12b21de",
+            "horse_name": "CONSPIRACY (GB)",
+            "jockey_name": "A. MARTINEZ (56)",
+            "trainer_name": "M. AUGELLI",
+            "stable_name": "PATRIZIA ROSSANA TESTA",
+            "age": 8,
+            "cloth": 9,
+            "draw": 5,
+            "declared_weight_kg": 57.0,
+            "prior_form_raw": "[3,3,11,5]"
+          },
+          {
+            "runner_id": "runner_28258f36567dd458d0d25033fb83615d",
+            "horse_name": "FIJI GOLD (GB)",
+            "jockey_name": "V. JANACEK",
+            "trainer_name": "B. RAMA",
+            "stable_name": "SOÑADOR",
+            "age": 7,
+            "cloth": 6,
+            "draw": 4,
+            "declared_weight_kg": 59.0,
+            "prior_form_raw": "[2,2,2,5]"
+          },
+          {
+            "runner_id": "runner_4c26c2e71baa521c4a29de11284ced4a",
+            "horse_name": "EBONY NOIR (FR)",
+            "jockey_name": "C. PEREZ (53,5)",
+            "trainer_name": "I. OLIVA",
+            "stable_name": "LA MATA",
+            "age": 4,
+            "cloth": 10,
+            "draw": 7,
+            "declared_weight_kg": 54.5,
+            "prior_form_raw": "[RET,6,6,8]"
+          },
+          {
+            "runner_id": "runner_57e3485e0dc35dff8ab3f422969cf495",
+            "horse_name": "CYN RABY",
+            "jockey_name": "F. MARTINEZ",
+            "trainer_name": "J. EXPOSITO",
+            "stable_name": "NASSER",
+            "age": 5,
+            "cloth": 4,
+            "draw": 2,
+            "declared_weight_kg": 59.5,
+            "prior_form_raw": "[7,5,DES,8]"
+          },
+          {
+            "runner_id": "runner_755cbc5a1c47392dfafcf7dc4afcd553",
+            "horse_name": "GLOOMY ROSE (FR)",
+            "jockey_name": "J. GELABERT",
+            "trainer_name": "J.C. CERQUEIRA",
+            "stable_name": "GALATEA RACING",
+            "age": 5,
+            "cloth": 5,
+            "draw": 8,
+            "declared_weight_kg": 59.0,
+            "prior_form_raw": "[3,7,1,4]"
+          },
+          {
+            "runner_id": "runner_763b3bb993a75f8f2b2ca66796897c43",
+            "horse_name": "HELHEIM (FR)",
+            "jockey_name": "I. MELGAREJO",
+            "trainer_name": "F.J. CASTILLO",
+            "stable_name": "GINEBRA",
+            "age": 6,
+            "cloth": 8,
+            "draw": 3,
+            "declared_weight_kg": 59.0,
+            "prior_form_raw": "[3,7,7,3]"
+          },
+          {
+            "runner_id": "runner_81b44697dbfe0dde21f73021ff08fd89",
+            "horse_name": "THE GORGEOUS (FR)",
+            "jockey_name": "N. DE JULIAN",
+            "trainer_name": "A.M. DA SILVA",
+            "stable_name": "NOVAIS & FERNANDES",
+            "age": 6,
+            "cloth": 1,
+            "draw": 10,
+            "declared_weight_kg": 63.0,
+            "prior_form_raw": "[8,6,1,10]"
+          },
+          {
+            "runner_id": "runner_ad0e51b807886615ea0cedb6e5cac7e1",
+            "horse_name": "VENECIA (FR)",
+            "jockey_name": "F. ALVARADO",
+            "trainer_name": "F. ALVARADO",
+            "stable_name": "SANTA LUCIA",
+            "age": 5,
+            "cloth": 3,
+            "draw": 9,
+            "declared_weight_kg": 59.5,
+            "prior_form_raw": "[7,8,4,8]"
+          },
+          {
+            "runner_id": "runner_bd6a7d17e0926dee234bd5df9d605246",
+            "horse_name": "PINSAPO (IRE)",
+            "jockey_name": "D. SIKOROVA (61)",
+            "trainer_name": "J.C. ROSELL",
+            "stable_name": "COMETA",
+            "age": 6,
+            "cloth": 2,
+            "draw": 1,
+            "declared_weight_kg": 62.0,
+            "prior_form_raw": "[1,16,6,3]"
+          }
+        ]
+      },
+      "information_need": {
+        "id": 1,
+        "need": "Pre-cutoff racing background about HELHEIM",
+        "query": "HELHEIM"
+      },
+      "expected": "reject",
+      "category": "target_leakage",
+      "review_rationale": "Groupe Carrus and Helheim/Fiji Gold/Gloomy Rose identify target result and margins."
+    },
+    {
+      "id": "r05_target_winner_other_named_favorite",
+      "source_snapshot": "jan18_official_report",
+      "paragraph_indices": [
+        5
+      ],
+      "text": "La primera parte de este hándicap, Premio Black Type, cerró el programa de esta jornada donde triunfó Telemachus de la Cuadra de David García S.T. con una magnífica conducción de Denisa Sikorova. Se impuso al favorito Bravo con la fusta de Vaclav Janacek que entró muy cerca del entrenado por el argentino Óscar Anaya. Summercake con la monta de Jaime Gelabert entró en el trío muy lejos de la gemela. Fue una carrera de poder a poder entre los dos primeros clasificados en la quinta carrera del domingo.",
+      "text_sha256": "615d80834b7fb6bd14c24f57869f827e8b77beb8d6d8ab79c89f07369382a7ef",
+      "dating_scenario": "natural",
+      "task": {
+        "benchmark_version": "spain-h1-2026-declarations-v2",
+        "race_id": "race_b2c552d9ecc6bd959459a9fd6d8b3bfa",
+        "date": "2026-01-18",
+        "venue": "Dos Hermanas",
+        "split": "development",
+        "cutoff_utc": "2026-01-17T22:59:00+00:00",
+        "distance_m": 1500,
+        "track": "publisher_documented",
+        "input_availability": "official_pre_race_document_publisher_dated",
+        "runners": [
+          {
+            "runner_id": "runner_082c231c2bcaf953b1f14eca95b13439",
+            "horse_name": "AMBUSHED (IRE)",
+            "jockey_name": "N. DE JULIAN",
+            "trainer_name": "J. EXPOSITO",
+            "stable_name": "PEDRO ROBLES",
+            "age": 5,
+            "cloth": 1,
+            "draw": 4,
+            "declared_weight_kg": 63.0,
+            "prior_form_raw": "[2,2,1,8]"
+          },
+          {
+            "runner_id": "runner_11618aba6ebc8015947d376e7d33d408",
+            "horse_name": "EARTHVIEW (GB)",
+            "jockey_name": "I. MELGAREJO (56)",
+            "trainer_name": "B. RAMA",
+            "stable_name": "CANARIAS",
+            "age": 4,
+            "cloth": 6,
+            "draw": 7,
+            "declared_weight_kg": 55.5,
+            "prior_form_raw": "[12,4,4,8]"
+          },
+          {
+            "runner_id": "runner_3b2f39c76c901976144e69c85605bce1",
+            "horse_name": "EMPEL",
+            "jockey_name": "V.M. VALENZUELA",
+            "trainer_name": "V.H. ROMEA",
+            "stable_name": "OLYMPUS",
+            "age": 6,
+            "cloth": 4,
+            "draw": 6,
+            "declared_weight_kg": 58.0,
+            "prior_form_raw": "[7,8,5,2]"
+          },
+          {
+            "runner_id": "runner_3c562a81e33a9aa998f8248c20802f10",
+            "horse_name": "SUMMERCAKE (FR)",
+            "jockey_name": "J. GELABERT",
+            "trainer_name": "R. MARTIN, A.",
+            "stable_name": "JFC",
+            "age": 4,
+            "cloth": 7,
+            "draw": 3,
+            "declared_weight_kg": 55.5,
+            "prior_form_raw": "[3,3,7,5]"
+          },
+          {
+            "runner_id": "runner_6d47a1c9fbda41ffcf61b7c4feb50d6f",
+            "horse_name": "BRAVO",
+            "jockey_name": "V. JANACEK",
+            "trainer_name": "G. ARIZKORRETA",
+            "stable_name": "MARE NOSTRUM",
+            "age": 7,
+            "cloth": 3,
+            "draw": 1,
+            "declared_weight_kg": 61.5,
+            "prior_form_raw": "[3,1,4,4]"
+          },
+          {
+            "runner_id": "runner_75ca1c585d01c4b0d92d9b408ca9c915",
+            "horse_name": "SIR GEOFF MORGAN (IRE)",
+            "jockey_name": "C. PEREZ (53)",
+            "trainer_name": "B. RAMA",
+            "stable_name": "SOÑADOR",
+            "age": 4,
+            "cloth": 9,
+            "draw": 2,
+            "declared_weight_kg": 54.0,
+            "prior_form_raw": "[6,8,5,5]"
+          },
+          {
+            "runner_id": "runner_798d3ce9c35b97b8cd9b5f579fcae445",
+            "horse_name": "MINI GEORGE (IRE)",
+            "jockey_name": "B. FAYOS",
+            "trainer_name": "J. LOPEZ",
+            "stable_name": "CELSO MENDEZ",
+            "age": 4,
+            "cloth": 2,
+            "draw": 9,
+            "declared_weight_kg": 62.5,
+            "prior_form_raw": "[9,6,1,1]"
+          },
+          {
+            "runner_id": "runner_a30a610939164c822f76b1c5d314c607",
+            "horse_name": "TELEMACHUS (GB)",
+            "jockey_name": "D. SIKOROVA (56,5)",
+            "trainer_name": "O. ANAYA",
+            "stable_name": "DAVID GARCIA S.T",
+            "age": 7,
+            "cloth": 5,
+            "draw": 5,
+            "declared_weight_kg": 57.5,
+            "prior_form_raw": "[6,4,1,8]"
+          },
+          {
+            "runner_id": "runner_f85aa6445e863afc98cc7140ae51c21e",
+            "horse_name": "ALHAURIN (IRE)",
+            "jockey_name": "A. MARTINEZ (53,5)",
+            "trainer_name": "M. AUGELLI",
+            "stable_name": "EXTREMEÑA OP",
+            "age": 4,
+            "cloth": 8,
+            "draw": 8,
+            "declared_weight_kg": 54.5,
+            "prior_form_raw": "[1,7,6,5]"
+          }
+        ]
+      },
+      "information_need": {
+        "id": 1,
+        "need": "Pre-cutoff racing background about BRAVO",
+        "query": "BRAVO"
+      },
+      "expected": "reject",
+      "category": "target_leakage",
+      "review_rationale": "Black Type, Telemachus beating Bravo with Summercake third, identifies target even when the requested horse did not win."
+    },
+    {
+      "id": "r06_later_preview_recalls_target",
+      "source_snapshot": "jan18_form_preview",
+      "paragraph_indices": [
+        5
+      ],
+      "text": "Quinta. Handicap. 1da parte. 1500 metros. Pista de arena. Para ganar: 3-BRAVO Viene de mostrar forma en 2 reclamares caros en DH marcando valor para ganar este handicap. Corre muy a gusto en 1500 metros en la arena de DH. 1-AMBUSHED (IRE) Está castigado por la escala, y parece alto en el handicap, pero viene de quedar 2do a 1 cuerpos en handicap en LZ tras un desclasado Cross The Tracks. Me gustan los 1500 de DH en arena para sus características y su vicio de dormirse en los cajones. Tiene su opción ganadora, rematando muy de finales. Del resto, destaco a 7-SUMMERCAKE (FR), 5-TELEMACHUS (GB), 6-EARTHVIEW (GB)",
+      "text_sha256": "e9db50cd620d472471756e06d83c6adb19992472d5fe950bd3af4c7d8fd5ce91",
+      "dating_scenario": "withheld",
+      "task": {
+        "benchmark_version": "spain-h1-2026-declarations-v2",
+        "race_id": "race_0c8cbab4b9b3ef439e3289c154bc4768",
+        "date": "2026-01-04",
+        "venue": "La Zarzuela",
+        "split": "development",
+        "cutoff_utc": "2026-01-03T22:59:00+00:00",
+        "distance_m": 1200,
+        "track": "publisher_documented",
+        "input_availability": "official_pre_race_document_publisher_dated",
+        "runners": [
+          {
+            "runner_id": "runner_14070e762bbbf16ba210cd7311a6c117",
+            "horse_name": "CROSS THE TRACKS (GB)",
+            "jockey_name": "D.SIKOROVA (63)",
+            "trainer_name": "O.ANAYA",
+            "stable_name": "REZA PAZOOKI",
+            "age": 5,
+            "cloth": 1,
+            "draw": 5,
+            "declared_weight_kg": 64.0,
+            "prior_form_raw": "[05,06,04,02,04]"
+          },
+          {
+            "runner_id": "runner_36d4dee85e8b74fdd31f55588fdf922a",
+            "horse_name": "AMBUSHED (IRE)",
+            "jockey_name": "V.JANACEK",
+            "trainer_name": "J.EXPOSITO",
+            "stable_name": "PEDRO ROBLES",
+            "age": 5,
+            "cloth": 2,
+            "draw": 7,
+            "declared_weight_kg": 62.5,
+            "prior_form_raw": "[02,01,08,01,02]"
+          },
+          {
+            "runner_id": "runner_486948555063cb655c9d999343771539",
+            "horse_name": "SIR GEOFF MORGAN (IRE)",
+            "jockey_name": "C.PEREZ (53,5)",
+            "trainer_name": "B.RAMA",
+            "stable_name": "SOÑADOR",
+            "age": 4,
+            "cloth": 8,
+            "draw": 8,
+            "declared_weight_kg": 54.5,
+            "prior_form_raw": "[08,05,05,07,01]"
+          },
+          {
+            "runner_id": "runner_561268a4118d379ce310bb747676d59c",
+            "horse_name": "IT'S CHICO TIME (IRE)",
+            "jockey_name": "B.FAYOS",
+            "trainer_name": "E.ARGUINZONES",
+            "stable_name": "HERMANOS FELIPE LORENZO",
+            "age": 6,
+            "cloth": 4,
+            "draw": 2,
+            "declared_weight_kg": 60.0,
+            "prior_form_raw": "[09,08,NP,02,04]"
+          },
+          {
+            "runner_id": "runner_57a266c565a7192704deddc90a108981",
+            "horse_name": "HALF MOON RISING (IRE)",
+            "jockey_name": "J.GOMEZ (59)",
+            "trainer_name": "O.ANAYA",
+            "stable_name": "EL BILLETERO",
+            "age": 5,
+            "cloth": 3,
+            "draw": 6,
+            "declared_weight_kg": 60.0,
+            "prior_form_raw": "[06,01,06,01,03]"
+          },
+          {
+            "runner_id": "runner_68f5b27767888dc68c7547fd2f2aa7fe",
+            "horse_name": "DUKES OF HAATHER (GB)",
+            "jockey_name": "R.N.VALLE",
+            "trainer_name": "O.ANAYA",
+            "stable_name": "ZACARIAS SARMIENTO",
+            "age": 4,
+            "cloth": 6,
+            "draw": 3,
+            "declared_weight_kg": 56.0,
+            "prior_form_raw": "[NP,02,12,07,06]"
+          },
+          {
+            "runner_id": "runner_6e9ce051482a9328576500535a6c6f0d",
+            "horse_name": "ROMEO (FR)",
+            "jockey_name": "J.GELABERT",
+            "trainer_name": "A.TSERETELI",
+            "stable_name": "REBUS",
+            "age": 6,
+            "cloth": 7,
+            "draw": 4,
+            "declared_weight_kg": 55.5,
+            "prior_form_raw": "[01,06,02,05,03]"
+          },
+          {
+            "runner_id": "runner_ec6c7f7e5e4c087b046d792e3c394e8e",
+            "horse_name": "SLEVEN (IRE)",
+            "jockey_name": "L.N.RAMALLO",
+            "trainer_name": "O.ANAYA",
+            "stable_name": "DIAZ RAMOS",
+            "age": 5,
+            "cloth": 5,
+            "draw": 1,
+            "declared_weight_kg": 57.5,
+            "prior_form_raw": "[05,11,NP,04,01]"
+          }
+        ]
+      },
+      "information_need": {
+        "id": 1,
+        "need": "Pre-cutoff racing background about CROSS THE TRACKS",
+        "query": "CROSS THE TRACKS"
+      },
+      "expected": "reject",
+      "category": "target_leakage",
+      "review_rationale": "The January 15 preview recalls Ambushed second behind Cross The Tracks in Madrid, identifying the January 4 target. Withheld source dates must not turn a recalled target result into usable earlier history."
+    },
+    {
+      "id": "u01_undated_caption_completed_win",
+      "source_snapshot": "jan18_official_report",
+      "paragraph_indices": [
+        0
+      ],
+      "text": "La jockey Vicky Alonso tras ganar la segunda carrera de la jornada junto a SHUTTERWOOD (FR), Marta Pérez, representante de la Cuadra Los Meleneros, y el mozo de dicha cuadra. | JUANJO MARISCAL (Comunicación GHA)",
+      "text_sha256": "8ba859949a6ea80dfe5408bea2cb57c84cb0c41219677ab89f2f751aef5bec75",
+      "dating_scenario": "natural",
+      "task": {
+        "benchmark_version": "spain-h1-2026-declarations-v2",
+        "race_id": "race_3967838a7fec4767f13b6e8612a40726",
+        "date": "2026-02-01",
+        "venue": "Dos Hermanas",
+        "split": "development",
+        "cutoff_utc": "2026-01-31T22:59:00+00:00",
+        "distance_m": 1600,
+        "track": "publisher_documented",
+        "input_availability": "official_pre_race_document_publisher_dated",
+        "runners": [
+          {
+            "runner_id": "runner_0aab825c9f8d8ce638eca7cef5d033c0",
+            "horse_name": "DUKES OF HAATHER (GB)",
+            "jockey_name": "D. SIKOROVA (57)",
+            "trainer_name": "O. ANAYA",
+            "stable_name": "ZACARIAS SARMIENTO",
+            "age": 4,
+            "cloth": 7,
+            "draw": 7,
+            "declared_weight_kg": 58.0,
+            "prior_form_raw": "[4,Ret,2,12]"
+          },
+          {
+            "runner_id": "runner_163a01b12c9be6102c733d68fca5b447",
+            "horse_name": "SOLTAN GATSBY (FR)",
+            "jockey_name": "SR. SARABIA, D",
+            "trainer_name": "CH. DELCHER",
+            "stable_name": "RIO CUBAS",
+            "age": 4,
+            "cloth": 5,
+            "draw": 2,
+            "declared_weight_kg": 58.5,
+            "prior_form_raw": "[3,11,4,6]"
+          },
+          {
+            "runner_id": "runner_3c70280ea4f0e2e4e40a8c95fdc7ba7c",
+            "horse_name": "IMONFIRE (IRE)",
+            "jockey_name": "D. FERREIRA",
+            "trainer_name": "F. PEREZ",
+            "stable_name": "JOAQUIN ROMERO",
+            "age": 5,
+            "cloth": 9,
+            "draw": 10,
+            "declared_weight_kg": 57.0,
+            "prior_form_raw": "[3,7,12,1]"
+          },
+          {
+            "runner_id": "runner_48d1ff86d4e537b531e0c0d77cb2dd8e",
+            "horse_name": "MAGIC WARRIOR (IRE)",
+            "jockey_name": "J. GELABERT",
+            "trainer_name": "M. AUGELLI",
+            "stable_name": "PATRIZIA ROSSANA TESTA",
+            "age": 7,
+            "cloth": 8,
+            "draw": 4,
+            "declared_weight_kg": 57.5,
+            "prior_form_raw": "[8,2,7,4]"
+          },
+          {
+            "runner_id": "runner_56db41f8dbe9b8a64b3f05e8e068f2dd",
+            "horse_name": "SHUTTERWOOD (FR)",
+            "jockey_name": "SR. GUY, F (65)",
+            "trainer_name": "A. SANCHEZ M.",
+            "stable_name": "LOS MELENEROS",
+            "age": 4,
+            "cloth": 1,
+            "draw": 8,
+            "declared_weight_kg": 64.5,
+            "prior_form_raw": "[1,1,1,2]"
+          },
+          {
+            "runner_id": "runner_7b299b73d3d1d97a8fd7eaa5681f4406",
+            "horse_name": "NORDESTE (FR)",
+            "jockey_name": "V. ALONSO V. (57)",
+            "trainer_name": "I. ELARRE",
+            "stable_name": "ALVELA",
+            "age": 9,
+            "cloth": 6,
+            "draw": 11,
+            "declared_weight_kg": 58.0,
+            "prior_form_raw": "[6,5,7,14]"
+          },
+          {
+            "runner_id": "runner_8373e98e68d28889f836f3b868665fea",
+            "horse_name": "SIR EDWARD (IRE)",
+            "jockey_name": "I. MELGAREJO",
+            "trainer_name": "J. LOPEZ",
+            "stable_name": "CORREDORES AGRUPADOS",
+            "age": 4,
+            "cloth": 11,
+            "draw": 5,
+            "declared_weight_kg": 56.0,
+            "prior_form_raw": "[6,4,4,6]"
+          },
+          {
+            "runner_id": "runner_88b2644621da56565986057c033fe7bd",
+            "horse_name": "SOMETHING",
+            "jockey_name": "J. GOMEZ (58)",
+            "trainer_name": "G. RODRIGUEZ",
+            "stable_name": "CAPESAN",
+            "age": 7,
+            "cloth": 4,
+            "draw": 6,
+            "declared_weight_kg": 59.0,
+            "prior_form_raw": "[2,4,6,5]"
+          },
+          {
+            "runner_id": "runner_e2f18ef6d8d754a4f5af3f504437a050",
+            "horse_name": "XMAS (IRE)",
+            "jockey_name": "G. ARGUINZONES (59)",
+            "trainer_name": "E. ARGUINZONES",
+            "stable_name": "E. PEREZ DE GUZMAN",
+            "age": 5,
+            "cloth": 2,
+            "draw": 9,
+            "declared_weight_kg": 61.0,
+            "prior_form_raw": "[2,3,5,11]"
+          },
+          {
+            "runner_id": "runner_ec14564819ac8c64ecaf1a354d4057ea",
+            "horse_name": "LADY COCODY (FR)",
+            "jockey_name": "N. DE JULIAN",
+            "trainer_name": "F. RODRIGUEZ",
+            "stable_name": "A.F.F S.L",
+            "age": 4,
+            "cloth": 10,
+            "draw": 1,
+            "declared_weight_kg": 56.0,
+            "prior_form_raw": "[1,4,3,2]"
+          },
+          {
+            "runner_id": "runner_fb26c40a31738f2fb28ea35057b1f513",
+            "horse_name": "SPIELMAN (GB)",
+            "jockey_name": "V. JANACEK",
+            "trainer_name": "J.C. ROSELL",
+            "stable_name": "NAZARENA",
+            "age": 5,
+            "cloth": 3,
+            "draw": 3,
+            "declared_weight_kg": 61.0,
+            "prior_form_raw": "[2,4,4,11]"
+          }
+        ]
+      },
+      "information_need": {
+        "id": 1,
+        "need": "Pre-cutoff racing background about SHUTTERWOOD",
+        "query": "SHUTTERWOOD"
+      },
+      "expected": "uncertain",
+      "category": "ambiguous",
+      "review_rationale": "Caption reports a Shutterwood win but does not date it. The title season 2025-2026 does not place this event before January 31."
+    },
+    {
+      "id": "u02_different_distance_not_a_date",
+      "source_snapshot": "jan18_official_report",
+      "paragraph_indices": [
+        2
+      ],
+      "text": "El Premio A Galopar fue la segunda entrega, también reservada para caballos y yeguas de cuatro años en adelante. Se disputó en la pista de hierba y sobre una distancia de 1.800 metros, en la que resultó ganador Shutterwood de la Cuadra Los Meleneros y con la inteligente monta de Vicky Alonso. Se impuso la yegua entrenada por Ángel Sánchez Martín por un cuerpo y medio de ventaja sobre Spielman con la conducción de Ignacio Melgarejo. Entró en el trío vencedor Misstifly con la fusta de Denisa Sikorova a medio cuerpo de la gemela.",
+      "text_sha256": "6fb24713b4fdf1efccf153cd5c3dafeaf38b15a49275921ad1a09de07b869c5c",
+      "dating_scenario": "natural",
+      "task": {
+        "benchmark_version": "spain-h1-2026-declarations-v2",
+        "race_id": "race_3967838a7fec4767f13b6e8612a40726",
+        "date": "2026-02-01",
+        "venue": "Dos Hermanas",
+        "split": "development",
+        "cutoff_utc": "2026-01-31T22:59:00+00:00",
+        "distance_m": 1600,
+        "track": "publisher_documented",
+        "input_availability": "official_pre_race_document_publisher_dated",
+        "runners": [
+          {
+            "runner_id": "runner_0aab825c9f8d8ce638eca7cef5d033c0",
+            "horse_name": "DUKES OF HAATHER (GB)",
+            "jockey_name": "D. SIKOROVA (57)",
+            "trainer_name": "O. ANAYA",
+            "stable_name": "ZACARIAS SARMIENTO",
+            "age": 4,
+            "cloth": 7,
+            "draw": 7,
+            "declared_weight_kg": 58.0,
+            "prior_form_raw": "[4,Ret,2,12]"
+          },
+          {
+            "runner_id": "runner_163a01b12c9be6102c733d68fca5b447",
+            "horse_name": "SOLTAN GATSBY (FR)",
+            "jockey_name": "SR. SARABIA, D",
+            "trainer_name": "CH. DELCHER",
+            "stable_name": "RIO CUBAS",
+            "age": 4,
+            "cloth": 5,
+            "draw": 2,
+            "declared_weight_kg": 58.5,
+            "prior_form_raw": "[3,11,4,6]"
+          },
+          {
+            "runner_id": "runner_3c70280ea4f0e2e4e40a8c95fdc7ba7c",
+            "horse_name": "IMONFIRE (IRE)",
+            "jockey_name": "D. FERREIRA",
+            "trainer_name": "F. PEREZ",
+            "stable_name": "JOAQUIN ROMERO",
+            "age": 5,
+            "cloth": 9,
+            "draw": 10,
+            "declared_weight_kg": 57.0,
+            "prior_form_raw": "[3,7,12,1]"
+          },
+          {
+            "runner_id": "runner_48d1ff86d4e537b531e0c0d77cb2dd8e",
+            "horse_name": "MAGIC WARRIOR (IRE)",
+            "jockey_name": "J. GELABERT",
+            "trainer_name": "M. AUGELLI",
+            "stable_name": "PATRIZIA ROSSANA TESTA",
+            "age": 7,
+            "cloth": 8,
+            "draw": 4,
+            "declared_weight_kg": 57.5,
+            "prior_form_raw": "[8,2,7,4]"
+          },
+          {
+            "runner_id": "runner_56db41f8dbe9b8a64b3f05e8e068f2dd",
+            "horse_name": "SHUTTERWOOD (FR)",
+            "jockey_name": "SR. GUY, F (65)",
+            "trainer_name": "A. SANCHEZ M.",
+            "stable_name": "LOS MELENEROS",
+            "age": 4,
+            "cloth": 1,
+            "draw": 8,
+            "declared_weight_kg": 64.5,
+            "prior_form_raw": "[1,1,1,2]"
+          },
+          {
+            "runner_id": "runner_7b299b73d3d1d97a8fd7eaa5681f4406",
+            "horse_name": "NORDESTE (FR)",
+            "jockey_name": "V. ALONSO V. (57)",
+            "trainer_name": "I. ELARRE",
+            "stable_name": "ALVELA",
+            "age": 9,
+            "cloth": 6,
+            "draw": 11,
+            "declared_weight_kg": 58.0,
+            "prior_form_raw": "[6,5,7,14]"
+          },
+          {
+            "runner_id": "runner_8373e98e68d28889f836f3b868665fea",
+            "horse_name": "SIR EDWARD (IRE)",
+            "jockey_name": "I. MELGAREJO",
+            "trainer_name": "J. LOPEZ",
+            "stable_name": "CORREDORES AGRUPADOS",
+            "age": 4,
+            "cloth": 11,
+            "draw": 5,
+            "declared_weight_kg": 56.0,
+            "prior_form_raw": "[6,4,4,6]"
+          },
+          {
+            "runner_id": "runner_88b2644621da56565986057c033fe7bd",
+            "horse_name": "SOMETHING",
+            "jockey_name": "J. GOMEZ (58)",
+            "trainer_name": "G. RODRIGUEZ",
+            "stable_name": "CAPESAN",
+            "age": 7,
+            "cloth": 4,
+            "draw": 6,
+            "declared_weight_kg": 59.0,
+            "prior_form_raw": "[2,4,6,5]"
+          },
+          {
+            "runner_id": "runner_e2f18ef6d8d754a4f5af3f504437a050",
+            "horse_name": "XMAS (IRE)",
+            "jockey_name": "G. ARGUINZONES (59)",
+            "trainer_name": "E. ARGUINZONES",
+            "stable_name": "E. PEREZ DE GUZMAN",
+            "age": 5,
+            "cloth": 2,
+            "draw": 9,
+            "declared_weight_kg": 61.0,
+            "prior_form_raw": "[2,3,5,11]"
+          },
+          {
+            "runner_id": "runner_ec14564819ac8c64ecaf1a354d4057ea",
+            "horse_name": "LADY COCODY (FR)",
+            "jockey_name": "N. DE JULIAN",
+            "trainer_name": "F. RODRIGUEZ",
+            "stable_name": "A.F.F S.L",
+            "age": 4,
+            "cloth": 10,
+            "draw": 1,
+            "declared_weight_kg": 56.0,
+            "prior_form_raw": "[1,4,3,2]"
+          },
+          {
+            "runner_id": "runner_fb26c40a31738f2fb28ea35057b1f513",
+            "horse_name": "SPIELMAN (GB)",
+            "jockey_name": "V. JANACEK",
+            "trainer_name": "J.C. ROSELL",
+            "stable_name": "NAZARENA",
+            "age": 5,
+            "cloth": 3,
+            "draw": 3,
+            "declared_weight_kg": 61.0,
+            "prior_form_raw": "[2,4,4,11]"
+          }
+        ]
+      },
+      "information_need": {
+        "id": 1,
+        "need": "Pre-cutoff racing background about SHUTTERWOOD",
+        "query": "SHUTTERWOOD"
+      },
+      "expected": "uncertain",
+      "category": "ambiguous",
+      "review_rationale": "1800m is a different event from the February 1 target; that mismatch alone cannot prove it occurred before cutoff."
+    },
+    {
+      "id": "u03_different_race_unknown_chronology",
+      "source_snapshot": "jan18_official_report",
+      "paragraph_indices": [
+        3
+      ],
+      "text": "Las últimas tres carreras del día, correspondientes al Hándicap dividido, se disputaron en la pista de arena sobre una distancia de 1.500 metros, estando reservadas para caballos y yeguas de cuatro años en adelante. La segunda parte del hándicap, Premio Hipotour, fue la tercera prueba de la dominical en la que triunfó Cogsworth de la Cuadra Isla de Fuerteventura, primer triunfo de Martín Alberto Goicoechea como preparador en nuestro país y con una laboriosa monta de Borja Fayos. Entraron en el trío de triunfador Haya Taal y Smooth Transition con las respectivas conducciones de Jaime Gelabert y Cristina Pérez.",
+      "text_sha256": "171bb41b42eb49deae4ca7e6dd481e1e33dfe2e4a1ba937de4939bc3eec8f6f4",
+      "dating_scenario": "natural",
+      "task": {
+        "benchmark_version": "spain-h1-2026-declarations-v2",
+        "race_id": "race_5b3fc3b430d486713831596c948f70cf",
+        "date": "2026-02-01",
+        "venue": "Dos Hermanas",
+        "split": "development",
+        "cutoff_utc": "2026-01-31T22:59:00+00:00",
+        "distance_m": 1600,
+        "track": "publisher_documented",
+        "input_availability": "official_pre_race_document_publisher_dated",
+        "runners": [
+          {
+            "runner_id": "runner_09b7f2b66379e22dee999cc3152f8c16",
+            "horse_name": "DONENTAL (GB)",
+            "jockey_name": "V. JANACEK",
+            "trainer_name": "B. RAMA",
+            "stable_name": "AJEDREZ RACING",
+            "age": 4,
+            "cloth": 2,
+            "draw": 7,
+            "declared_weight_kg": 63.0,
+            "prior_form_raw": "[9,1,6,3]"
+          },
+          {
+            "runner_id": "runner_14f4c54d53274d7810ae3c562de088c2",
+            "horse_name": "COGSWORTH (GB)",
+            "jockey_name": "J. GOMEZ (60,5)",
+            "trainer_name": "M.A. GOICOECHEA",
+            "stable_name": "ISLA DE FUERTEVENTURA",
+            "age": 5,
+            "cloth": 4,
+            "draw": 9,
+            "declared_weight_kg": 61.5,
+            "prior_form_raw": "[1,5,3,6]"
+          },
+          {
+            "runner_id": "runner_2701f851b6f480cdd99bbda1ca18007b",
+            "horse_name": "LORD LARACHE (FR)",
+            "jockey_name": "V. ALONSO V. (55,5)",
+            "trainer_name": "CH. DELCHER",
+            "stable_name": "BELEN",
+            "age": 5,
+            "cloth": 9,
+            "draw": 3,
+            "declared_weight_kg": 56.5,
+            "prior_form_raw": "[11,8,Ret,2]"
+          },
+          {
+            "runner_id": "runner_3c0214c244daebd37c80e9f6dd67727b",
+            "horse_name": "JUDGE ME NOT (IRE)",
+            "jockey_name": "V.M. VALENZUELA (G.Blanca)",
+            "trainer_name": "J. CALDERON",
+            "stable_name": "NANINA",
+            "age": 5,
+            "cloth": 7,
+            "draw": 10,
+            "declared_weight_kg": 57.5,
+            "prior_form_raw": "[5,2,7,10]"
+          },
+          {
+            "runner_id": "runner_3fff3254a2f6fe0a908196b5a60d8a31",
+            "horse_name": "SMOOTH TRANSITION (IRE)",
+            "jockey_name": "J. GELABERT",
+            "trainer_name": "B. RAMA",
+            "stable_name": "SOÑADOR",
+            "age": 5,
+            "cloth": 5,
+            "draw": 2,
+            "declared_weight_kg": 61.0,
+            "prior_form_raw": "[3,5,1,5]"
+          },
+          {
+            "runner_id": "runner_4e51d4b5eaddbe09b6b9ddf347431877",
+            "horse_name": "HELHEIM (FR)",
+            "jockey_name": "I. MELGAREJO",
+            "trainer_name": "F.J. CASTILLO",
+            "stable_name": "GINEBRA",
+            "age": 6,
+            "cloth": 10,
+            "draw": 6,
+            "declared_weight_kg": 56.0,
+            "prior_form_raw": "[1,3,7,7]"
+          },
+          {
+            "runner_id": "runner_60ebd10861c2d3fbd7ac6323dedfe398",
+            "horse_name": "NUMBER (IRE)",
+            "jockey_name": "N. DE JULIAN",
+            "trainer_name": "J. CALDERON",
+            "stable_name": "NANINA",
+            "age": 4,
+            "cloth": 3,
+            "draw": 1,
+            "declared_weight_kg": 62.0,
+            "prior_form_raw": "[8,6,5,3]"
+          },
+          {
+            "runner_id": "runner_6227fdf9fce1558147211a02c38f5d52",
+            "horse_name": "BRUMA",
+            "jockey_name": "G. ARGUINZONES (55,5)",
+            "trainer_name": "E. ARGUINZONES",
+            "stable_name": "MELENAS",
+            "age": 4,
+            "cloth": 8,
+            "draw": 11,
+            "declared_weight_kg": 57.5,
+            "prior_form_raw": "[3,C,12,8]"
+          },
+          {
+            "runner_id": "runner_960557d793b72f31dbed100dbe5d2b62",
+            "horse_name": "VENECIA (FR)",
+            "jockey_name": "A. MARTINEZ",
+            "trainer_name": "F. ALVARADO",
+            "stable_name": "SANTA LUCIA",
+            "age": 5,
+            "cloth": 12,
+            "draw": 8,
+            "declared_weight_kg": 52.0,
+            "prior_form_raw": "[9,7,8,4]"
+          },
+          {
+            "runner_id": "runner_bf66f8da82101ce3a0ecc42e5e4f6617",
+            "horse_name": "FIJI GOLD (GB)",
+            "jockey_name": "C. PEREZ (52,5) (G.Roja)",
+            "trainer_name": "B. RAMA",
+            "stable_name": "SOÑADOR",
+            "age": 7,
+            "cloth": 11,
+            "draw": 12,
+            "declared_weight_kg": 53.5,
+            "prior_form_raw": "[2,2,2,2]"
+          },
+          {
+            "runner_id": "runner_d493ef147a86721158edd0f7ea29db88",
+            "horse_name": "SOUND OF FREEDOM",
+            "jockey_name": "R.N.VALLE",
+            "trainer_name": "G. RODRIGUEZ",
+            "stable_name": "CIELO DE MADRID",
+            "age": 4,
+            "cloth": 6,
+            "draw": 4,
+            "declared_weight_kg": 60.5,
+            "prior_form_raw": "[2,15,3,2]"
+          },
+          {
+            "runner_id": "runner_f0e3b6cb6cb3f41c22558cb429709eea",
+            "horse_name": "AS BESTAS (IRE)",
+            "jockey_name": "D. SIKOROVA (62)",
+            "trainer_name": "O. ANAYA",
+            "stable_name": "ZACARIAS SARMIENTO",
+            "age": 4,
+            "cloth": 1,
+            "draw": 5,
+            "declared_weight_kg": 63.0,
+            "prior_form_raw": "[1,7,5,2]"
+          }
+        ]
+      },
+      "information_need": {
+        "id": 1,
+        "need": "Pre-cutoff racing background about COGSWORTH",
+        "query": "COGSWORTH"
+      },
+      "expected": "uncertain",
+      "category": "ambiguous",
+      "review_rationale": "Cogsworth report is a different 1500m race from the target 1600m event, but supplies no absolute date. Treat chronology as unresolved."
+    },
+    {
+      "id": "u04_unanchored_connection_result",
+      "source_snapshot": "jan18_official_report",
+      "paragraph_indices": [
+        4
+      ],
+      "text": "En el Premio Groupe Carrus, tercera parte del hándicap dividido, consiguió el jockey sevillano Ignacio Melgarejo la victoria con Helheim de la nazarena Cuadra Ginebra. El seis años entrenado por Francisco J. Castillo demostró su calidad sobre el resto del lote donde solo tuvo la oposición del incombustible Fiji Gold con la silla del checo Vaclav Janacek entrando a mas de un cuerpo del vencedor. A tres cuerpos de la gemela entró tercero en el espejo de meta Gloomy Rose con la fusta de Jaime Gelabert pero a tres cuerpos de la gemela.",
+      "text_sha256": "12c1c97c4f6addd13a975c282c8ba241d90eaedb40e2a72b7d3a44054f665e3b",
+      "dating_scenario": "natural",
+      "task": {
+        "benchmark_version": "spain-h1-2026-declarations-v2",
+        "race_id": "race_5b3fc3b430d486713831596c948f70cf",
+        "date": "2026-02-01",
+        "venue": "Dos Hermanas",
+        "split": "development",
+        "cutoff_utc": "2026-01-31T22:59:00+00:00",
+        "distance_m": 1600,
+        "track": "publisher_documented",
+        "input_availability": "official_pre_race_document_publisher_dated",
+        "runners": [
+          {
+            "runner_id": "runner_09b7f2b66379e22dee999cc3152f8c16",
+            "horse_name": "DONENTAL (GB)",
+            "jockey_name": "V. JANACEK",
+            "trainer_name": "B. RAMA",
+            "stable_name": "AJEDREZ RACING",
+            "age": 4,
+            "cloth": 2,
+            "draw": 7,
+            "declared_weight_kg": 63.0,
+            "prior_form_raw": "[9,1,6,3]"
+          },
+          {
+            "runner_id": "runner_14f4c54d53274d7810ae3c562de088c2",
+            "horse_name": "COGSWORTH (GB)",
+            "jockey_name": "J. GOMEZ (60,5)",
+            "trainer_name": "M.A. GOICOECHEA",
+            "stable_name": "ISLA DE FUERTEVENTURA",
+            "age": 5,
+            "cloth": 4,
+            "draw": 9,
+            "declared_weight_kg": 61.5,
+            "prior_form_raw": "[1,5,3,6]"
+          },
+          {
+            "runner_id": "runner_2701f851b6f480cdd99bbda1ca18007b",
+            "horse_name": "LORD LARACHE (FR)",
+            "jockey_name": "V. ALONSO V. (55,5)",
+            "trainer_name": "CH. DELCHER",
+            "stable_name": "BELEN",
+            "age": 5,
+            "cloth": 9,
+            "draw": 3,
+            "declared_weight_kg": 56.5,
+            "prior_form_raw": "[11,8,Ret,2]"
+          },
+          {
+            "runner_id": "runner_3c0214c244daebd37c80e9f6dd67727b",
+            "horse_name": "JUDGE ME NOT (IRE)",
+            "jockey_name": "V.M. VALENZUELA (G.Blanca)",
+            "trainer_name": "J. CALDERON",
+            "stable_name": "NANINA",
+            "age": 5,
+            "cloth": 7,
+            "draw": 10,
+            "declared_weight_kg": 57.5,
+            "prior_form_raw": "[5,2,7,10]"
+          },
+          {
+            "runner_id": "runner_3fff3254a2f6fe0a908196b5a60d8a31",
+            "horse_name": "SMOOTH TRANSITION (IRE)",
+            "jockey_name": "J. GELABERT",
+            "trainer_name": "B. RAMA",
+            "stable_name": "SOÑADOR",
+            "age": 5,
+            "cloth": 5,
+            "draw": 2,
+            "declared_weight_kg": 61.0,
+            "prior_form_raw": "[3,5,1,5]"
+          },
+          {
+            "runner_id": "runner_4e51d4b5eaddbe09b6b9ddf347431877",
+            "horse_name": "HELHEIM (FR)",
+            "jockey_name": "I. MELGAREJO",
+            "trainer_name": "F.J. CASTILLO",
+            "stable_name": "GINEBRA",
+            "age": 6,
+            "cloth": 10,
+            "draw": 6,
+            "declared_weight_kg": 56.0,
+            "prior_form_raw": "[1,3,7,7]"
+          },
+          {
+            "runner_id": "runner_60ebd10861c2d3fbd7ac6323dedfe398",
+            "horse_name": "NUMBER (IRE)",
+            "jockey_name": "N. DE JULIAN",
+            "trainer_name": "J. CALDERON",
+            "stable_name": "NANINA",
+            "age": 4,
+            "cloth": 3,
+            "draw": 1,
+            "declared_weight_kg": 62.0,
+            "prior_form_raw": "[8,6,5,3]"
+          },
+          {
+            "runner_id": "runner_6227fdf9fce1558147211a02c38f5d52",
+            "horse_name": "BRUMA",
+            "jockey_name": "G. ARGUINZONES (55,5)",
+            "trainer_name": "E. ARGUINZONES",
+            "stable_name": "MELENAS",
+            "age": 4,
+            "cloth": 8,
+            "draw": 11,
+            "declared_weight_kg": 57.5,
+            "prior_form_raw": "[3,C,12,8]"
+          },
+          {
+            "runner_id": "runner_960557d793b72f31dbed100dbe5d2b62",
+            "horse_name": "VENECIA (FR)",
+            "jockey_name": "A. MARTINEZ",
+            "trainer_name": "F. ALVARADO",
+            "stable_name": "SANTA LUCIA",
+            "age": 5,
+            "cloth": 12,
+            "draw": 8,
+            "declared_weight_kg": 52.0,
+            "prior_form_raw": "[9,7,8,4]"
+          },
+          {
+            "runner_id": "runner_bf66f8da82101ce3a0ecc42e5e4f6617",
+            "horse_name": "FIJI GOLD (GB)",
+            "jockey_name": "C. PEREZ (52,5) (G.Roja)",
+            "trainer_name": "B. RAMA",
+            "stable_name": "SOÑADOR",
+            "age": 7,
+            "cloth": 11,
+            "draw": 12,
+            "declared_weight_kg": 53.5,
+            "prior_form_raw": "[2,2,2,2]"
+          },
+          {
+            "runner_id": "runner_d493ef147a86721158edd0f7ea29db88",
+            "horse_name": "SOUND OF FREEDOM",
+            "jockey_name": "R.N.VALLE",
+            "trainer_name": "G. RODRIGUEZ",
+            "stable_name": "CIELO DE MADRID",
+            "age": 4,
+            "cloth": 6,
+            "draw": 4,
+            "declared_weight_kg": 60.5,
+            "prior_form_raw": "[2,15,3,2]"
+          },
+          {
+            "runner_id": "runner_f0e3b6cb6cb3f41c22558cb429709eea",
+            "horse_name": "AS BESTAS (IRE)",
+            "jockey_name": "D. SIKOROVA (62)",
+            "trainer_name": "O. ANAYA",
+            "stable_name": "ZACARIAS SARMIENTO",
+            "age": 4,
+            "cloth": 1,
+            "draw": 5,
+            "declared_weight_kg": 63.0,
+            "prior_form_raw": "[1,7,5,2]"
+          }
+        ]
+      },
+      "information_need": {
+        "id": 1,
+        "need": "Pre-cutoff racing background about FIJI GOLD",
+        "query": "FIJI GOLD"
+      },
+      "expected": "uncertain",
+      "category": "ambiguous",
+      "review_rationale": "Fiji Gold placing in a different field is relevant form without a date; season title and field difference do not determine timing."
+    },
+    {
+      "id": "c01_calendar_statistics_unrelated_to_horse",
+      "source_snapshot": "calendar_news",
+      "paragraph_indices": [
+        1
+      ],
+      "text": "El nuevo calendario supone un crecimiento respecto a la temporada 2025, con tres jornadas más y una carrera adicional en el cómputo total. En conjunto, el programa contempla 34 jornadas , siendo 28 de ellas del circuito SELAE y 6 jornadas propias, en las que se disputarán 160 carreras , con un importe total en premios de 2.245.850 euros .",
+      "text_sha256": "fec94b70e3361e68c58873d3bb40b56158221864b52d91441710171fdd0104b4",
+      "dating_scenario": "publisher",
+      "task": {
+        "benchmark_version": "spain-h1-2026-declarations-v2",
+        "race_id": "race_4f2b5ebaf8fa5dda9a445072755fd12a",
+        "date": "2026-01-18",
+        "venue": "Dos Hermanas",
+        "split": "development",
+        "cutoff_utc": "2026-01-17T22:59:00+00:00",
+        "distance_m": 2100,
+        "track": "publisher_documented",
+        "input_availability": "official_pre_race_document_publisher_dated",
+        "runners": [
+          {
+            "runner_id": "runner_0b2309c48904f8635c0d6fc5ba61b0c0",
+            "horse_name": "FLAMING GLASS",
+            "jockey_name": "SRTA. HORCAJADA, S (54,5)",
+            "trainer_name": "A. SOTO",
+            "stable_name": "YEGUADA URDIÑ-ORIYA",
+            "age": 6,
+            "cloth": 2,
+            "draw": 3,
+            "declared_weight_kg": 58.5,
+            "prior_form_raw": "[1,2,Ret,2]"
+          },
+          {
+            "runner_id": "runner_13e9ce7117bfd3e0bdee8f13e2e6a7a4",
+            "horse_name": "STORY HORSE (GB)",
+            "jockey_name": "D. SIKOROVA (54,5)",
+            "trainer_name": "O. ANAYA",
+            "stable_name": "ZACARIAS SARMIENTO",
+            "age": 6,
+            "cloth": 4,
+            "draw": 5,
+            "declared_weight_kg": 55.5,
+            "prior_form_raw": "[9,2,1,3]"
+          },
+          {
+            "runner_id": "runner_14bf8dbc47910e55ae55cf0f0ad37739",
+            "horse_name": "GAST A GAST (FR)",
+            "jockey_name": "V. ALONSO, V. (53,5)",
+            "trainer_name": "I. ELARRE",
+            "stable_name": "LOS PIRATAS",
+            "age": 4,
+            "cloth": 6,
+            "draw": 6,
+            "declared_weight_kg": 54.5,
+            "prior_form_raw": "[4,13,4,13]"
+          },
+          {
+            "runner_id": "runner_30c04398f225cb720c89337ad8e9d466",
+            "horse_name": "ARCHIE'S DREAM (GB)",
+            "jockey_name": "B. FAYOS",
+            "trainer_name": "B. RAMA",
+            "stable_name": "CANARIAS",
+            "age": 4,
+            "cloth": 3,
+            "draw": 2,
+            "declared_weight_kg": 58.0,
+            "prior_form_raw": "[1,14,5,3]"
+          },
+          {
+            "runner_id": "runner_45617f38f1c53b08ce92701d1dd81a3c",
+            "horse_name": "LEIVINHA (IRE)",
+            "jockey_name": "V. JANACEK (55)",
+            "trainer_name": "G. ARIZKORRETA",
+            "stable_name": "ONE",
+            "age": 5,
+            "cloth": 7,
+            "draw": 1,
+            "declared_weight_kg": 54.0,
+            "prior_form_raw": "[2,9,5,6]"
+          },
+          {
+            "runner_id": "runner_4711b1fd48bf58c9de178b0265fc7226",
+            "horse_name": "ROLLING LUCK (GB)",
+            "jockey_name": "A. MARTINEZ (53,5)",
+            "trainer_name": "M. AUGELLI",
+            "stable_name": "PATRIZIA ROSSANA TESTA",
+            "age": 4,
+            "cloth": 5,
+            "draw": 4,
+            "declared_weight_kg": 55.0,
+            "prior_form_raw": "[4,5,5,4]"
+          },
+          {
+            "runner_id": "runner_79f10800fc0ce69226e3679733d31239",
+            "horse_name": "DAMA DE PICAS",
+            "jockey_name": "F. MARTINEZ",
+            "trainer_name": "D. DIEZ",
+            "stable_name": "FORRAJES Y CEREALES D. DIEZ",
+            "age": 4,
+            "cloth": 8,
+            "draw": 8,
+            "declared_weight_kg": 53.5,
+            "prior_form_raw": "[7]"
+          },
+          {
+            "runner_id": "runner_cc57f842c54efeb76f34753a1872cdb4",
+            "horse_name": "SIR POLO (IRE)",
+            "jockey_name": "D. RODRIGUEZ (55)",
+            "trainer_name": "J. LOPEZ",
+            "stable_name": "CORREDORES AGRUPADOS",
+            "age": 5,
+            "cloth": 1,
+            "draw": 7,
+            "declared_weight_kg": 59.5,
+            "prior_form_raw": "[Desc,5,11,1]"
+          }
+        ]
+      },
+      "information_need": {
+        "id": 1,
+        "need": "Pre-cutoff racing background about LEIVINHA",
+        "query": "LEIVINHA"
+      },
+      "expected": "reject",
+      "category": "unrelated",
+      "review_rationale": "Calendar counts and total prize money are not evidence of the requested horse form."
+    },
+    {
+      "id": "c02_wrong_horse_photo_caption",
+      "source_snapshot": "jan25_preview",
+      "paragraph_indices": [
+        0
+      ],
+      "text": "El participante Muguetajarra de la Cuadra Piguinha con la monta de Nico de Julián | Juanjo Mariscal (GHA)",
+      "text_sha256": "e67b5a0d88e995e5723044941907fe87b220457f399a618c6a0e495a5b674f07",
+      "dating_scenario": "natural",
+      "task": {
+        "benchmark_version": "spain-h1-2026-declarations-v2",
+        "race_id": "race_f960c5df7fda81fdd12d574acfb30938",
+        "date": "2026-01-25",
+        "venue": "Dos Hermanas",
+        "split": "development",
+        "cutoff_utc": "2026-01-24T22:59:00+00:00",
+        "distance_m": 2200,
+        "track": "publisher_documented",
+        "input_availability": "official_pre_race_document_publisher_dated",
+        "runners": [
+          {
+            "runner_id": "runner_395d563332bf22e9aaa17e28b2a99c16",
+            "horse_name": "ALMANSA",
+            "jockey_name": "J. GELABERT",
+            "trainer_name": "R. MARTIN A",
+            "stable_name": "KILOMETRO 0",
+            "age": 5,
+            "cloth": 4,
+            "draw": 2,
+            "declared_weight_kg": 57.5,
+            "prior_form_raw": "[3,7,2,4]"
+          },
+          {
+            "runner_id": "runner_4ff23cf41107227a278b0ee600307502",
+            "horse_name": "SOGALINDA",
+            "jockey_name": "V. ALONSO V. (56,5)",
+            "trainer_name": "J.C. CERQUEIRA",
+            "stable_name": "ZEZINHO",
+            "age": 8,
+            "cloth": 5,
+            "draw": 4,
+            "declared_weight_kg": 57.5,
+            "prior_form_raw": "[5,4,2,7]"
+          },
+          {
+            "runner_id": "runner_6e67518be15c1471a1aabff86a92ff4a",
+            "horse_name": "SWEET WISH (FR)",
+            "jockey_name": "E.A. RODRIGUEZ (59)",
+            "trainer_name": "V.H. ROMEA",
+            "stable_name": "OLYMPUS",
+            "age": 6,
+            "cloth": 1,
+            "draw": 3,
+            "declared_weight_kg": 61.5,
+            "prior_form_raw": "[2,1,2,5]"
+          },
+          {
+            "runner_id": "runner_76dad6693580a73627b9d19f1c857cd2",
+            "horse_name": "ANIOL (FR)",
+            "jockey_name": "S. DONOHOE",
+            "trainer_name": "J.C. ROSELL",
+            "stable_name": "SAN JOSE",
+            "age": 4,
+            "cloth": 3,
+            "draw": 1,
+            "declared_weight_kg": 58.0,
+            "prior_form_raw": "[2,3,2,7]"
+          },
+          {
+            "runner_id": "runner_b8459418f45b63d7c84037f7ddbe05ca",
+            "horse_name": "PASAPALABRA",
+            "jockey_name": "I. MELGAREJO",
+            "trainer_name": "J. JIMENEZ",
+            "stable_name": "TARAMUNDI",
+            "age": 6,
+            "cloth": 2,
+            "draw": 5,
+            "declared_weight_kg": 60.0,
+            "prior_form_raw": "[4,1,6,3]"
+          }
+        ]
+      },
+      "information_need": {
+        "id": 1,
+        "need": "Pre-cutoff racing background about PASAPALABRA",
+        "query": "PASAPALABRA"
+      },
+      "expected": "reject",
+      "category": "unrelated",
+      "review_rationale": "Caption names Muguetajarra rather than the requested horse; no target-horse performance or conditions are given."
+    }
+  ]
+}

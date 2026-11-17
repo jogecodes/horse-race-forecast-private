@@ -1,0 +1,51 @@
+{
+  "saved_at": "2026-11-12T22:15:26.172070+00:00",
+  "publication": "PROHIBITED unless user explicitly authorizes again",
+  "component_run": "/app/more_studies/horse-race-forecast-private/runs/article_component_v2_20261112",
+  "evaluation_out": "/app/more_studies/horse-race-forecast-private/runs/article_component_v2_evaluation_20261112",
+  "queue_status": {
+    "status": "stopped_before_inference",
+    "queue_pid": 3040880,
+    "component_run": "/app/more_studies/horse-race-forecast-private/runs/article_component_v2_20261112",
+    "evaluation_out": "/app/more_studies/horse-race-forecast-private/runs/article_component_v2_evaluation_20261112",
+    "publication": "PROHIBITED",
+    "poll_seconds": 30,
+    "calendar_stop": null,
+    "updated_at": "2026-11-12T22:15:19.600897+00:00",
+    "gpu3_memory_mib": 14692,
+    "model_port_free": true
+  },
+  "live_queue_status": "/app/more_studies/horse-race-forecast-private/runs/article_component_v2_20261112/queue_status.json",
+  "documentation": "/app/more_studies/horse-race-forecast-private/docs/ARTICLE_COMPONENT_V2_20261112.md",
+  "new_results_available": false,
+  "changes": [
+    "Own-entry source scoping with exact offsets",
+    "Race/cloth-checked compact numbered tips",
+    "Evidence-bound selected/opposed/historical/withdrawn/unknown choices",
+    "Expanded earlier previews and restored overlength paragraphs",
+    "Conditional outcome evaluation only after extraction quality gate"
+  ],
+  "prepared": {
+    "source_paragraphs": 71,
+    "runner_rows": 368,
+    "eligible_calls": 106,
+    "january_eligible": 77,
+    "january_total": 154,
+    "february_eligible": 29,
+    "february_total": 214,
+    "references": 52,
+    "old_regression_references": 26,
+    "new_source_review_references": 26
+  },
+  "quality_gate": {
+    "minimum_reference_accuracy": 0.9,
+    "critical_false_current_recommendations": 0,
+    "maximum_schema_failures": 0,
+    "minimum_correct_january_opposed_references": 2
+  },
+  "reference_caveat": "Assistant-reviewed selected development cases; no independent human annotation. Not unseen generalization evidence.",
+  "tests": "180 passed, 1 optional skip; 15 focused tests passed",
+  "gpu_policy": "Wait for GPU 3 only; do not interrupt other jobs or launch a duplicate queue",
+  "next_action": "WAIT for explicit user instruction before starting or resuming any experiment. Prepared files remain available.",
+  "experiment_hold": true
+}

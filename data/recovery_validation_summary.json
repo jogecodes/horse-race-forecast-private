@@ -1,0 +1,52 @@
+{
+  "v1_verified": true,
+  "v1_database_unchanged": true,
+  "v2_verified": true,
+  "v2_races": 155,
+  "v2_declared_runners": 1404,
+  "additional_declared_runners": 54,
+  "v2_excluded_from_v1": 6,
+  "strict_historical_validity": false,
+  "actual_starts": 14,
+  "quote_timing_counts": {
+    "at_or_after_actual_start": 86,
+    "earlier_than_60_seconds_before_actual_start": 118,
+    "last_60_seconds_before_actual_start": 32
+  },
+  "last60_quote_races": 3,
+  "archive_checks": {
+    "no_pre_cutoff_capture": 39,
+    "deferred_rate_limit": 15
+  },
+  "sqlite_integrity": {
+    "data/racing.sqlite": "ok",
+    "data/declarations_h1_2026.sqlite": "ok",
+    "data/odds_with_actual_starts.sqlite": "ok"
+  },
+  "model_smoke": [
+    {
+      "race_id": "race_a0df96e5786c2257866c43f8d57fbd01",
+      "arm": "closed_book",
+      "status": "valid",
+      "error": null,
+      "approved_items": 0,
+      "selected_items": 0
+    },
+    {
+      "race_id": "race_a0df96e5786c2257866c43f8d57fbd01",
+      "arm": "researched",
+      "status": "valid",
+      "error": null,
+      "approved_items": 0,
+      "selected_items": 0
+    }
+  ],
+  "model_audit": "passed",
+  "tests_passed": 82,
+  "artifacts": {
+    "data/declarations_h1_2026.sqlite": "982972bdaafc847bdb1c655b2e5766d3ef3b737ad636a4b4bcd983d554b6553f",
+    "data/odds_with_actual_starts.sqlite": "ca99f39582876bc7ab70a2b8f36bfb1c2fdcbb2764b58ed97945fc60a9897e76",
+    "data/odds_preoff_last60s.csv": "9c076bff33f0b5d00093c85a564346e2a5d6413876cfaf084f77e7720089404f",
+    "data/odds_actual_start_comparison.json": "4b88af86a2eb8c72ff72be7b546b7dff5d38c7fc5b7c66b06b66710981216279"
+  }
+}

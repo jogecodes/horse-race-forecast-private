@@ -1,0 +1,30 @@
+{
+  "imported": 1593,
+  "excluded": [
+    {
+      "external_id": "53637",
+      "reason": "Date 1960-08-22 outside 2022-01-01..2026-11-05"
+    }
+  ],
+  "errors": [
+    {
+      "external_id": "58093",
+      "reason": "Missing result heading/date"
+    },
+    {
+      "external_id": "59842",
+      "reason": "Missing result heading/date"
+    },
+    {
+      "external_id": "59910",
+      "reason": "Missing result heading/date"
+    },
+    {
+      "external_id": "59964",
+      "reason": "Missing result heading/date"
+    }
+  ],
+  "runners": 12869,
+  "discovered_links": 1598,
+  "not_downloaded": []
+}

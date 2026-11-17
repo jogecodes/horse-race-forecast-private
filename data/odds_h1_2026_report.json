@@ -1,0 +1,44 @@
+{
+  "expected_races": 161,
+  "provider_meetings": [
+    {
+      "date": "2026-04-16",
+      "venue": "San Sebastián",
+      "provider_reunion": 2
+    },
+    {
+      "date": "2026-04-22",
+      "venue": "San Sebastián",
+      "provider_reunion": 2
+    },
+    {
+      "date": "2026-04-29",
+      "venue": "San Sebastián",
+      "provider_reunion": 2
+    }
+  ],
+  "errors": [],
+  "unmatched_participants": [
+    {
+      "url": "https://online.turfinfo.api.pmu.fr/rest/client/1/programme/16042026/R2/C3/participants",
+      "date": "2026-04-16",
+      "venue": "San Sebastián"
+    }
+  ],
+  "observations_by_kind": {
+    "dernierRapportDirect": 118,
+    "dernierRapportReference": 118,
+    "post_result_DG": 1379
+  },
+  "observations_by_timing": {
+    "at_or_after_scheduled_start": 118,
+    "before_scheduled_start_only": 118,
+    "post_result_not_preoff": 1379
+  },
+  "races_with_pmu_quotes": 14,
+  "races_with_post_result_DG": 158,
+  "verified_last_60_seconds_before_actual_start": 0,
+  "forecast_cutoff_note": "Benchmark forecasts close on the previous day. Even genuine same-day pre-off prices are a later-information comparator, not admissible features for that cutoff.",
+  "exact_preoff_status": "Unavailable unless actual-start evidence and timestamped preplay ticks are supplied. PMU scheduled-time comparisons and post-result DG are not exact closing odds.",
+  "integrity": "ok"
+}

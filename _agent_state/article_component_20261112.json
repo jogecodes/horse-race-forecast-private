@@ -1,0 +1,103 @@
+{
+  "saved_at": "2026-11-12T21:50:50.488416+00:00",
+  "publication": "PROHIBITED unless user explicitly authorizes again",
+  "component_run": "/app/more_studies/horse-race-forecast-private/runs/article_component_20261112",
+  "component_status": {
+    "status": "completed",
+    "controller_pid": 3020576,
+    "service_pid": 3020580,
+    "gpu": 3,
+    "gpu_uuid": "GPU-c20e7fb3-7393-c302-a180-820db648e5e0",
+    "planned": 368,
+    "updated_at": "2026-11-12T21:47:37.764861+00:00",
+    "current_horse": "HERVAS (IRE)",
+    "processed": 368,
+    "service_stopped": true
+  },
+  "evaluation_run": "/app/more_studies/horse-race-forecast-private/runs/article_component_evaluation_20261112",
+  "documentation": "/app/more_studies/horse-race-forecast-private/docs/ARTICLE_COMPONENT_20261112.md",
+  "metrics": {
+    "baseline": {
+      "valid_races": 28,
+      "metrics": {
+        "brier": 0.8148060983633316,
+        "log_loss": 1.8551627893581717
+      },
+      "errors": {}
+    },
+    "deterministic_form": {
+      "valid_races": 28,
+      "metrics": {
+        "brier": 0.8146028981214154,
+        "log_loss": 1.8445552143406727
+      },
+      "errors": {}
+    },
+    "optional_agent": {
+      "valid_races": 28,
+      "metrics": {
+        "brier": 0.812522697274462,
+        "log_loss": 1.8230203950277173
+      },
+      "errors": {}
+    }
+  },
+  "paired": {
+    "baseline": {
+      "races": 28,
+      "meeting_clusters": 6,
+      "samples": 4000,
+      "seed": 20261112,
+      "method": "Meeting-cluster percentile bootstrap; races equally weighted; exploratory fixed-model development uncertainty, not training uncertainty",
+      "brier": {
+        "difference": -0.0022834010888694778,
+        "interval_95": [
+          -0.009076079035979052,
+          0.0029208877607123764
+        ]
+      },
+      "log_loss": {
+        "difference": -0.03214239433045451,
+        "interval_95": [
+          -0.06724205893486196,
+          0.0028998206631902384
+        ]
+      }
+    },
+    "deterministic_form": {
+      "races": 28,
+      "meeting_clusters": 6,
+      "samples": 4000,
+      "seed": 20261112,
+      "method": "Meeting-cluster percentile bootstrap; races equally weighted; exploratory fixed-model development uncertainty, not training uncertainty",
+      "brier": {
+        "difference": -0.002080200846952968,
+        "interval_95": [
+          -0.003949859700446899,
+          1.0831322296896613e-05
+        ]
+      },
+      "log_loss": {
+        "difference": -0.021534819312955013,
+        "interval_95": [
+          -0.05757512302571337,
+          -0.0008526708469997351
+        ]
+      }
+    }
+  },
+  "source_review": "26 assistant-reviewed development references; not independent human review",
+  "reference_accuracy": 0.7692307692307693,
+  "article_signal_rows": 26,
+  "model_promoted": false,
+  "important_issue": "January has no opposed examples; opposed coefficient zero and known flag collinear with selected. Negative labels do not have a trustworthy learned effect.",
+  "next_step": "Improve source scoping and compact tip decoding; add independent source review and training stance coverage before a frozen validation protocol.",
+  "tests": "174 passed, 1 optional skip; 20 focused tests passed",
+  "code": [
+    "horse_racing/article_features.py",
+    "scripts/run_article_component.py",
+    "scripts/evaluate_article_component.py",
+    "tests/test_article_features.py"
+  ],
+  "web_export": "Disabled by default in build_research_release.py. New article evaluator never exports site data."
+}

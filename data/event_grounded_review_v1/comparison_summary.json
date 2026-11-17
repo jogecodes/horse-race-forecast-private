@@ -1,0 +1,325 @@
+{
+  "comparisons": {
+    "original_llama_comparison": {
+      "run": "runs/event_grounded_review_v1_20261106",
+      "model": "llama3.1:8b",
+      "dataset_sha256": "245671046cdfa257bbcb83c0c5691b01a210bedac391abe73f6422f7811604ed",
+      "policies": {
+        "publisher-dated": {
+          "total": 18,
+          "confusion": {
+            "allow": {
+              "allow": 3,
+              "reject": 3,
+              "uncertain": 0
+            },
+            "reject": {
+              "allow": 0,
+              "reject": 8,
+              "uncertain": 0
+            },
+            "uncertain": {
+              "allow": 0,
+              "reject": 4,
+              "uncertain": 0
+            }
+          },
+          "exact_agreements": 11,
+          "leakage_allowed": 0,
+          "leakage_cases": 6,
+          "useful_allowed": 3,
+          "useful_cases": 6,
+          "useful_rejected": 3,
+          "useful_uncertain": 0,
+          "ambiguous_allowed": 0,
+          "ambiguous_cases": 4,
+          "judge_calls": 12,
+          "error_votes": 0,
+          "resolution_errors": 0,
+          "event_resolution_rejections": 0,
+          "disagreements": [
+            "a01_undated_meeting_preview",
+            "a02_undated_favorite_prediction",
+            "a03_undated_pair_prediction",
+            "u01_undated_caption_completed_win",
+            "u02_different_distance_not_a_date",
+            "u03_different_race_unknown_chronology",
+            "u04_unanchored_connection_result"
+          ],
+          "leakage_explicitly_matched_by_resolver": 0,
+          "leakage_rejected": 6,
+          "leakage_uncertain": 0,
+          "resolver_error_reasons": {},
+          "judge_error_reasons": {},
+          "complete_case_seconds": 30.581900773919187,
+          "useful_admitted_ids": [
+            "a04_same_horse_different_earlier_win",
+            "a05_prior_form_and_conditional_forecast",
+            "a06_prior_winners_are_not_target_results"
+          ],
+          "leakage_admitted_ids": []
+        },
+        "exploratory": {
+          "total": 18,
+          "confusion": {
+            "allow": {
+              "allow": 2,
+              "reject": 0,
+              "uncertain": 4
+            },
+            "reject": {
+              "allow": 2,
+              "reject": 3,
+              "uncertain": 3
+            },
+            "uncertain": {
+              "allow": 1,
+              "reject": 1,
+              "uncertain": 2
+            }
+          },
+          "exact_agreements": 7,
+          "leakage_allowed": 2,
+          "leakage_cases": 6,
+          "useful_allowed": 2,
+          "useful_cases": 6,
+          "useful_rejected": 0,
+          "useful_uncertain": 4,
+          "ambiguous_allowed": 1,
+          "ambiguous_cases": 4,
+          "judge_calls": 54,
+          "error_votes": 9,
+          "resolution_errors": 0,
+          "event_resolution_rejections": 0,
+          "disagreements": [
+            "a01_undated_meeting_preview",
+            "a02_undated_favorite_prediction",
+            "a04_same_horse_different_earlier_win",
+            "a05_prior_form_and_conditional_forecast",
+            "r01_target_with_jockey_substitution",
+            "r02_target_order_same_field",
+            "r03_target_trainer_first_win",
+            "r04_target_second_place_revealed",
+            "u01_undated_caption_completed_win",
+            "u03_different_race_unknown_chronology",
+            "c01_calendar_statistics_unrelated_to_horse"
+          ],
+          "leakage_explicitly_matched_by_resolver": 0,
+          "leakage_rejected": 2,
+          "leakage_uncertain": 2,
+          "resolver_error_reasons": {},
+          "judge_error_reasons": {
+            "Judge must cite exact passage quotes; allow/drop require supporting text": 9
+          },
+          "complete_case_seconds": 175.78424538724357,
+          "useful_admitted_ids": [
+            "a03_undated_pair_prediction",
+            "a06_prior_winners_are_not_target_results"
+          ],
+          "leakage_admitted_ids": [
+            "r03_target_trainer_first_win",
+            "r04_target_second_place_revealed"
+          ]
+        },
+        "event-grounded": {
+          "total": 18,
+          "confusion": {
+            "allow": {
+              "allow": 0,
+              "reject": 6,
+              "uncertain": 0
+            },
+            "reject": {
+              "allow": 0,
+              "reject": 2,
+              "uncertain": 6
+            },
+            "uncertain": {
+              "allow": 0,
+              "reject": 0,
+              "uncertain": 4
+            }
+          },
+          "exact_agreements": 6,
+          "leakage_allowed": 0,
+          "leakage_cases": 6,
+          "useful_allowed": 0,
+          "useful_cases": 6,
+          "useful_rejected": 6,
+          "useful_uncertain": 0,
+          "ambiguous_allowed": 0,
+          "ambiguous_cases": 4,
+          "judge_calls": 42,
+          "error_votes": 1,
+          "resolution_errors": 10,
+          "event_resolution_rejections": 5,
+          "disagreements": [
+            "a01_undated_meeting_preview",
+            "a02_undated_favorite_prediction",
+            "a03_undated_pair_prediction",
+            "a04_same_horse_different_earlier_win",
+            "a05_prior_form_and_conditional_forecast",
+            "a06_prior_winners_are_not_target_results",
+            "r01_target_with_jockey_substitution",
+            "r02_target_order_same_field",
+            "r03_target_trainer_first_win",
+            "r04_target_second_place_revealed",
+            "r05_target_winner_other_named_favorite",
+            "r06_later_preview_recalls_target"
+          ],
+          "leakage_explicitly_matched_by_resolver": 0,
+          "leakage_rejected": 0,
+          "leakage_uncertain": 6,
+          "resolver_error_reasons": {
+            "Invented or duplicate event support identity": 9,
+            "Missing, duplicate or invented sentence identity": 1
+          },
+          "judge_error_reasons": {
+            "Unterminated string starting at: line 1 column 12 (char 11)": 1
+          },
+          "complete_case_seconds": 194.5723136989982,
+          "useful_admitted_ids": [],
+          "leakage_admitted_ids": []
+        }
+      },
+      "audit": "passed"
+    },
+    "corrected_llama_replay": {
+      "run": "runs/event_grounded_v2_llama_replay_20261106",
+      "model": "llama3.1:8b",
+      "dataset_sha256": "245671046cdfa257bbcb83c0c5691b01a210bedac391abe73f6422f7811604ed",
+      "policies": {
+        "event-grounded": {
+          "total": 18,
+          "confusion": {
+            "allow": {
+              "allow": 0,
+              "reject": 4,
+              "uncertain": 2
+            },
+            "reject": {
+              "allow": 0,
+              "reject": 7,
+              "uncertain": 1
+            },
+            "uncertain": {
+              "allow": 0,
+              "reject": 4,
+              "uncertain": 0
+            }
+          },
+          "exact_agreements": 7,
+          "leakage_allowed": 0,
+          "leakage_cases": 6,
+          "useful_allowed": 0,
+          "useful_cases": 6,
+          "useful_rejected": 4,
+          "useful_uncertain": 2,
+          "ambiguous_allowed": 0,
+          "ambiguous_cases": 4,
+          "judge_calls": 66,
+          "error_votes": 3,
+          "resolution_errors": 2,
+          "event_resolution_rejections": 13,
+          "disagreements": [
+            "a01_undated_meeting_preview",
+            "a02_undated_favorite_prediction",
+            "a03_undated_pair_prediction",
+            "a04_same_horse_different_earlier_win",
+            "a05_prior_form_and_conditional_forecast",
+            "a06_prior_winners_are_not_target_results",
+            "r06_later_preview_recalls_target",
+            "u01_undated_caption_completed_win",
+            "u02_different_distance_not_a_date",
+            "u03_different_race_unknown_chronology",
+            "u04_unanchored_connection_result"
+          ],
+          "leakage_explicitly_matched_by_resolver": 5,
+          "leakage_rejected": 5,
+          "leakage_uncertain": 1,
+          "resolver_error_reasons": {
+            "Missing, duplicate or invented sentence identity": 2
+          },
+          "judge_error_reasons": {
+            "Invalid sentence support IDs": 1,
+            "Unterminated string starting at: line 1 column 12 (char 11)": 2
+          },
+          "complete_case_seconds": 281.925143670931,
+          "useful_admitted_ids": [],
+          "leakage_admitted_ids": []
+        }
+      },
+      "audit": "passed"
+    },
+    "corrected_gemma_replay": {
+      "run": "runs/event_grounded_v2_gemma_replay_20261106",
+      "model": "gemma3:4b",
+      "dataset_sha256": "245671046cdfa257bbcb83c0c5691b01a210bedac391abe73f6422f7811604ed",
+      "policies": {
+        "event-grounded": {
+          "total": 18,
+          "confusion": {
+            "allow": {
+              "allow": 0,
+              "reject": 4,
+              "uncertain": 2
+            },
+            "reject": {
+              "allow": 0,
+              "reject": 4,
+              "uncertain": 4
+            },
+            "uncertain": {
+              "allow": 0,
+              "reject": 2,
+              "uncertain": 2
+            }
+          },
+          "exact_agreements": 6,
+          "leakage_allowed": 0,
+          "leakage_cases": 6,
+          "useful_allowed": 0,
+          "useful_cases": 6,
+          "useful_rejected": 4,
+          "useful_uncertain": 2,
+          "ambiguous_allowed": 0,
+          "ambiguous_cases": 4,
+          "judge_calls": 69,
+          "error_votes": 6,
+          "resolution_errors": 1,
+          "event_resolution_rejections": 10,
+          "disagreements": [
+            "a01_undated_meeting_preview",
+            "a02_undated_favorite_prediction",
+            "a03_undated_pair_prediction",
+            "a04_same_horse_different_earlier_win",
+            "a05_prior_form_and_conditional_forecast",
+            "a06_prior_winners_are_not_target_results",
+            "r04_target_second_place_revealed",
+            "r05_target_winner_other_named_favorite",
+            "u02_different_distance_not_a_date",
+            "u03_different_race_unknown_chronology",
+            "c01_calendar_statistics_unrelated_to_horse",
+            "c02_wrong_horse_photo_caption"
+          ],
+          "leakage_explicitly_matched_by_resolver": 4,
+          "leakage_rejected": 4,
+          "leakage_uncertain": 2,
+          "resolver_error_reasons": {
+            "Missing, duplicate or invented sentence identity": 1
+          },
+          "judge_error_reasons": {
+            "Invalid sentence support IDs": 6
+          },
+          "complete_case_seconds": 223.5451733369846,
+          "useful_admitted_ids": [],
+          "leakage_admitted_ids": []
+        }
+      },
+      "audit": "passed"
+    }
+  },
+  "corrected_models_share_engine_and_dataset": true,
+  "scope": "Original fresh development comparison, then corrected-schema replays and an installed-model comparison on the now-exposed corpus. No independent human labels or unbiased holdout gain claim.",
+  "schema_correction": "v1 offered NO_ANCHOR when no date anchor existed; v2 permits only [] in that case. Both versions and all failures retained. No semantic prompt or label changes in the corrected comparison."
+}

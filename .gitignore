@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+data/*.sqlite*
+packets/
+# Private source material: retain locally; review permissions before any redistribution.
+data/raw/
+
+data/**/*.sqlite*
+data/*.csv
+
+# Generated benchmark source material and supervisor labels remain local.
+benchmarks/
+
+# Model prompts, rejected passages, odds caches and run ledgers remain private.
+runs/
+data/research_cache/

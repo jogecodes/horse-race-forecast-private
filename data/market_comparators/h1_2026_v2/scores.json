@@ -1,0 +1,263 @@
+{
+  "benchmark_version": "spain-h1-2026-declarations-v2",
+  "track": "publisher_documented",
+  "split": "validation",
+  "expected_races": 52,
+  "valid_predictions": 2,
+  "coverage": 0.038461538461538464,
+  "invalid_predictions": [
+    {
+      "race_id": "race_2c2cd674039ea21885bd6dbe5a3779e6",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_95ed4f6d9907fbe0ce331c0f773a1d94",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_558dcb7439a197fa89a76c8be3741048",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_9f41f7db2c37c6402a5f5db41b12771d",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_4dcb5e61d30e57f2f9085e1a75008c63",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_e06f1c8ffa51590b56cbbc154b60603a",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_5729074acc25eb9b70f7421f6049e075",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_9c825e81fede0866612309226b7d380f",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_9a2d5efc24fbe5a5e46a683d0ff0196b",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_1f7c6adeaec327bed1d48c2b66abc5e5",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_59b8994aec8b43521e535a71c06e0aef",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_1936af22aa29a68ff23cb849309fa9a1",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_9496a3cec540b2a8575cb6cc223189c3",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_671c50ea9266566f86c3696c679ef2ef",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_4cc91ae7114605a196b4da9e0f587ef2",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_4ae89f087ee89844a721ca9a2cc6aa43",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_1836ccecfd8ac7cf59de80dc95124ec6",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_06ea97b3228a3eed976501d13223feca",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_607b39d707745f7454a3f22d2c39cf1e",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_f4773e9f7d5cfd41fca9c456649b1ce7",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_54d18a74258364b94f6c8c5b914ab02b",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_506b04e86d22e21c1d6b5ce94f8262e4",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_57f06b11ebb10d00d6630388e18efdba",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_b9c2d988a1775ebb5bb37b5465015e0b",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_e104ada64529908929ce94aaf3f6e589",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_64d6255965e09baa2f0fc1850db9d9c1",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_af69e5880c3e8a9b2460f4089b86685d",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_73d2905de0fc65a2fef39490c59a206b",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_de31e5ffe5f642752004ea5a7914c1fe",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_3988033f3117962bebbe1f11c3153c85",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_265081b4bdac52dcfaf9fefdc1f2ef3b",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_b937bd1f996963a21f1b052a37446f12",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_27259574d47ef24a08d035f97d0ec5ba",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_71c31a9566a7f4a239def1a0b9b3f618",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_9cc278235aafa699d5dac7196cbd7876",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_533b26c69229e4dd94b8543cff745bd1",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_85ecd8a6645a673665706a808dc24f3d",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_8b8fcfd202f83929224ef3d1aaa6f82c",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_e15fc61c7c3240fb3521c6619e64cac2",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_a158f4f281a88009a548b3a0a57a0438",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_44ea10c760f5db06b914687aff67e20e",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_4b7719ae3589fdc92e3be46a65fcbff8",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_73092dc162d5e2374c1b8ee58e960a53",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_a0868c9f12d1526ec4a22792cc475272",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_756e458e7435a9ecd6438c60b7f2c003",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_d4905051ebc6f2e169ad17f437cdc544",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_b881fb30e801435dd2613de76d7c5b02",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_a71ce6eeae645d9f84c8010af743df22",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_b9c8c4532acd4c1895295bdcbecdd39d",
+      "reason": "missing_prediction"
+    },
+    {
+      "race_id": "race_2d410f70b1597903324769be2898d663",
+      "reason": "missing_prediction"
+    }
+  ],
+  "malformed_lines": [],
+  "input_nonblank_lines": 2,
+  "parsed_known_race_lines": 2,
+  "parse_rate": 1.0,
+  "leaderboard_eligible": false,
+  "log_loss_floor": 1e-15,
+  "strict_historical_validity": false,
+  "overall": {
+    "brier": 0.9834868309562137,
+    "log_loss": 2.4672808586918595,
+    "top1_fractional_accuracy": 0.0,
+    "scored_races": 2,
+    "zero_probability_winners": 0,
+    "brier_skill_vs_uniform": -0.10889790336002614,
+    "log_loss_improvement_vs_uniform": -0.25187245927020274,
+    "meeting_clusters": 1,
+    "confidence_intervals_95": null
+  },
+  "by_venue": {
+    "San Sebastián": {
+      "brier": 0.9834868309562137,
+      "log_loss": 2.4672808586918595,
+      "top1_fractional_accuracy": 0.0,
+      "scored_races": 2,
+      "zero_probability_winners": 0,
+      "brier_skill_vs_uniform": -0.10889790336002614,
+      "log_loss_improvement_vs_uniform": -0.25187245927020274,
+      "meeting_clusters": 1,
+      "confidence_intervals_95": null
+    }
+  },
+  "by_month": {
+    "2026-04": {
+      "brier": 0.9834868309562137,
+      "log_loss": 2.4672808586918595,
+      "top1_fractional_accuracy": 0.0,
+      "scored_races": 2,
+      "zero_probability_winners": 0,
+      "brier_skill_vs_uniform": -0.10889790336002614,
+      "log_loss_improvement_vs_uniform": -0.25187245927020274,
+      "meeting_clusters": 1,
+      "confidence_intervals_95": null
+    }
+  },
+  "comparator": "Normalized inverse PMU probable win returns, latest stored direct quotes timestamped within 60s before actual off",
+  "protocol": "Later-information comparator, forbidden in previous-evening forecast inputs. Full price vectors only; no missing-price imputation.",
+  "excluded_incomplete_fields": [
+    {
+      "race_id": "race_2d410f70b1597903324769be2898d663",
+      "reason": "Incomplete prices for declared field; no imputation or post-cutoff withdrawal adjustment"
+    }
+  ],
+  "source_report_sha256": "4b88af86a2eb8c72ff72be7b546b7dff5d38c7fc5b7c66b06b66710981216279"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "jan04_form_preview",
+  "url": "https://almirantecuatro.com/2026/01/03/madrid-domingo-04-01-2026/",
+  "observed_at": "2026-11-12T21:56:42.844493+00:00",
+  "body_sha256": "ca8bd229641ad81c0db3b252e3b257b3ca00d92793ed2d27a128c0b31214f3aa",
+  "paragraphs": [
+    "Me ha «pillado el toro», y además tengo ganas de tomarme un descanso. No pensaba escribir nada pero, al final me he puesto a escribir esto. Aprovecho para desearos feliz año.",
+    "Jornada en la arena de Madrid. Comienzo a las 13:10 Última oportunidad para cobrar/reinvertir las apuestas premiadas de la temporada de otoño antes de que caduquen a los 3 meses.",
+    "Primera Es favorito 1-VIENTO DE LEVANTE (GB) , pero yo no descarto al Tattersaller de Anaya, el reenganchado 4-STEPINMYDIRECTION (IRE) , para el triunfo.",
+    "Segunda Una de «guardias» en la que no veo un favorito de 10 puntos. 4-SMOOTH TRANSITION (IRE) No me disgusta: Va bastante en peso y lo lleva una amazona experimentada. 1-FLAMING GLASS Es el ganador claro por forma y peso, pero lo que me disuade es que lo monta un amazona debutante. Su favoritismo puede ser mucha presión para la joven aficionada. 3-STEPHEN DEDALUS (GB) En sus valores del verano pasado ganaría de media recta, pero viene de fallar la semana pasada en su reaparición. Puede ganar de paseo, o quedar 4to. No me acabo de fiar, aunque lo monta una amazona solvente. 2-OTTO Potro de 4 años, recién cumplidos, que viene de brillar en su penúltima carrera en una condicional. Pienso que aún debe aterrizar su valor en el handicap, y hoy, reaparece y su única carrera en la pista es mala. Lleva una monta de garantías, pero el que corre es el caballo. Si gana, me alegraré por su entrenador, pero hoy no le pido nada. Mejor, no apostar e ir a comer algo.",
+    "Tercera Carrera de venta. Los favoritos son los de mayor valor oficial: 1-STAR ONE (FR) que viene de ganar, muy a favor de monta, un reclamar en DH en la hierba. Le han subido 2 kilos y le han dejado en 37, que tendrá que refrendar en handicap para ver si están en lo cierto los handicappers. No está probado en arena, pero el estado pesado de la pista puede favorecer su remate largo, con Gelabert montando desde la curva. 8-KEY TO SUCCESS (GER) Es una sorpresa, pero me gusta para ganar. Es un arenero confirmado, como buen hijo de Dabirsim. El valor marcado en Francia o en Zahara creo que le da para ganar a este lote. 2-FARNESIO (IRE) Está en valor 38, y bajando. Su problema no es de calidad, que tiene suficiente para dejar tirado al lote. Su problema es su fragilidad: ya la mostró con Arizkorreta y ha bajado de valor con Anaya. No me acabo de fiar.",
+    "Cuarta Me salen bien por peso los 3 siguientes: 1-REVENUE (IRE) Ha tenido buenos apuntes, pero aún no ha ganado desde que vino a España. Le veo bien situado en el handicap. A ver si hoy, con Borja, gana. 9-FIJI GOLD (GB) Viene de 2 segundos en sendos handicaps 2-MADAME CARACOL La cazaron cerca de meta este verano en una carrera similar. Hoy, con Janacek, y midiendo más, tiene una primera opción.",
+    "Quinta No me decanto por ninguno de estos 5: 7-ROMEO (FR) Su mal verano le ha dejado en situación ventajosa en el handicap. Viene de ganar una condicional en DH, muy a favor de monta. Si muestra la versión de DH en vez de la del verano, se puede llevar la carrera. 6-DUKES OF HAATHER (GB) Anaya corre a 4 de los 8 de la carrera. Ésta es la baza que más me gusta de su cuadra. Viene de apuntar en un 2do en 1500 en DH. Le bajan de 1500 a 1200 metros, pero Anaya suele saber lo que hace. 2-AMBUSHED (IRE) Me gusta más en 1400 en arena en DH, pero ha ganado varias en los 1200 de LZ. Está alto en el handicap, pero viene de ganar y no me atrevo a descartarle. 4-IT’S CHICO TIME (IRE) Ha marcado valores para ganar en el pasado. Hoy, se baja al handicap y si se acordara de sus buenos valores tendría su opción. 1-CROSS THE TRACKS (GB) Probado en las pista de fibra inglesas, viene de defraudar en su reciente salida en un reclamar en la fibra de Pau, quedando batido por Abacur y Disilusion. Su última salida me dejó frío, pero es un caballo de GP, que corre contra caballos de handicap. En su valor de los GPS, ganaría.",
+    "101 VIENTO DE LEVANTE (GB) // 104 STEPINMYDIRECTION (IRE) 204 SMOOTH TRANSITION (IRE) // 201 FLAMING GLASS 301 STAR ONE (FR) // 308 KEY TO SUCCESS (GER) 401 REVENUE (IRE) // 402 MADAME CARACOL // 509 FIJI GOLD (GB) 506 DUKES OF HAATHER (GB) // 507 ROMEO (FR)",
+    "¡Suerte! Alm4"
+  ],
+  "date_claims": [
+    {
+      "kind": "published",
+      "path": "meta:article:published_time",
+      "value": "2026-01-03T19:38:48+00:00",
+      "precision": "timestamp"
+    },
+    {
+      "kind": "modified",
+      "path": "meta:article:modified_time",
+      "value": "2026-01-03T19:38:48+00:00",
+      "precision": "timestamp"
+    },
+    {
+      "kind": "published",
+      "path": "jsonld:datePublished",
+      "value": "2026-01-03T19:38:48+00:00",
+      "precision": "timestamp"
+    },
+    {
+      "kind": "modified",
+      "path": "jsonld:dateModified",
+      "value": "2026-01-03T19:38:48+00:00",
+      "precision": "timestamp"
+    },
+    {
+      "kind": "published",
+      "path": "article:time",
+      "value": "2026-01-03T19:38:48+00:00",
+      "precision": "timestamp"
+    }
+  ],
+  "metadata": {
+    "author": null,
+    "title": "Madrid. Domingo 04/01/2026."
+  },
+  "target_event_date": "2026-01-04"
+}

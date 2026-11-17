@@ -1,0 +1,36 @@
+{
+  "sources": 3,
+  "snapshots": 2,
+  "meetings": 2,
+  "races": 12,
+  "race_versions": 24,
+  "entities": 366,
+  "entries": 124,
+  "results": 124,
+  "quality_issues": 1,
+  "evidence": 248,
+  "forecast_runs": 0,
+  "judge_votes": 0,
+  "packet_exports": 0,
+  "entities_by_kind": {
+    "breeder": 103,
+    "horse": 123,
+    "jockey": 29,
+    "stable": 80,
+    "trainer": 31
+  },
+  "meetings_detail": [
+    {
+      "id": "jce:2026-10-25:1",
+      "race_date": "2026-10-25",
+      "venue": "La Zarzuela"
+    },
+    {
+      "id": "jce:2026-11-01:1",
+      "race_date": "2026-11-01",
+      "venue": "La Zarzuela"
+    }
+  ],
+  "foreign_key_errors": [],
+  "integrity": "ok"
+}

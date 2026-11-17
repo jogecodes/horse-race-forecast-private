@@ -1,0 +1,2059 @@
+{
+  "records": [
+    {
+      "date": "2026-04-16",
+      "venue": "San Sebastián",
+      "kind": "declaration",
+      "publisher_page": "https://jockey-club.es/jornada/1a-jornada-primavera26-ss/",
+      "discovery_method": "browser-rendered official JCE document link",
+      "original_url": "https://drive.google.com/file/d/1CL7y_gPq7_ZE9Ixt_7e_QTYsSkI2d4dI/view?usp=sharing",
+      "document": {
+        "receipt": {
+          "url": "https://drive.google.com/uc?export=download&id=1CL7y_gPq7_ZE9Ixt_7e_QTYsSkI2d4dI",
+          "final_url": "https://drive.usercontent.google.com/download?id=1CL7y_gPq7_ZE9Ixt_7e_QTYsSkI2d4dI&export=download",
+          "status": 200,
+          "observed_at": "2026-11-05T12:20:49+00:00",
+          "sha256": "c0516d62937b8c228493a9cb30d1003a616c4b8e138f8b9d18072b706137e0d1",
+          "headers": {
+            "Content-Type": "application/octet-stream",
+            "X-GUploader-UploadID": "AFy3sg3C1GcakTIc_1gPbyV5DdW2zKC2GmCKJqy87l-g-ey_v5hL-z9cgXHz8wuH6mz1c8Bu",
+            "Content-Security-Policy": "sandbox, default-src 'none', frame-ancestors 'none'",
+            "X-Content-Security-Policy": "sandbox",
+            "Cross-Origin-Opener-Policy": "same-origin",
+            "Cross-Origin-Embedder-Policy": "require-corp",
+            "Cross-Origin-Resource-Policy": "same-site",
+            "X-Content-Type-Options": "nosniff",
+            "Content-Disposition": "attachment; filename=\"PARTICIPANTES DEFINITIVOS SS 16-04-2026.pdf\"",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Credentials": "false",
+            "Access-Control-Allow-Headers": "Accept, Accept-Language, Authorization, Cache-Control, Content-Disposition, Content-Encoding, Content-Language, Content-Length, Content-MD5, Content-Range, Content-Type, Date, developer-token, DPoP, financial-institution-id, X-Goog-Sn-Metadata, X-Goog-Sn-PatientId, GData-Version, google-cloud-resource-prefix, linked-customer-id, login-customer-id, login-account, linked-account, x-goog-request-params, Host, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Origin, OriginToken, Pragma, Range, request-id, Signature, Signature-Agent, Signature-Input, Slug, Transfer-Encoding, User-Agent, hotrod-board-name, hotrod-chrome-cpu-model, hotrod-chrome-processors, Want-Digest, X-Ad-Manager-Impersonation, x-chrome-connected, X-ClientDetails, X-Client-Pctx, X-Client-Version, x-debug-settings-metadata, X-Firebase-AppId, X-Firebase-AppVersion, X-Firebase-Locale, X-Goog-Firebase-Installations-Auth, X-Firebase-Client, X-Firebase-Client-Log-Type, X-Firebase-GMPID, X-Firebase-Auth-Token, X-Firebase-AppCheck, X-Firebase-RC-Fetch-Type, X-Firebase-Token, X-Goog-Drive-Client-Version, X-Goog-Drive-Resource-Keys, X-GData-Client, X-GData-Key, X-GoogApps-Allowed-Domains, X-Goog-AdX-Buyer-Impersonation, X-Goog-Api-Client, X-Goog-Visibilities, X-Goog-AuthUser, X-Google-EOM, x-goog-ext-124712974-jspb, x-goog-ext-467253834-jspb, x-goog-ext-353267353-bin, x-goog-ext-353267353-jspb, x-goog-ext-251363160-jspb, X-Restricted-Content-Limit, x-goog-ext-259736195-jspb, x-goog-ext-477772811-jspb, x-goog-ext-359275022-bin, x-goog-ext-328800237-jspb, x-goog-ext-198889211-bin, x-goog-ext-202735639-bin, x-goog-ext-223261916-bin, x-goog-ext-223435598-bin, x-goog-ext-233818517-bin, x-goog-ext-202964622-bin, X-Goog-PageId, X-Goog-Encode-Response-If-Executable, X-Goog-Correlation-Id, X-Goog-Request-Info, X-Goog-Request-Reason, X-Goog-Request-Time, X-Goog-Experiments, x-goog-iam-authority-selector, x-goog-iam-authorization-token, X-Goog-Spatula, X-Goog-Travel-Bgr, X-Goog-Travel-Settings, X-Goog-Upload-Command, X-Goog-Upload-Content-Disposition, X-Goog-Upload-Content-Length, X-Goog-Upload-Content-Type, X-Goog-Upload-File-Name, X-Goog-Upload-Header-Content-Encoding, X-Goog-Upload-Header-Content-Length, X-Goog-Upload-Header-Content-Type, X-Goog-Upload-Header-Transfer-Encoding, X-Goog-Upload-Offset, X-Goog-Upload-Protocol, x-goog-user-project, X-Goog-Visitor-Id, X-Goog-FieldMask, X-Google-Project-Override, x-goog-maps-api-salt, x-goog-maps-api-signature, x-goog-maps-client-id, X-Goog-Api-Key, x-goog-spanner-database-role, X-HTTP-Method-Override, X-JavaScript-User-Agent, X-Pan-Versionid, X-Proxied-User-IP, X-Origin, X-Referer, X-Requested-With, X-Stadia-Client-Context, X-Upload-Content-Length, X-Upload-Content-Type, X-Use-Alt-Service, X-Use-HTTP-Status-Code-Override, X-Ios-Bundle-Identifier, X-Places-Ios-Sdk, X-Android-Package, X-Android-Cert, X-Places-Android-Sdk, X-Goog-Maps-Ios-Uuid, X-Goog-Maps-Android-Uuid, X-Ariane-Xsrf-Token, X-A2A-Extensions, A2A-Extensions, A2A-Version, X-YouTube-Bootstrap-Logged-In, X-Youtube-Client-Name, X-Youtube-Client-Version, X-Youtube-Finch-Config-Data, X-Youtube-Finch-Hash-Data, X-YouTube-Lava-Device-Context, X-YouTube-VVT, X-YouTube-Page-CL, X-YouTube-Page-Label, X-YouTube-Page-Timestamp, X-Compass-Routing-Destination, x-framework-xsrf-token, X-Goog-Meeting-ABR, X-Goog-Meeting-Botguardid, X-Goog-Meeting-Bot-Info, X-Goog-Meeting-ClientInfo, X-Goog-Meeting-ClientVersion, X-Goog-Meeting-Debugid, X-Goog-Meeting-Identifier, X-Goog-Meeting-Interop-Cohorts, X-Goog-Meeting-Interop-Type, X-Goog-Meeting-OidcIdToken, X-Goog-Meeting-RtcClient, X-Goog-Meeting-StartSource, X-Goog-Meeting-Token, X-Goog-Meeting-Viewer-Token, X-Goog-Healthcare-Audit-First-Party-Application-Access, Prefer, X-Client-Data, x-sdm-id-token, X-Sfdc-Authorization, MIME-Version, Content-Transfer-Encoding, X-Earth-Engine-App-ID-Token, X-Earth-Engine-Computation-Profile, X-Earth-Engine-Computation-Profiling, X-Play-Console-Experiments-Override, X-Play-Console-Session-Id, x-tab-id, x-alkali-account-key, x-alkali-application-key, x-alkali-auth-apps-namespace, x-alkali-auth-entities-namespace, x-alkali-auth-entity, x-alkali-client-locale, EES-S7E-MODE, cast-device-capabilities, X-Server-Timeout, x-foyer-client-environment, x-goog-greenenergyuserappservice-metadata, x-goog-sherlog-context, X-Server-Token, X-WebChannel-Content-Type, x-rfui-request-context, X-Workflow-Client, X-Tenant-Scope, x-goog-nest-jwt, X-Cloud-Trace-Context, traceparent, x-goog-chat-space-id, x-goog-pan-request-context, X-AppInt-Credentials, X-Iceberg-Access-Delegation, x-goog-firestore-api-requester, x-Goog-Ws-AgentId, x-impersonate-sid, X-Goog-Gemini-Enterprise-SidePanel",
+            "Access-Control-Allow-Methods": "GET,HEAD,OPTIONS",
+            "Accept-Ranges": "bytes",
+            "Content-Length": "266287",
+            "Last-Modified": "Mon, 13 Apr 2026 11:35:24 GMT",
+            "Date": "Thu, 05 Nov 2026 12:20:49 GMT",
+            "Expires": "Thu, 05 Nov 2026 12:20:49 GMT",
+            "Cache-Control": "private, max-age=0",
+            "X-Goog-Hash": "crc32c=qUIt3w==",
+            "Server": "UploadServer",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+          },
+          "file": "f81bf11ba49c025cbab41f8d87903a8d6a7c9382fc2a3f507ce01b30de616250.bin"
+        },
+        "pdf_metadata": {
+          "/Author": "c_parrondo",
+          "/CreationDate": "D:20260413133329+02'00'",
+          "/ModDate": "D:20260413133329+02'00'",
+          "/Producer": "Microsoft® Excel® para Microsoft 365",
+          "/Creator": "Microsoft® Excel® para Microsoft 365"
+        },
+        "date_claims": {
+          "pdf_created_at": "2026-04-13T11:33:29+00:00",
+          "pdf_modified_at": "2026-04-13T11:33:29+00:00",
+          "http_last_modified_at": "2026-04-13T11:35:24+00:00"
+        },
+        "text": "                               PARTICIPANTES DEFINITIVOS PARA LAS CARRERAS DEL  JUEVES, 16 DE ABRIL DE 2026               HIPODROMO DE SAN SEBASTIAN\n                                                                                   1 ª Carrera PREMIO ANDATZA TABERNA\n                                                           8.750 Euros a repartir             Distancia: 1.400 metros.               Hora: 11:05 h.\nNº                   CABALLO                                    EDAD       KG                  JINETE                                      CUADRA                              PREPARADOR            CAJÓN       Ult.Actuac.\n1    ECLAIR LANE (IRE)                              (5) (8)        3       58,5   I.MELGAREJO                        EZENEL                                                A.SOTO                       1         [8,2,3,5,3]\n2    STEPINMYDIRECTION (IRE)                                       3       57,5   R.SOUSA                            DIAZ SARMIENTO                                        O.ANAYA                      5       [9,1,Ret,2,4]\n3    VOLTERETA (FR)                                   (8)          3        57    R. DUBORD                          C&M                                                   A.SANCHEZ M.                 4           [9,7,6]\n4    CONTESA (IRE)                                                 3       55,5   V.JANACEK                          YEGUADA ROCIO                                         G.ARIZKORRETA                3           [6,2,3]\n5    SASHAY AWAY (GB)                                              3       55,5   J.GELABERT                         ESPECTACULO                                           H.PEREIRA                    2       [6,5,Ret,9,13]\n6    UNFOLLOW (FR)                                                 3        54    C.PEREZ (53)                       CALEJAÑA                                              D.LOPEZ F.                   6        [Debutante]\n                                                                                   2 ª Carrera PREMIO AITONAK OKINDEGIA\n                                                        10.500 Euros a repartir                   Distancia: 1.600 metros                Hora: 11:35 h.\nNº                   CABALLO                                    EDAD       KG                  JINETE                                      CUADRA                              PREPARADOR            CAJÓN       Ult.Actuac.\n1    RASTRELLARE (IRE)                                (8)          4        62    D.SIKOROVA (61)                    SAN JOSE                                              J.C.ROSELL                   6        [5,14,5,8,5]\n2    GRAND SON OF CALYX (IRE)                         (8)          5        61    B.FAYOS                            PALCO 7                                               R.MAROTO                     4         [6,2,8,1,9]\n3    WELLINGTON PREMIER (FR)                          (8)          4        61    SR.SARABIA D.A.                    RIO CUBAS                                             M.ALONSO R.                  3        [2,2,12,3,4]\n4    ALASKAN GOLD (IRE)                                            5        60    A.GUTIERREZ V                      GALOPERX                                              G.ARIZKORRETA                8         [4,1,7,7,7]\n5    FAITH ROSE                                                    6        60    R.SOUSA                            TEN FE                                                B.VALENTI                    5         [4,1,4,5,2]\n6    NAXOS (GB)                                       (8)          6        60    J.GELABERT                         MEDITERRANEO                                          O.ANAYA                      2         [6,3,3,1,1]\n7    BULNES (IRE)                                                  4        59    V.JANACEK                          YEGUADA ROCIO                                         G.ARIZKORRETA                1         [7,5,1,6,6]\n8    FRANKINI (IRE)                                                4        59    I.MELGAREJO                        LOS NIÑOS                                             J.C.CERQUEIRA                7       [8,8,10,5,11]\n                                                                              3 ª Carrera PREMIO VENTANAS ALCAR (VENTA)\n                                                          7.875 Euros a repartir             Distancia: 1.400 metros.                  Hora: 12:07 h.\nNº                   CABALLO                                    EDAD       KG                  JINETE                                      CUADRA                              PREPARADOR            CAJÓN       Ult.Actuac.\n1    BRAVO (8.000)                                    (5)          7       60,5   V.JANACEK                          MARE NOSTRUM                                          G.ARIZKORRETA                4         [6,4,2,3,1]\n2    IFACH (IRE) (8.000)                                           6       60,5   SR.SARABIA D.A.                    RIO CUBAS                                             O.ANAYA                      7        [16,1,2,2,3]\n3    TAMMANI (GB) (6.000)                                          9        59    R.SOUSA                            REZA PAZOOKI                                          O.ANAYA                      2       [5,1,2,4,Ret]\n4    HAUSSMANNIEN (FR) (8.000)                        (8)          4       57,5   I.MELGAREJO                        ZEZINHO                                               J.C.CERQUEIRA                8         [9,8,Ret,9]\n5    JUSTE BERE (FR) (8.000)                                       7       57,5   N.M. LOPES                         PAULO ALVES JUNIOR                                    D.DUARTE                     1      [Ret,2,1,1,Ret]\n6    OCTAVIO (GB) (8.000)                                          5       57,5   C.PEREZ (56,5)                     EL SABLE                                              E.PUENTE                     3        [14,13,13,8]\n7    RAIKU (FR) (8.000)                                            8       57,5   V.ALONSO V. (56,5)                 LOS MELENEROS                                         M.PEREZ                      5        [12,4,5,6,3]\n8    DANCE AHEAD (IRE) (6.000)                      (3) (8)        6        56    J.GELABERT                         NOSSA SRA DO VALE                                     H.PEREIRA                    9       [14,10,7,6,9]\n9    BOEZA (FR) (6.000)                                            4       54,5   J.ZAMBUDIO (53,5)                  ROBER                                                 R.AVIAL S.                   6       [9,10,14,9,5]\n                                                                       4 ª Carrera PREMIO BAR PATRICIO (HÁNDICAP 2 ª Parte)\n                                                         7.875 Euros a repartir              Distancia: 2.200 metros.                    Hora: 12:39 h\nNº                   CABALLO                                    EDAD       KG                  JINETE                                      CUADRA                              PREPARADOR            CAJON       Ult.Actuac.\n1    LISBOA (IRE)                                   (3) (8)        6        63    N.DE JULIAN                        ENRIQUE FERNANDEZ DE VEGA                             M.DELGADO                    11     [11,10,12,7,7]\n2    SWEET WISH (FR)                                (3) (8)        6        62    E.A. RODRIGUEZ (60)                OLYMPUS                                               V.H.ROMEA                    8         [8,4,7,5,2]\n3    ONE MORE NIGHT (FR)                              (3)          7       60,5   A.GUTIERREZ V.                     COSTA LA VALL                                         R.COSTA                      4       [13,9,3,Ret,8]\n4    CHIQUITIN (IRE)                                (5) (8)        5       60,5   J.GELABERT                         PONME OTRA                                            R.MARTIN A.                  3        [3,11,4,7,4]\n5    ZORBA (FR)                                       (5)          4       60,5   R.DUBORD                           LA BARDENA                                            I.ELARRE                     1       [6,Ret,6,4,11]\n6    SON OF REALITY                                   (8)          4       60,5   R.SOUSA                            A GRANXA                                              H.PEREIRA                    10       [9,14,4,5,4]\n7    SEVEN ANGELS (FR)                                (8)          5        60    V.JANACEK                          RAPIER                                                B.VALENTI                    2        [6,3,1,12,8]\n8    SHANGAR (IRE)                                    (8)          4       57,5   N.M. LOPES                         NATURE HORSE                                          P.ALVES                      5        [10,2,4,4,8]\n9    EVE OF DESTRUCTION (GB)                        (5) (8)        4       56,5   C.PEREZ (55,5)                     BERNIE                                                J.C.CERQUEIRA                7      [6,2,10,11,10]\n10   TONY MONTANA                                   (5) (8)        5        55    M.FOULON                           YEGUADA NAIA RACING                                   A.IMAZ B.                    9      [3,3,Desc,4,10]\n11   WALKCZAK (FR)                                    (8)          7       53,5   D.RODRIGUEZ (49,5)                 MANGUETA                                              M.DELGADO                    6       [3,Ret,5,11,4]\n                                              5 ª Carrera PREMIO CLINICA DENTAL ALDAZ- ALDAZ HORTZ KLINIKA (HÁNDICAP 1 ª Parte)\n                                                         9.625 Euros a repartir                  Distancia: 2.200 metros.                Hora: 13:11 h\nNº                   CABALLO                                    EDAD       KG                  JINETE                                      CUADRA                              PREPARADOR            CAJÓN       Ult.Actuac.\n1    HELIOPOLIS (FR)                                  (3)          7        63    I.MELGAREJO                        ARCO                                                  A.SOTO                       3        [5,6,2,1,11]\n2    SANBER (FR)                                      (8)          6       61,5   A.GUTIERREZ V.                     COSTA LA VALL                                         R.COSTA                      11       [3,12,1,1,1]\n3    GAUCIN (FR)                                                   4       59,5   J.GELABERT                         MEDITERRANEO                                          A.SOTO                       9       [11,Ret,4,4,6]\n4    STELLARIS (GB)                                                6       57,5   V.JANACEK                          LIAM NORRIS                                           G.ARIZKORRETA                8       [Ret,4,2,1,1]\n5    THE WHIPMASTER (IRE)                             (8)          8        57    R.SOUSA                            ISLA DE FUERTEVENTURA                                 O.ANAYA                      10        [4,6,1,5,2]\n6    LOSE YOUR WAD (IRE)                                           6        57    V.ALONSO V. (56)                   ALVARO MATEOS                                         CH.DELCHER                   1        [9,10,7,4,3]\n7    DON BOSCO (FR)                                   (8)          5        56    J.ZAMBUDIO (55)                    BOLAK                                                 C.BUESA                      5       [9,11,3,11,7]\n8    CHIQUININO (IRE)                                 (5)          5       55,5   J.GOMEZ (54,5)                     GALATEA RACING                                        J.C.CERQUEIRA                7         [1,4,2,3,1]\n9    HEBE                                                          6        55    N.DE JULIAN                        ALEGRE                                                D.FARLETE                    2         [7,2,4,5,6]\n10   PINARELLU (FR)                                   (8)          4        54    D.SIKOROVA (53)                    BRAVO TANGO ZULU                                      C.BUESA                      6       [10,6,1,Ret,8]\n11   PARTY ZONE                                     (5) (8)        4        52    R.DUBORD                           ARIMA                                                 I.ELARRE                     4         [1,8,1,4,6]\n\n\n     INCIDENCIAS:\n     El entrenador A.Sanchez M comunica que el jockey R.Dubord montará al participante nº 3 VOLTERETA (FR) en la 1º carrera\n     El entrenador G.Arizkorreta comunica que el jockey A. Gutierrez V montará al participante nº 4 ALASKAN GOLD (IRE) en la 2º carrera\n     El entrenador H.Pereira comunica que el participante nº 8 DANCE AHEAD (IRE) portará llamada (8) lengua atada en la 3º carrera\n     El entrenador V.H.Romea comunica que la jockey E.A. Rodriguez (60 kg) montará al participante nº 2 SWEET WISH (FR) en la 4º carrera\n     El entrenador I.Elarre comunica que el jockey  R.Dubord montará al participante nº 5 ZORBA (FR) en la 4º carrera\n     El entrenador H.Pereira comunica que el participante nº 6 SON OF REALITY portará llamada (8) lengua atada en la 4º carrera\n     El entrenador I.Elarre comunica que el jockey R.Dubord montará al participante nº 11 PARTY ZONE en la 5º carrera\n\n                                                                                                  (3)                CORRERA CON CARRILLERAS\n                                                                                                  (4)                CORRERA CON TAPONES O GORRO ANTI RUIDO\n                                                                                                  (5)                CORRERA CON ANTEOJERAS\n                                                                                                  (6)                CORRERA CON VISOR\n                                                                                                  (8)                LENGUA ATADA\n\n                                                                                  El Comisario de participantes\n\n\n\n\n\n\n\n                                                                                  D. Enrique Romera Lozano",
+        "pages": 1
+      },
+      "races": [
+        {
+          "ordinal": 1,
+          "title": "PREMIO ANDATZA TABERNA",
+          "distance_m": 1400,
+          "runners": [
+            {
+              "cloth": 1,
+              "horse_name": "ECLAIR LANE (IRE)",
+              "age": 3,
+              "weight_kg": 58.5,
+              "jockey_name": "I.MELGAREJO",
+              "stable_name": "EZENEL",
+              "trainer_name": "A.SOTO",
+              "draw": 1,
+              "prior_form_raw": "[8,2,3,5,3]"
+            },
+            {
+              "cloth": 2,
+              "horse_name": "STEPINMYDIRECTION (IRE)",
+              "age": 3,
+              "weight_kg": 57.5,
+              "jockey_name": "R.SOUSA",
+              "stable_name": "DIAZ SARMIENTO",
+              "trainer_name": "O.ANAYA",
+              "draw": 5,
+              "prior_form_raw": "[9,1,Ret,2,4]"
+            },
+            {
+              "cloth": 3,
+              "horse_name": "VOLTERETA (FR)",
+              "age": 3,
+              "weight_kg": 57.0,
+              "jockey_name": "R. DUBORD",
+              "stable_name": "C&M",
+              "trainer_name": "A.SANCHEZ M.",
+              "draw": 4,
+              "prior_form_raw": "[9,7,6]"
+            },
+            {
+              "cloth": 4,
+              "horse_name": "CONTESA (IRE)",
+              "age": 3,
+              "weight_kg": 55.5,
+              "jockey_name": "V.JANACEK",
+              "stable_name": "YEGUADA ROCIO",
+              "trainer_name": "G.ARIZKORRETA",
+              "draw": 3,
+              "prior_form_raw": "[6,2,3]"
+            },
+            {
+              "cloth": 5,
+              "horse_name": "SASHAY AWAY (GB)",
+              "age": 3,
+              "weight_kg": 55.5,
+              "jockey_name": "J.GELABERT",
+              "stable_name": "ESPECTACULO",
+              "trainer_name": "H.PEREIRA",
+              "draw": 2,
+              "prior_form_raw": "[6,5,Ret,9,13]"
+            },
+            {
+              "cloth": 6,
+              "horse_name": "UNFOLLOW (FR)",
+              "age": 3,
+              "weight_kg": 54.0,
+              "jockey_name": "C.PEREZ (53)",
+              "stable_name": "CALEJAÑA",
+              "trainer_name": "D.LOPEZ F.",
+              "draw": 6,
+              "prior_form_raw": "[Debutante]"
+            }
+          ],
+          "issues": [],
+          "scheduled_time_local": "11:05"
+        },
+        {
+          "ordinal": 2,
+          "title": "PREMIO AITONAK OKINDEGIA",
+          "distance_m": 1600,
+          "runners": [
+            {
+              "cloth": 1,
+              "horse_name": "RASTRELLARE (IRE)",
+              "age": 4,
+              "weight_kg": 62.0,
+              "jockey_name": "D.SIKOROVA (61)",
+              "stable_name": "SAN JOSE",
+              "trainer_name": "J.C.ROSELL",
+              "draw": 6,
+              "prior_form_raw": "[5,14,5,8,5]"
+            },
+            {
+              "cloth": 2,
+              "horse_name": "GRAND SON OF CALYX (IRE)",
+              "age": 5,
+              "weight_kg": 61.0,
+              "jockey_name": "B.FAYOS",
+              "stable_name": "PALCO 7",
+              "trainer_name": "R.MAROTO",
+              "draw": 4,
+              "prior_form_raw": "[6,2,8,1,9]"
+            },
+            {
+              "cloth": 3,
+              "horse_name": "WELLINGTON PREMIER (FR)",
+              "age": 4,
+              "weight_kg": 61.0,
+              "jockey_name": "SR.SARABIA D.A.",
+              "stable_name": "RIO CUBAS",
+              "trainer_name": "M.ALONSO R.",
+              "draw": 3,
+              "prior_form_raw": "[2,2,12,3,4]"
+            },
+            {
+              "cloth": 4,
+              "horse_name": "ALASKAN GOLD (IRE)",
+              "age": 5,
+              "weight_kg": 60.0,
+              "jockey_name": "A.GUTIERREZ V",
+              "stable_name": "GALOPERX",
+              "trainer_name": "G.ARIZKORRETA",
+              "draw": 8,
+              "prior_form_raw": "[4,1,7,7,7]"
+            },
+            {
+              "cloth": 5,
+              "horse_name": "FAITH ROSE",
+              "age": 6,
+              "weight_kg": 60.0,
+              "jockey_name": "R.SOUSA",
+              "stable_name": "TEN FE",
+              "trainer_name": "B.VALENTI",
+              "draw": 5,
+              "prior_form_raw": "[4,1,4,5,2]"
+            },
+            {
+              "cloth": 6,
+              "horse_name": "NAXOS (GB)",
+              "age": 6,
+              "weight_kg": 60.0,
+              "jockey_name": "J.GELABERT",
+              "stable_name": "MEDITERRANEO",
+              "trainer_name": "O.ANAYA",
+              "draw": 2,
+              "prior_form_raw": "[6,3,3,1,1]"
+            },
+            {
+              "cloth": 7,
+              "horse_name": "BULNES (IRE)",
+              "age": 4,
+              "weight_kg": 59.0,
+              "jockey_name": "V.JANACEK",
+              "stable_name": "YEGUADA ROCIO",
+              "trainer_name": "G.ARIZKORRETA",
+              "draw": 1,
+              "prior_form_raw": "[7,5,1,6,6]"
+            },
+            {
+              "cloth": 8,
+              "horse_name": "FRANKINI (IRE)",
+              "age": 4,
+              "weight_kg": 59.0,
+              "jockey_name": "I.MELGAREJO",
+              "stable_name": "LOS NIÑOS",
+              "trainer_name": "J.C.CERQUEIRA",
+              "draw": 7,
+              "prior_form_raw": "[8,8,10,5,11]"
+            }
+          ],
+          "issues": [],
+          "scheduled_time_local": "11:35"
+        },
+        {
+          "ordinal": 3,
+          "title": "PREMIO VENTANAS ALCAR (VENTA)",
+          "distance_m": 1400,
+          "runners": [
+            {
+              "cloth": 1,
+              "horse_name": "BRAVO",
+              "age": 7,
+              "weight_kg": 60.5,
+              "jockey_name": "V.JANACEK",
+              "stable_name": "MARE NOSTRUM",
+              "trainer_name": "G.ARIZKORRETA",
+              "draw": 4,
+              "prior_form_raw": "[6,4,2,3,1]"
+            },
+            {
+              "cloth": 2,
+              "horse_name": "IFACH (IRE)",
+              "age": 6,
+              "weight_kg": 60.5,
+              "jockey_name": "SR.SARABIA D.A.",
+              "stable_name": "RIO CUBAS",
+              "trainer_name": "O.ANAYA",
+              "draw": 7,
+              "prior_form_raw": "[16,1,2,2,3]"
+            },
+            {
+              "cloth": 3,
+              "horse_name": "TAMMANI (GB)",
+              "age": 9,
+              "weight_kg": 59.0,
+              "jockey_name": "R.SOUSA",
+              "stable_name": "REZA PAZOOKI",
+              "trainer_name": "O.ANAYA",
+              "draw": 2,
+              "prior_form_raw": "[5,1,2,4,Ret]"
+            },
+            {
+              "cloth": 4,
+              "horse_name": "HAUSSMANNIEN (FR)",
+              "age": 4,
+              "weight_kg": 57.5,
+              "jockey_name": "I.MELGAREJO",
+              "stable_name": "ZEZINHO",
+              "trainer_name": "J.C.CERQUEIRA",
+              "draw": 8,
+              "prior_form_raw": "[9,8,Ret,9]"
+            },
+            {
+              "cloth": 5,
+              "horse_name": "JUSTE BERE (FR)",
+              "age": 7,
+              "weight_kg": 57.5,
+              "jockey_name": "N.M. LOPES",
+              "stable_name": "PAULO ALVES JUNIOR",
+              "trainer_name": "D.DUARTE",
+              "draw": 1,
+              "prior_form_raw": "[Ret,2,1,1,Ret]"
+            },
+            {
+              "cloth": 6,
+              "horse_name": "OCTAVIO (GB)",
+              "age": 5,
+              "weight_kg": 57.5,
+              "jockey_name": "C.PEREZ (56,5)",
+              "stable_name": "EL SABLE",
+              "trainer_name": "E.PUENTE",
+              "draw": 3,
+              "prior_form_raw": "[14,13,13,8]"
+            },
+            {
+              "cloth": 7,
+              "horse_name": "RAIKU (FR)",
+              "age": 8,
+              "weight_kg": 57.5,
+              "jockey_name": "V.ALONSO V. (56,5)",
+              "stable_name": "LOS MELENEROS",
+              "trainer_name": "M.PEREZ",
+              "draw": 5,
+              "prior_form_raw": "[12,4,5,6,3]"
+            },
+            {
+              "cloth": 8,
+              "horse_name": "DANCE AHEAD (IRE)",
+              "age": 6,
+              "weight_kg": 56.0,
+              "jockey_name": "J.GELABERT",
+              "stable_name": "NOSSA SRA DO VALE",
+              "trainer_name": "H.PEREIRA",
+              "draw": 9,
+              "prior_form_raw": "[14,10,7,6,9]"
+            },
+            {
+              "cloth": 9,
+              "horse_name": "BOEZA (FR)",
+              "age": 4,
+              "weight_kg": 54.5,
+              "jockey_name": "J.ZAMBUDIO (53,5)",
+              "stable_name": "ROBER",
+              "trainer_name": "R.AVIAL S.",
+              "draw": 6,
+              "prior_form_raw": "[9,10,14,9,5]"
+            }
+          ],
+          "issues": [],
+          "scheduled_time_local": "12:07"
+        },
+        {
+          "ordinal": 4,
+          "title": "PREMIO BAR PATRICIO (HÁNDICAP 2 ª Parte)",
+          "distance_m": 2200,
+          "runners": [
+            {
+              "cloth": 1,
+              "horse_name": "LISBOA (IRE)",
+              "age": 6,
+              "weight_kg": 63.0,
+              "jockey_name": "N.DE JULIAN",
+              "stable_name": "ENRIQUE FERNANDEZ DE VEGA",
+              "trainer_name": "M.DELGADO",
+              "draw": 11,
+              "prior_form_raw": "[11,10,12,7,7]"
+            },
+            {
+              "cloth": 2,
+              "horse_name": "SWEET WISH (FR)",
+              "age": 6,
+              "weight_kg": 62.0,
+              "jockey_name": "E.A. RODRIGUEZ (60)",
+              "stable_name": "OLYMPUS",
+              "trainer_name": "V.H.ROMEA",
+              "draw": 8,
+              "prior_form_raw": "[8,4,7,5,2]"
+            },
+            {
+              "cloth": 3,
+              "horse_name": "ONE MORE NIGHT (FR)",
+              "age": 7,
+              "weight_kg": 60.5,
+              "jockey_name": "A.GUTIERREZ V.",
+              "stable_name": "COSTA LA VALL",
+              "trainer_name": "R.COSTA",
+              "draw": 4,
+              "prior_form_raw": "[13,9,3,Ret,8]"
+            },
+            {
+              "cloth": 4,
+              "horse_name": "CHIQUITIN (IRE)",
+              "age": 5,
+              "weight_kg": 60.5,
+              "jockey_name": "J.GELABERT",
+              "stable_name": "PONME OTRA",
+              "trainer_name": "R.MARTIN A.",
+              "draw": 3,
+              "prior_form_raw": "[3,11,4,7,4]"
+            },
+            {
+              "cloth": 5,
+              "horse_name": "ZORBA (FR)",
+              "age": 4,
+              "weight_kg": 60.5,
+              "jockey_name": "R.DUBORD",
+              "stable_name": "LA BARDENA",
+              "trainer_name": "I.ELARRE",
+              "draw": 1,
+              "prior_form_raw": "[6,Ret,6,4,11]"
+            },
+            {
+              "cloth": 6,
+              "horse_name": "SON OF REALITY",
+              "age": 4,
+              "weight_kg": 60.5,
+              "jockey_name": "R.SOUSA",
+              "stable_name": "A GRANXA",
+              "trainer_name": "H.PEREIRA",
+              "draw": 10,
+              "prior_form_raw": "[9,14,4,5,4]"
+            },
+            {
+              "cloth": 7,
+              "horse_name": "SEVEN ANGELS (FR)",
+              "age": 5,
+              "weight_kg": 60.0,
+              "jockey_name": "V.JANACEK",
+              "stable_name": "RAPIER",
+              "trainer_name": "B.VALENTI",
+              "draw": 2,
+              "prior_form_raw": "[6,3,1,12,8]"
+            },
+            {
+              "cloth": 8,
+              "horse_name": "SHANGAR (IRE)",
+              "age": 4,
+              "weight_kg": 57.5,
+              "jockey_name": "N.M. LOPES",
+              "stable_name": "NATURE HORSE",
+              "trainer_name": "P.ALVES",
+              "draw": 5,
+              "prior_form_raw": "[10,2,4,4,8]"
+            },
+            {
+              "cloth": 9,
+              "horse_name": "EVE OF DESTRUCTION (GB)",
+              "age": 4,
+              "weight_kg": 56.5,
+              "jockey_name": "C.PEREZ (55,5)",
+              "stable_name": "BERNIE",
+              "trainer_name": "J.C.CERQUEIRA",
+              "draw": 7,
+              "prior_form_raw": "[6,2,10,11,10]"
+            },
+            {
+              "cloth": 10,
+              "horse_name": "TONY MONTANA",
+              "age": 5,
+              "weight_kg": 55.0,
+              "jockey_name": "M.FOULON",
+              "stable_name": "YEGUADA NAIA RACING",
+              "trainer_name": "A.IMAZ B.",
+              "draw": 9,
+              "prior_form_raw": "[3,3,Desc,4,10]"
+            },
+            {
+              "cloth": 11,
+              "horse_name": "WALKCZAK (FR)",
+              "age": 7,
+              "weight_kg": 53.5,
+              "jockey_name": "D.RODRIGUEZ (49,5)",
+              "stable_name": "MANGUETA",
+              "trainer_name": "M.DELGADO",
+              "draw": 6,
+              "prior_form_raw": "[3,Ret,5,11,4]"
+            }
+          ],
+          "issues": [],
+          "scheduled_time_local": "12:39"
+        },
+        {
+          "ordinal": 5,
+          "title": "PREMIO CLINICA DENTAL ALDAZ- ALDAZ HORTZ KLINIKA (HÁNDICAP 1 ª Parte)",
+          "distance_m": 2200,
+          "runners": [
+            {
+              "cloth": 1,
+              "horse_name": "HELIOPOLIS (FR)",
+              "age": 7,
+              "weight_kg": 63.0,
+              "jockey_name": "I.MELGAREJO",
+              "stable_name": "ARCO",
+              "trainer_name": "A.SOTO",
+              "draw": 3,
+              "prior_form_raw": "[5,6,2,1,11]"
+            },
+            {
+              "cloth": 2,
+              "horse_name": "SANBER (FR)",
+              "age": 6,
+              "weight_kg": 61.5,
+              "jockey_name": "A.GUTIERREZ V.",
+              "stable_name": "COSTA LA VALL",
+              "trainer_name": "R.COSTA",
+              "draw": 11,
+              "prior_form_raw": "[3,12,1,1,1]"
+            },
+            {
+              "cloth": 3,
+              "horse_name": "GAUCIN (FR)",
+              "age": 4,
+              "weight_kg": 59.5,
+              "jockey_name": "J.GELABERT",
+              "stable_name": "MEDITERRANEO",
+              "trainer_name": "A.SOTO",
+              "draw": 9,
+              "prior_form_raw": "[11,Ret,4,4,6]"
+            },
+            {
+              "cloth": 4,
+              "horse_name": "STELLARIS (GB)",
+              "age": 6,
+              "weight_kg": 57.5,
+              "jockey_name": "V.JANACEK",
+              "stable_name": "LIAM NORRIS",
+              "trainer_name": "G.ARIZKORRETA",
+              "draw": 8,
+              "prior_form_raw": "[Ret,4,2,1,1]"
+            },
+            {
+              "cloth": 5,
+              "horse_name": "THE WHIPMASTER (IRE)",
+              "age": 8,
+              "weight_kg": 57.0,
+              "jockey_name": "R.SOUSA",
+              "stable_name": "ISLA DE FUERTEVENTURA",
+              "trainer_name": "O.ANAYA",
+              "draw": 10,
+              "prior_form_raw": "[4,6,1,5,2]"
+            },
+            {
+              "cloth": 6,
+              "horse_name": "LOSE YOUR WAD (IRE)",
+              "age": 6,
+              "weight_kg": 57.0,
+              "jockey_name": "V.ALONSO V. (56)",
+              "stable_name": "ALVARO MATEOS",
+              "trainer_name": "CH.DELCHER",
+              "draw": 1,
+              "prior_form_raw": "[9,10,7,4,3]"
+            },
+            {
+              "cloth": 7,
+              "horse_name": "DON BOSCO (FR)",
+              "age": 5,
+              "weight_kg": 56.0,
+              "jockey_name": "J.ZAMBUDIO (55)",
+              "stable_name": "BOLAK",
+              "trainer_name": "C.BUESA",
+              "draw": 5,
+              "prior_form_raw": "[9,11,3,11,7]"
+            },
+            {
+              "cloth": 8,
+              "horse_name": "CHIQUININO (IRE)",
+              "age": 5,
+              "weight_kg": 55.5,
+              "jockey_name": "J.GOMEZ (54,5)",
+              "stable_name": "GALATEA RACING",
+              "trainer_name": "J.C.CERQUEIRA",
+              "draw": 7,
+              "prior_form_raw": "[1,4,2,3,1]"
+            },
+            {
+              "cloth": 9,
+              "horse_name": "HEBE",
+              "age": 6,
+              "weight_kg": 55.0,
+              "jockey_name": "N.DE JULIAN",
+              "stable_name": "ALEGRE",
+              "trainer_name": "D.FARLETE",
+              "draw": 2,
+              "prior_form_raw": "[7,2,4,5,6]"
+            },
+            {
+              "cloth": 10,
+              "horse_name": "PINARELLU (FR)",
+              "age": 4,
+              "weight_kg": 54.0,
+              "jockey_name": "D.SIKOROVA (53)",
+              "stable_name": "BRAVO TANGO ZULU",
+              "trainer_name": "C.BUESA",
+              "draw": 6,
+              "prior_form_raw": "[10,6,1,Ret,8]"
+            },
+            {
+              "cloth": 11,
+              "horse_name": "PARTY ZONE",
+              "age": 4,
+              "weight_kg": 52.0,
+              "jockey_name": "R.DUBORD",
+              "stable_name": "ARIMA",
+              "trainer_name": "I.ELARRE",
+              "draw": 4,
+              "prior_form_raw": "[1,8,1,4,6]"
+            }
+          ],
+          "issues": [],
+          "scheduled_time_local": "13:11"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "venue": "San Sebastián",
+      "kind": "declaration",
+      "publisher_page": "https://jockey-club.es/jornada/3a-jornada-primavera26-ss/",
+      "discovery_method": "browser-rendered official JCE document link",
+      "original_url": "https://drive.google.com/file/d/1Awvob4ArM0Z5CHDI8rgOOHYlILNGMI0m/view?usp=sharing",
+      "document": {
+        "receipt": {
+          "url": "https://drive.google.com/uc?export=download&id=1Awvob4ArM0Z5CHDI8rgOOHYlILNGMI0m",
+          "final_url": "https://drive.usercontent.google.com/download?id=1Awvob4ArM0Z5CHDI8rgOOHYlILNGMI0m&export=download",
+          "status": 200,
+          "observed_at": "2026-11-05T12:20:51+00:00",
+          "sha256": "b8b044dd77c46be9464d3a26d5ef00c3edf751c1760d677557aa61793078be00",
+          "headers": {
+            "Content-Type": "application/octet-stream",
+            "X-GUploader-UploadID": "AFy3sg1_3SsAJr2NZufnjRYdVQOmQMQ0u040sMNZrij_BHq5iWT9-eRRbLMUbNggPRmcEVn3",
+            "Content-Security-Policy": "sandbox, default-src 'none', frame-ancestors 'none'",
+            "X-Content-Security-Policy": "sandbox",
+            "Cross-Origin-Opener-Policy": "same-origin",
+            "Cross-Origin-Embedder-Policy": "require-corp",
+            "Cross-Origin-Resource-Policy": "same-site",
+            "X-Content-Type-Options": "nosniff",
+            "Content-Disposition": "attachment; filename=\"PARTICIPANTES DEFINITIVOS SS 29-04-2026.pdf\"",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Credentials": "false",
+            "Access-Control-Allow-Headers": "Accept, Accept-Language, Authorization, Cache-Control, Content-Disposition, Content-Encoding, Content-Language, Content-Length, Content-MD5, Content-Range, Content-Type, Date, developer-token, DPoP, financial-institution-id, X-Goog-Sn-Metadata, X-Goog-Sn-PatientId, GData-Version, google-cloud-resource-prefix, linked-customer-id, login-customer-id, login-account, linked-account, x-goog-request-params, Host, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Origin, OriginToken, Pragma, Range, request-id, Signature, Signature-Agent, Signature-Input, Slug, Transfer-Encoding, User-Agent, hotrod-board-name, hotrod-chrome-cpu-model, hotrod-chrome-processors, Want-Digest, X-Ad-Manager-Impersonation, x-chrome-connected, X-ClientDetails, X-Client-Pctx, X-Client-Version, x-debug-settings-metadata, X-Firebase-AppId, X-Firebase-AppVersion, X-Firebase-Locale, X-Goog-Firebase-Installations-Auth, X-Firebase-Client, X-Firebase-Client-Log-Type, X-Firebase-GMPID, X-Firebase-Auth-Token, X-Firebase-AppCheck, X-Firebase-RC-Fetch-Type, X-Firebase-Token, X-Goog-Drive-Client-Version, X-Goog-Drive-Resource-Keys, X-GData-Client, X-GData-Key, X-GoogApps-Allowed-Domains, X-Goog-AdX-Buyer-Impersonation, X-Goog-Api-Client, X-Goog-Visibilities, X-Goog-AuthUser, X-Google-EOM, x-goog-ext-124712974-jspb, x-goog-ext-467253834-jspb, x-goog-ext-353267353-bin, x-goog-ext-353267353-jspb, x-goog-ext-251363160-jspb, X-Restricted-Content-Limit, x-goog-ext-259736195-jspb, x-goog-ext-477772811-jspb, x-goog-ext-359275022-bin, x-goog-ext-328800237-jspb, x-goog-ext-198889211-bin, x-goog-ext-202735639-bin, x-goog-ext-223261916-bin, x-goog-ext-223435598-bin, x-goog-ext-233818517-bin, x-goog-ext-202964622-bin, X-Goog-PageId, X-Goog-Encode-Response-If-Executable, X-Goog-Correlation-Id, X-Goog-Request-Info, X-Goog-Request-Reason, X-Goog-Request-Time, X-Goog-Experiments, x-goog-iam-authority-selector, x-goog-iam-authorization-token, X-Goog-Spatula, X-Goog-Travel-Bgr, X-Goog-Travel-Settings, X-Goog-Upload-Command, X-Goog-Upload-Content-Disposition, X-Goog-Upload-Content-Length, X-Goog-Upload-Content-Type, X-Goog-Upload-File-Name, X-Goog-Upload-Header-Content-Encoding, X-Goog-Upload-Header-Content-Length, X-Goog-Upload-Header-Content-Type, X-Goog-Upload-Header-Transfer-Encoding, X-Goog-Upload-Offset, X-Goog-Upload-Protocol, x-goog-user-project, X-Goog-Visitor-Id, X-Goog-FieldMask, X-Google-Project-Override, x-goog-maps-api-salt, x-goog-maps-api-signature, x-goog-maps-client-id, X-Goog-Api-Key, x-goog-spanner-database-role, X-HTTP-Method-Override, X-JavaScript-User-Agent, X-Pan-Versionid, X-Proxied-User-IP, X-Origin, X-Referer, X-Requested-With, X-Stadia-Client-Context, X-Upload-Content-Length, X-Upload-Content-Type, X-Use-Alt-Service, X-Use-HTTP-Status-Code-Override, X-Ios-Bundle-Identifier, X-Places-Ios-Sdk, X-Android-Package, X-Android-Cert, X-Places-Android-Sdk, X-Goog-Maps-Ios-Uuid, X-Goog-Maps-Android-Uuid, X-Ariane-Xsrf-Token, X-A2A-Extensions, A2A-Extensions, A2A-Version, X-YouTube-Bootstrap-Logged-In, X-Youtube-Client-Name, X-Youtube-Client-Version, X-Youtube-Finch-Config-Data, X-Youtube-Finch-Hash-Data, X-YouTube-Lava-Device-Context, X-YouTube-VVT, X-YouTube-Page-CL, X-YouTube-Page-Label, X-YouTube-Page-Timestamp, X-Compass-Routing-Destination, x-framework-xsrf-token, X-Goog-Meeting-ABR, X-Goog-Meeting-Botguardid, X-Goog-Meeting-Bot-Info, X-Goog-Meeting-ClientInfo, X-Goog-Meeting-ClientVersion, X-Goog-Meeting-Debugid, X-Goog-Meeting-Identifier, X-Goog-Meeting-Interop-Cohorts, X-Goog-Meeting-Interop-Type, X-Goog-Meeting-OidcIdToken, X-Goog-Meeting-RtcClient, X-Goog-Meeting-StartSource, X-Goog-Meeting-Token, X-Goog-Meeting-Viewer-Token, X-Goog-Healthcare-Audit-First-Party-Application-Access, Prefer, X-Client-Data, x-sdm-id-token, X-Sfdc-Authorization, MIME-Version, Content-Transfer-Encoding, X-Earth-Engine-App-ID-Token, X-Earth-Engine-Computation-Profile, X-Earth-Engine-Computation-Profiling, X-Play-Console-Experiments-Override, X-Play-Console-Session-Id, x-tab-id, x-alkali-account-key, x-alkali-application-key, x-alkali-auth-apps-namespace, x-alkali-auth-entities-namespace, x-alkali-auth-entity, x-alkali-client-locale, EES-S7E-MODE, cast-device-capabilities, X-Server-Timeout, x-foyer-client-environment, x-goog-greenenergyuserappservice-metadata, x-goog-sherlog-context, X-Server-Token, X-WebChannel-Content-Type, x-rfui-request-context, X-Workflow-Client, X-Tenant-Scope, x-goog-nest-jwt, X-Cloud-Trace-Context, traceparent, x-goog-chat-space-id, x-goog-pan-request-context, X-AppInt-Credentials, X-Iceberg-Access-Delegation, x-goog-firestore-api-requester, x-Goog-Ws-AgentId, x-impersonate-sid, X-Goog-Gemini-Enterprise-SidePanel",
+            "Access-Control-Allow-Methods": "GET,HEAD,OPTIONS",
+            "Accept-Ranges": "bytes",
+            "Content-Length": "239923",
+            "Last-Modified": "Fri, 24 Apr 2026 12:35:20 GMT",
+            "Date": "Thu, 05 Nov 2026 12:20:50 GMT",
+            "Expires": "Thu, 05 Nov 2026 12:20:50 GMT",
+            "Cache-Control": "private, max-age=0",
+            "X-Goog-Hash": "crc32c=sHFQSg==",
+            "Server": "UploadServer",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+          },
+          "file": "1c9c257c3e1da9123472d95f51b5c69175980ef705889115780830cd25cc4c2a.bin"
+        },
+        "pdf_metadata": {
+          "/Author": "c_parrondo",
+          "/CreationDate": "D:20260424143421+02'00'",
+          "/ModDate": "D:20260424143421+02'00'",
+          "/Producer": "Microsoft® Excel® para Microsoft 365",
+          "/Creator": "Microsoft® Excel® para Microsoft 365"
+        },
+        "date_claims": {
+          "pdf_created_at": "2026-04-24T12:34:21+00:00",
+          "pdf_modified_at": "2026-04-24T12:34:21+00:00",
+          "http_last_modified_at": "2026-04-24T12:35:20+00:00"
+        },
+        "text": "                    PARTICIPANTES DEFINITIVOS PARA LAS CARRERAS DEL  MIERCOLES, 29 DE ABRIL DE 2026               HIPODROMO DE SAN SEBASTIAN\n                                                                                  1º CARRERA PREMIO ARIMA GASTROTABERNA\n                                                                8.750 Euros a repartir               Distancia: 1.600 metros.              Hora: 11:05 h.\nNº                   CABALLO                         ACCES.      EDAD      KG                     JINETE                                    CUADRA                            PREPARADOR              CAJÓN       Ult.Actuac.\n\n1   WOOD LAND (FR)                                     (5)          3       58    R.N.VALLE                               ISLA DE FUERTEVENTURA                          M.A.GOICOECHEA                  6        12,2,4,11,7\n2   NEVER EVER (IRE)                                   (3)          3       57    B.FAYOS                                 SOÑADOR                                        B.RAMA                          3        5,12,5,4,12\n3   ARAVACA (IRE)                                      (8)          3      55,5   R.SOUSA                                 TIAGO MARTINS                                  T.MARTINS                       4          6,10,9,9\n4   BORN TO BRIGHT (GB)                                             3      55,5   R.DUBORD                                NOSSA SRA DO VALE                              H.PEREIRA                       1         3,8,5,2,4\n5   LAGUNA                                                          3      55,5   V.JANACEK                               YEGUADA ROCIO                                  G.ARIZKORRETA                   2              7\n6   UNFOLLOW (FR)                                                   3      55,5   C.PEREZ (54,5)                          CALEJAÑA                                       D.LOPEZ F.                      5              2\n                                                          2º CARRERA PREMIO RESTAURANTE HERRIKO ETXEA (HÁNDICAP DE VALOR ( +27 ))\n                                                               8.750 Euros a repartir                 Distancia: 1.200 metros                 Hora: 11:35 h.\nNº                   CABALLO                         ACCES.      EDAD      KG                     JINETE                                    CUADRA                            PREPARADOR              CAJÓN       Ult.Actuac.\n1   SHUTTERWOOD (FR)                                 (4) (8)        4      65,5   V.ALONSO V. (64,5)                      LOS MELENEROS                                  M.PEREZ                         6         5,6,4,1,1\n2   ANNIE´S SONG (FR)                                (4) (8)        4       64    R.SOUSA                                 ZUL                                            C.BUESA                         5        10,9,6,7,1\n3   ROMEO (FR)                                       (5) (8)        6      60,5   J.GELABERT                              REBUS                                          A.TSERETELI                     3         3,3,1,6,2\n4   HAUSSMANNIEN (FR)                                  (8)          4       56    I.MELGAREJO                             ZEZINHO                                        J.C.CERQUEIRA                   4          5,9,8,9\n5   DANCE AHEAD (IRE)                                (3) (8)        6       55    N.M.LOPES                               NOSSA SRA DO VALE                              H.PEREIRA                       1        4,4,14,10,7\n6   KATALINA                                         (3) (8)        6      53,5   D.SIKOROVA (52,5)                       ENDIKA ARCENTALES                              E.PUENTE                        2         2,5,1,6,2\n7   VILLAIRES                                        (5) (8)        6       52    C.PEREZ                                 PRODESOL                                       E.PUENTE                        7      12,12,14,14,9\n                                                                                    3º CARRERA PREMIO CAFÉ BAR BUENETXEA\n                                                               7.875 Euros a repartir              Distancia: 2.200 metros                   Hora: 12:07 h.\nNº                   CABALLO                         ACCES.      EDAD      KG                     JINETE                                    CUADRA                            PREPARADOR              CAJÓN       Ult.Actuac.\n\n1   SAN SEBASTIAN (FR)                                 (4)          5       61    V.JANACEK                               LOKOTRANS                                      G.ARIZKORRETA                   2         3,7,4,6,5\n2   MISS ELORZ (FR) (a)                                (4)          4      59,5   J.GELABERT                              LEONESA                                        T.MARTINS                       1        14,5,2,4,4\n3   SANLAK (IRE)                                                    4      59,5   I.MELGAREJO                             SAN JOSE                                       A.SOTO                          7           3,2,9\n4   JAVA RAJA (IRE)                                  (5) (8)        5       58    N.DE JULIAN                             ENRIQUE FERNANDEZ DE VEGA                      M.DELGADO                       6        12,9,7,7,5\n5   SON OF REALITY                                     (8)          4       58    N.M.LOPES                               A GRANXA                                       H.PEREIRA                       5        10,9,14,4,5\n6   BLUESPUR (FR)                                      (8)          4      56,5   D.RODRIGUEZ (52)                        TROYA                                          M.DELGADO                       3        13,9,7,6,11\n7   KHANDELA                                                        4      56,5   J.ZAMBUDIO (55,5)                       BOLAK                                          C.BUESA                         4           6,2,3\n                                                                          4º CARRERA PREMIO MONKEY PARK (HANDICAP 1 ª Parte)\n                                                              9.625 Euros a repartir               Distancia: 2.000 metros                     Hora: 12:39 h.\nNº                   CABALLO                         ACCES.      EDAD      KG                     JINETE                                    CUADRA                            PREPARADOR              CAJON       Ult.Actuac.\n\n1   SANBER (FR)                                        (8)          6       63    A.GUTIERREZ V.                          COSTA LA VALL                                  R.COSTA                         4        6,3,12,1,1\n2   ARCHIE´S DREAM (GB)                                             4       63    B.FAYOS                                 CANARIAS                                       B.RAMA                          2        9,2,1,1,14\n3   GAUCIN (FR)                                                     4       62    J.GELABERT                              MEDITERRANEO                                   A.SOTO                          7        3,11,4,4,6\n4   LOSE YOUR WAD (IRE)                                             6      61,5   V.ALONSO V. (60,5)                      ALVARO MATEOS                                  CH.DELCHER                     10        1,9,10,7,4\n5   ALWIN BRAM (GER)                                                5       60    V.M.VALENZUELA                          NANINA                                         J.CALDERON                      8         4,1,1,3,2\n6   ISTANBUL                                           (8)          4       58    V.JANACEK                               VALDEOSERA                                     A.TSERETELI                     9        4,2,1,7,11\n7   PINARELLU (FR)                                     (8)          4      56,5   D.SIKOROVA (55,5)                       BRAVO TANGO ZULU                               C.BUESA                         6        2,10,6,1,8\n8   NORDESTE (FR)                                    (5) (8)        9       55    R.DUBORD                                ALVELA                                         I.ELARRE                        5        3,11,10,2,6\n9   RAIKU (FR)                                       (5) (8)        8       55    M.LAURON                                LOS MELENEROS                                  M.PEREZ                         3        5,6,12,4,5\n10  GAST A GAST (FR)                                 (3) (8)        4       54    M.FOULON                                LOS PIRATAS                                    M.PEREZ                         1        6,11,3,3,8\n11  PARTY ZONE                                       (5) (8)        4      53,5   C.PEREZ (52,5)                          ARIMA                                          I.ELARRE                       12        10,1,8,1,4\n12  PLACID´OO (IRE)                                  (3) (8)        4      52,5   N.DE JULIAN (53,5)                      MP RACING                                      M.PULIDO                       11        10,6,8,1,4\n                                                             5º CARRERA PREMIO ADMINISTRACION DE FINCAS MILLA (HANDICAP 2 ª Parte)\n                                                              7.875 Euros a repartir               Distancia: 2.000 metros                     Hora: 13:11 h.\n\nNº                   CABALLO                         ACCES.      EDAD      KG                     JINETE                                    CUADRA                            PREPARADOR              CAJÓN       Ult.Actuac.\n\n1   SAVE YOUR BREATH (GB)                                           7       63    D.SIKOROVA (62)                         MANUELA                                        J.CALDERON                      2        5,3,4,1,12\n2   SMOOTH TRANSITION (IRE)                            (5)          5       62    B.FAYOS                                 SOÑADOR                                        B.RAMA                          4        10,9,5,4,3\n3   NURTURE (FR)                                     (5) (8)        5      61,5   R.DUBORD                                VILLAR DE LA YEGUA                             M.PEREZ                         1        10,7,9,8,4\n4   ONE MORE NIGHT (FR)                                (3)          7       61    A.GUTIERREZ V.                          COSTA LA VALL                                  R.COSTA                         5        4,13,9,3,8\n5   MUGUETAJARRA                                                    9       61    N.M.LOPES                               PIGUINHA                                       H.PEREIRA                       3        7,9,6,6,10\n6   SOFUNNY (IRE)                                                   7       61    E.A.RODRIGUEZ (59)                      MAFIUS                                         J.C.ROSELL                     12         7,6,7,9,4\n7   MAIMOUNA (FR)                                      (5)          6      60,5   V.ALONSO V. (59,5)                      LOS MELENEROS                                  M.PEREZ                         7        7,4,11,9,2\n8   YIRA (FR)                                      (4) (5) (8)      5       60    J.GOMEZ (59)                            CIUDAD DE TELDE                                J.JIMENEZ                       8      1,3,3,4,Qued\n9   TONY MONTANA                                     (5) (8)        5       58    M.FOULON                                YDA.NAIA RACING                                A.IMAZ B.                      13       1,3,3,Desc,4\n10  SHANGAR (IRE)                                      (8)          4      57,5   R.SOUSA                                 NATURE HORSE                                   P.ALVES                         6        7,10,2,4,4\n11  LEHEN                                            (3) (8)        5      57,5   J.ZAMBUDIO (56,5)                       LUISFER                                        E.PUENTE                       10           5,6,7\n12  DIMANCHE SOIR (FR)                                              4      56,5   M.LAURON                                LA BARDENA                                     A.SANCHEZ M.                    9       6,11,12,14,6\n13  PORT GALLAND (FR)                                (5) (8)        5      55,5   V.JANACEK                               LAGUNILLA                                      A.SANCHEZ M.                   11       5,10,16,9,14\n14  WALKCZAK (FR)                                      (8)          7      54,5   D.RODRIGUEZ (50,5)                      MANGUETA                                       M.DELGADO                      14       3,3,Ret,5,11\n\n                                                       Todas las carreras de este programa tienen participacíón mixta de jockeys\n\n    INCIDENCIAS:\n    Se modifica el orden de las carreras a petición de la Sociedad Organizadora\n    Se modifica el peso de la jockey C.Pérez en la 2º carrera con el participante nº 7 VILLAIRES que debe llevar 52 kg al ser su peso mínimo declarado en el JCE\n    La entrenadora M. Pérez comunica que el participante nº 9 RAIKU (FR) llevará lengua atada (8) en la 4º carrera\n    El entrenador M.Pulido comunica que el jockey N.De Julian (53,5 kg) montará al participante nº 12 PLACID'OO (IRE) en la 4º carrera\n\n                                                                                                    (3)                   CORRERA CON CARRILLERAS\n                                                                                                    (4)                   CORRERA CON TAPONES O GORRO ANTI RUIDO\n                                                                                                    (5)                   CORRERA CON ANTEOJERAS\n                                                                                                    (6)                   CORRERA CON VISOR\n                                                                                                    (8)                   LENGUA ATADA\n\n                                                                                  El Comisario de participantes\n\n\n\n\n\n\n\n                                                                                  D. Enrique Romera Lozano",
+        "pages": 1
+      },
+      "races": [
+        {
+          "ordinal": 1,
+          "title": "PREMIO ARIMA GASTROTABERNA",
+          "distance_m": 1600,
+          "runners": [
+            {
+              "cloth": 1,
+              "horse_name": "WOOD LAND (FR)",
+              "age": 3,
+              "weight_kg": 58.0,
+              "jockey_name": "R.N.VALLE",
+              "stable_name": "ISLA DE FUERTEVENTURA",
+              "trainer_name": "M.A.GOICOECHEA",
+              "draw": 6,
+              "prior_form_raw": "12,2,4,11,7"
+            },
+            {
+              "cloth": 2,
+              "horse_name": "NEVER EVER (IRE)",
+              "age": 3,
+              "weight_kg": 57.0,
+              "jockey_name": "B.FAYOS",
+              "stable_name": "SOÑADOR",
+              "trainer_name": "B.RAMA",
+              "draw": 3,
+              "prior_form_raw": "5,12,5,4,12"
+            },
+            {
+              "cloth": 3,
+              "horse_name": "ARAVACA (IRE)",
+              "age": 3,
+              "weight_kg": 55.5,
+              "jockey_name": "R.SOUSA",
+              "stable_name": "TIAGO MARTINS",
+              "trainer_name": "T.MARTINS",
+              "draw": 4,
+              "prior_form_raw": "6,10,9,9"
+            },
+            {
+              "cloth": 4,
+              "horse_name": "BORN TO BRIGHT (GB)",
+              "age": 3,
+              "weight_kg": 55.5,
+              "jockey_name": "R.DUBORD",
+              "stable_name": "NOSSA SRA DO VALE",
+              "trainer_name": "H.PEREIRA",
+              "draw": 1,
+              "prior_form_raw": "3,8,5,2,4"
+            },
+            {
+              "cloth": 5,
+              "horse_name": "LAGUNA",
+              "age": 3,
+              "weight_kg": 55.5,
+              "jockey_name": "V.JANACEK",
+              "stable_name": "YEGUADA ROCIO",
+              "trainer_name": "G.ARIZKORRETA",
+              "draw": 2,
+              "prior_form_raw": "7"
+            },
+            {
+              "cloth": 6,
+              "horse_name": "UNFOLLOW (FR)",
+              "age": 3,
+              "weight_kg": 55.5,
+              "jockey_name": "C.PEREZ (54,5)",
+              "stable_name": "CALEJAÑA",
+              "trainer_name": "D.LOPEZ F.",
+              "draw": 5,
+              "prior_form_raw": "2"
+            }
+          ],
+          "issues": [],
+          "scheduled_time_local": "11:05"
+        },
+        {
+          "ordinal": 2,
+          "title": "PREMIO RESTAURANTE HERRIKO ETXEA (HÁNDICAP DE VALOR ( +27 ))",
+          "distance_m": 1200,
+          "runners": [
+            {
+              "cloth": 1,
+              "horse_name": "SHUTTERWOOD (FR)",
+              "age": 4,
+              "weight_kg": 65.5,
+              "jockey_name": "V.ALONSO V. (64,5)",
+              "stable_name": "LOS MELENEROS",
+              "trainer_name": "M.PEREZ",
+              "draw": 6,
+              "prior_form_raw": "5,6,4,1,1"
+            },
+            {
+              "cloth": 2,
+              "horse_name": "ANNIE´S SONG (FR)",
+              "age": 4,
+              "weight_kg": 64.0,
+              "jockey_name": "R.SOUSA",
+              "stable_name": "ZUL",
+              "trainer_name": "C.BUESA",
+              "draw": 5,
+              "prior_form_raw": "10,9,6,7,1"
+            },
+            {
+              "cloth": 3,
+              "horse_name": "ROMEO (FR)",
+              "age": 6,
+              "weight_kg": 60.5,
+              "jockey_name": "J.GELABERT",
+              "stable_name": "REBUS",
+              "trainer_name": "A.TSERETELI",
+              "draw": 3,
+              "prior_form_raw": "3,3,1,6,2"
+            },
+            {
+              "cloth": 4,
+              "horse_name": "HAUSSMANNIEN (FR)",
+              "age": 4,
+              "weight_kg": 56.0,
+              "jockey_name": "I.MELGAREJO",
+              "stable_name": "ZEZINHO",
+              "trainer_name": "J.C.CERQUEIRA",
+              "draw": 4,
+              "prior_form_raw": "5,9,8,9"
+            },
+            {
+              "cloth": 5,
+              "horse_name": "DANCE AHEAD (IRE)",
+              "age": 6,
+              "weight_kg": 55.0,
+              "jockey_name": "N.M.LOPES",
+              "stable_name": "NOSSA SRA DO VALE",
+              "trainer_name": "H.PEREIRA",
+              "draw": 1,
+              "prior_form_raw": "4,4,14,10,7"
+            },
+            {
+              "cloth": 6,
+              "horse_name": "KATALINA",
+              "age": 6,
+              "weight_kg": 53.5,
+              "jockey_name": "D.SIKOROVA (52,5)",
+              "stable_name": "ENDIKA ARCENTALES",
+              "trainer_name": "E.PUENTE",
+              "draw": 2,
+              "prior_form_raw": "2,5,1,6,2"
+            },
+            {
+              "cloth": 7,
+              "horse_name": "VILLAIRES",
+              "age": 6,
+              "weight_kg": 52.0,
+              "jockey_name": "C.PEREZ",
+              "stable_name": "PRODESOL",
+              "trainer_name": "E.PUENTE",
+              "draw": 7,
+              "prior_form_raw": "12,12,14,14,9"
+            }
+          ],
+          "issues": [],
+          "scheduled_time_local": "11:35"
+        },
+        {
+          "ordinal": 3,
+          "title": "PREMIO CAFÉ BAR BUENETXEA",
+          "distance_m": 2200,
+          "runners": [
+            {
+              "cloth": 1,
+              "horse_name": "SAN SEBASTIAN (FR)",
+              "age": 5,
+              "weight_kg": 61.0,
+              "jockey_name": "V.JANACEK",
+              "stable_name": "LOKOTRANS",
+              "trainer_name": "G.ARIZKORRETA",
+              "draw": 2,
+              "prior_form_raw": "3,7,4,6,5"
+            },
+            {
+              "cloth": 2,
+              "horse_name": "MISS ELORZ (FR)",
+              "age": 4,
+              "weight_kg": 59.5,
+              "jockey_name": "J.GELABERT",
+              "stable_name": "LEONESA",
+              "trainer_name": "T.MARTINS",
+              "draw": 1,
+              "prior_form_raw": "14,5,2,4,4"
+            },
+            {
+              "cloth": 3,
+              "horse_name": "SANLAK (IRE)",
+              "age": 4,
+              "weight_kg": 59.5,
+              "jockey_name": "I.MELGAREJO",
+              "stable_name": "SAN JOSE",
+              "trainer_name": "A.SOTO",
+              "draw": 7,
+              "prior_form_raw": "3,2,9"
+            },
+            {
+              "cloth": 4,
+              "horse_name": "JAVA RAJA (IRE)",
+              "age": 5,
+              "weight_kg": 58.0,
+              "jockey_name": "N.DE JULIAN",
+              "stable_name": "ENRIQUE FERNANDEZ DE VEGA",
+              "trainer_name": "M.DELGADO",
+              "draw": 6,
+              "prior_form_raw": "12,9,7,7,5"
+            },
+            {
+              "cloth": 5,
+              "horse_name": "SON OF REALITY",
+              "age": 4,
+              "weight_kg": 58.0,
+              "jockey_name": "N.M.LOPES",
+              "stable_name": "A GRANXA",
+              "trainer_name": "H.PEREIRA",
+              "draw": 5,
+              "prior_form_raw": "10,9,14,4,5"
+            },
+            {
+              "cloth": 6,
+              "horse_name": "BLUESPUR (FR)",
+              "age": 4,
+              "weight_kg": 56.5,
+              "jockey_name": "D.RODRIGUEZ (52)",
+              "stable_name": "TROYA",
+              "trainer_name": "M.DELGADO",
+              "draw": 3,
+              "prior_form_raw": "13,9,7,6,11"
+            },
+            {
+              "cloth": 7,
+              "horse_name": "KHANDELA",
+              "age": 4,
+              "weight_kg": 56.5,
+              "jockey_name": "J.ZAMBUDIO (55,5)",
+              "stable_name": "BOLAK",
+              "trainer_name": "C.BUESA",
+              "draw": 4,
+              "prior_form_raw": "6,2,3"
+            }
+          ],
+          "issues": [],
+          "scheduled_time_local": "12:07"
+        },
+        {
+          "ordinal": 4,
+          "title": "PREMIO MONKEY PARK (HANDICAP 1 ª Parte)",
+          "distance_m": 2000,
+          "runners": [
+            {
+              "cloth": 1,
+              "horse_name": "SANBER (FR)",
+              "age": 6,
+              "weight_kg": 63.0,
+              "jockey_name": "A.GUTIERREZ V.",
+              "stable_name": "COSTA LA VALL",
+              "trainer_name": "R.COSTA",
+              "draw": 4,
+              "prior_form_raw": "6,3,12,1,1"
+            },
+            {
+              "cloth": 2,
+              "horse_name": "ARCHIE´S DREAM (GB)",
+              "age": 4,
+              "weight_kg": 63.0,
+              "jockey_name": "B.FAYOS",
+              "stable_name": "CANARIAS",
+              "trainer_name": "B.RAMA",
+              "draw": 2,
+              "prior_form_raw": "9,2,1,1,14"
+            },
+            {
+              "cloth": 3,
+              "horse_name": "GAUCIN (FR)",
+              "age": 4,
+              "weight_kg": 62.0,
+              "jockey_name": "J.GELABERT",
+              "stable_name": "MEDITERRANEO",
+              "trainer_name": "A.SOTO",
+              "draw": 7,
+              "prior_form_raw": "3,11,4,4,6"
+            },
+            {
+              "cloth": 4,
+              "horse_name": "LOSE YOUR WAD (IRE)",
+              "age": 6,
+              "weight_kg": 61.5,
+              "jockey_name": "V.ALONSO V. (60,5)",
+              "stable_name": "ALVARO MATEOS",
+              "trainer_name": "CH.DELCHER",
+              "draw": 10,
+              "prior_form_raw": "1,9,10,7,4"
+            },
+            {
+              "cloth": 5,
+              "horse_name": "ALWIN BRAM (GER)",
+              "age": 5,
+              "weight_kg": 60.0,
+              "jockey_name": "V.M.VALENZUELA",
+              "stable_name": "NANINA",
+              "trainer_name": "J.CALDERON",
+              "draw": 8,
+              "prior_form_raw": "4,1,1,3,2"
+            },
+            {
+              "cloth": 6,
+              "horse_name": "ISTANBUL",
+              "age": 4,
+              "weight_kg": 58.0,
+              "jockey_name": "V.JANACEK",
+              "stable_name": "VALDEOSERA",
+              "trainer_name": "A.TSERETELI",
+              "draw": 9,
+              "prior_form_raw": "4,2,1,7,11"
+            },
+            {
+              "cloth": 7,
+              "horse_name": "PINARELLU (FR)",
+              "age": 4,
+              "weight_kg": 56.5,
+              "jockey_name": "D.SIKOROVA (55,5)",
+              "stable_name": "BRAVO TANGO ZULU",
+              "trainer_name": "C.BUESA",
+              "draw": 6,
+              "prior_form_raw": "2,10,6,1,8"
+            },
+            {
+              "cloth": 8,
+              "horse_name": "NORDESTE (FR)",
+              "age": 9,
+              "weight_kg": 55.0,
+              "jockey_name": "R.DUBORD",
+              "stable_name": "ALVELA",
+              "trainer_name": "I.ELARRE",
+              "draw": 5,
+              "prior_form_raw": "3,11,10,2,6"
+            },
+            {
+              "cloth": 9,
+              "horse_name": "RAIKU (FR)",
+              "age": 8,
+              "weight_kg": 55.0,
+              "jockey_name": "M.LAURON",
+              "stable_name": "LOS MELENEROS",
+              "trainer_name": "M.PEREZ",
+              "draw": 3,
+              "prior_form_raw": "5,6,12,4,5"
+            },
+            {
+              "cloth": 10,
+              "horse_name": "GAST A GAST (FR)",
+              "age": 4,
+              "weight_kg": 54.0,
+              "jockey_name": "M.FOULON",
+              "stable_name": "LOS PIRATAS",
+              "trainer_name": "M.PEREZ",
+              "draw": 1,
+              "prior_form_raw": "6,11,3,3,8"
+            },
+            {
+              "cloth": 11,
+              "horse_name": "PARTY ZONE",
+              "age": 4,
+              "weight_kg": 53.5,
+              "jockey_name": "C.PEREZ (52,5)",
+              "stable_name": "ARIMA",
+              "trainer_name": "I.ELARRE",
+              "draw": 12,
+              "prior_form_raw": "10,1,8,1,4"
+            },
+            {
+              "cloth": 12,
+              "horse_name": "PLACID´OO (IRE)",
+              "age": 4,
+              "weight_kg": 52.5,
+              "jockey_name": "N.DE JULIAN (53,5)",
+              "stable_name": "MP RACING",
+              "trainer_name": "M.PULIDO",
+              "draw": 11,
+              "prior_form_raw": "10,6,8,1,4"
+            }
+          ],
+          "issues": [],
+          "scheduled_time_local": "12:39"
+        },
+        {
+          "ordinal": 5,
+          "title": "PREMIO ADMINISTRACION DE FINCAS MILLA (HANDICAP 2 ª Parte)",
+          "distance_m": 2000,
+          "runners": [
+            {
+              "cloth": 1,
+              "horse_name": "SAVE YOUR BREATH (GB)",
+              "age": 7,
+              "weight_kg": 63.0,
+              "jockey_name": "D.SIKOROVA (62)",
+              "stable_name": "MANUELA",
+              "trainer_name": "J.CALDERON",
+              "draw": 2,
+              "prior_form_raw": "5,3,4,1,12"
+            },
+            {
+              "cloth": 2,
+              "horse_name": "SMOOTH TRANSITION (IRE)",
+              "age": 5,
+              "weight_kg": 62.0,
+              "jockey_name": "B.FAYOS",
+              "stable_name": "SOÑADOR",
+              "trainer_name": "B.RAMA",
+              "draw": 4,
+              "prior_form_raw": "10,9,5,4,3"
+            },
+            {
+              "cloth": 3,
+              "horse_name": "NURTURE (FR)",
+              "age": 5,
+              "weight_kg": 61.5,
+              "jockey_name": "R.DUBORD",
+              "stable_name": "VILLAR DE LA YEGUA",
+              "trainer_name": "M.PEREZ",
+              "draw": 1,
+              "prior_form_raw": "10,7,9,8,4"
+            },
+            {
+              "cloth": 4,
+              "horse_name": "ONE MORE NIGHT (FR)",
+              "age": 7,
+              "weight_kg": 61.0,
+              "jockey_name": "A.GUTIERREZ V.",
+              "stable_name": "COSTA LA VALL",
+              "trainer_name": "R.COSTA",
+              "draw": 5,
+              "prior_form_raw": "4,13,9,3,8"
+            },
+            {
+              "cloth": 5,
+              "horse_name": "MUGUETAJARRA",
+              "age": 9,
+              "weight_kg": 61.0,
+              "jockey_name": "N.M.LOPES",
+              "stable_name": "PIGUINHA",
+              "trainer_name": "H.PEREIRA",
+              "draw": 3,
+              "prior_form_raw": "7,9,6,6,10"
+            },
+            {
+              "cloth": 6,
+              "horse_name": "SOFUNNY (IRE)",
+              "age": 7,
+              "weight_kg": 61.0,
+              "jockey_name": "E.A.RODRIGUEZ (59)",
+              "stable_name": "MAFIUS",
+              "trainer_name": "J.C.ROSELL",
+              "draw": 12,
+              "prior_form_raw": "7,6,7,9,4"
+            },
+            {
+              "cloth": 7,
+              "horse_name": "MAIMOUNA (FR)",
+              "age": 6,
+              "weight_kg": 60.5,
+              "jockey_name": "V.ALONSO V. (59,5)",
+              "stable_name": "LOS MELENEROS",
+              "trainer_name": "M.PEREZ",
+              "draw": 7,
+              "prior_form_raw": "7,4,11,9,2"
+            },
+            {
+              "cloth": 8,
+              "horse_name": "YIRA (FR)",
+              "age": 5,
+              "weight_kg": 60.0,
+              "jockey_name": "J.GOMEZ (59)",
+              "stable_name": "CIUDAD DE TELDE",
+              "trainer_name": "J.JIMENEZ",
+              "draw": 8,
+              "prior_form_raw": "1,3,3,4,Qued"
+            },
+            {
+              "cloth": 9,
+              "horse_name": "TONY MONTANA",
+              "age": 5,
+              "weight_kg": 58.0,
+              "jockey_name": "M.FOULON",
+              "stable_name": "YDA.NAIA RACING",
+              "trainer_name": "A.IMAZ B.",
+              "draw": 13,
+              "prior_form_raw": "1,3,3,Desc,4"
+            },
+            {
+              "cloth": 10,
+              "horse_name": "SHANGAR (IRE)",
+              "age": 4,
+              "weight_kg": 57.5,
+              "jockey_name": "R.SOUSA",
+              "stable_name": "NATURE HORSE",
+              "trainer_name": "P.ALVES",
+              "draw": 6,
+              "prior_form_raw": "7,10,2,4,4"
+            },
+            {
+              "cloth": 11,
+              "horse_name": "LEHEN",
+              "age": 5,
+              "weight_kg": 57.5,
+              "jockey_name": "J.ZAMBUDIO (56,5)",
+              "stable_name": "LUISFER",
+              "trainer_name": "E.PUENTE",
+              "draw": 10,
+              "prior_form_raw": "5,6,7"
+            },
+            {
+              "cloth": 12,
+              "horse_name": "DIMANCHE SOIR (FR)",
+              "age": 4,
+              "weight_kg": 56.5,
+              "jockey_name": "M.LAURON",
+              "stable_name": "LA BARDENA",
+              "trainer_name": "A.SANCHEZ M.",
+              "draw": 9,
+              "prior_form_raw": "6,11,12,14,6"
+            },
+            {
+              "cloth": 13,
+              "horse_name": "PORT GALLAND (FR)",
+              "age": 5,
+              "weight_kg": 55.5,
+              "jockey_name": "V.JANACEK",
+              "stable_name": "LAGUNILLA",
+              "trainer_name": "A.SANCHEZ M.",
+              "draw": 11,
+              "prior_form_raw": "5,10,16,9,14"
+            },
+            {
+              "cloth": 14,
+              "horse_name": "WALKCZAK (FR)",
+              "age": 7,
+              "weight_kg": 54.5,
+              "jockey_name": "D.RODRIGUEZ (50,5)",
+              "stable_name": "MANGUETA",
+              "trainer_name": "M.DELGADO",
+              "draw": 14,
+              "prior_form_raw": "3,3,Ret,5,11"
+            }
+          ],
+          "issues": [],
+          "scheduled_time_local": "13:11"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-11",
+      "venue": "San Sebastián",
+      "kind": "declaration",
+      "publisher_page": "https://jockey-club.es/jornada/1a-jornada-verano26-ss/",
+      "discovery_method": "browser-rendered official JCE document link",
+      "original_url": "https://drive.google.com/file/d/11bxN93cohg6dah17b5icxKt5ogXadJTK/view?usp=sharing",
+      "document": {
+        "receipt": {
+          "url": "https://drive.google.com/uc?export=download&id=11bxN93cohg6dah17b5icxKt5ogXadJTK",
+          "final_url": "https://drive.usercontent.google.com/download?id=11bxN93cohg6dah17b5icxKt5ogXadJTK&export=download",
+          "status": 200,
+          "observed_at": "2026-11-05T12:20:53+00:00",
+          "sha256": "769f5ee63fa0a413a3b53bf0c5ab0f10337e28b5b64147e60d046fd3860b9b07",
+          "headers": {
+            "Content-Type": "application/octet-stream",
+            "X-GUploader-UploadID": "AFy3sg2c67oapdQTCZ62yMDayMH1nVSeNa-fgyGJCLD9PCP_CEHcIrSbwMyYwtGvOLdfYHvD",
+            "Content-Security-Policy": "sandbox, default-src 'none', frame-ancestors 'none'",
+            "X-Content-Security-Policy": "sandbox",
+            "Cross-Origin-Opener-Policy": "same-origin",
+            "Cross-Origin-Embedder-Policy": "require-corp",
+            "Cross-Origin-Resource-Policy": "same-site",
+            "X-Content-Type-Options": "nosniff",
+            "Content-Disposition": "attachment; filename=\"PARTICIPANTES DEFINITIVOS SS 11-06-2026.pdf\"",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Credentials": "false",
+            "Access-Control-Allow-Headers": "Accept, Accept-Language, Authorization, Cache-Control, Content-Disposition, Content-Encoding, Content-Language, Content-Length, Content-MD5, Content-Range, Content-Type, Date, developer-token, DPoP, financial-institution-id, X-Goog-Sn-Metadata, X-Goog-Sn-PatientId, GData-Version, google-cloud-resource-prefix, linked-customer-id, login-customer-id, login-account, linked-account, x-goog-request-params, Host, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Origin, OriginToken, Pragma, Range, request-id, Signature, Signature-Agent, Signature-Input, Slug, Transfer-Encoding, User-Agent, hotrod-board-name, hotrod-chrome-cpu-model, hotrod-chrome-processors, Want-Digest, X-Ad-Manager-Impersonation, x-chrome-connected, X-ClientDetails, X-Client-Pctx, X-Client-Version, x-debug-settings-metadata, X-Firebase-AppId, X-Firebase-AppVersion, X-Firebase-Locale, X-Goog-Firebase-Installations-Auth, X-Firebase-Client, X-Firebase-Client-Log-Type, X-Firebase-GMPID, X-Firebase-Auth-Token, X-Firebase-AppCheck, X-Firebase-RC-Fetch-Type, X-Firebase-Token, X-Goog-Drive-Client-Version, X-Goog-Drive-Resource-Keys, X-GData-Client, X-GData-Key, X-GoogApps-Allowed-Domains, X-Goog-AdX-Buyer-Impersonation, X-Goog-Api-Client, X-Goog-Visibilities, X-Goog-AuthUser, X-Google-EOM, x-goog-ext-124712974-jspb, x-goog-ext-467253834-jspb, x-goog-ext-353267353-bin, x-goog-ext-353267353-jspb, x-goog-ext-251363160-jspb, X-Restricted-Content-Limit, x-goog-ext-259736195-jspb, x-goog-ext-477772811-jspb, x-goog-ext-359275022-bin, x-goog-ext-328800237-jspb, x-goog-ext-198889211-bin, x-goog-ext-202735639-bin, x-goog-ext-223261916-bin, x-goog-ext-223435598-bin, x-goog-ext-233818517-bin, x-goog-ext-202964622-bin, X-Goog-PageId, X-Goog-Encode-Response-If-Executable, X-Goog-Correlation-Id, X-Goog-Request-Info, X-Goog-Request-Reason, X-Goog-Request-Time, X-Goog-Experiments, x-goog-iam-authority-selector, x-goog-iam-authorization-token, X-Goog-Spatula, X-Goog-Travel-Bgr, X-Goog-Travel-Settings, X-Goog-Upload-Command, X-Goog-Upload-Content-Disposition, X-Goog-Upload-Content-Length, X-Goog-Upload-Content-Type, X-Goog-Upload-File-Name, X-Goog-Upload-Header-Content-Encoding, X-Goog-Upload-Header-Content-Length, X-Goog-Upload-Header-Content-Type, X-Goog-Upload-Header-Transfer-Encoding, X-Goog-Upload-Offset, X-Goog-Upload-Protocol, x-goog-user-project, X-Goog-Visitor-Id, X-Goog-FieldMask, X-Google-Project-Override, x-goog-maps-api-salt, x-goog-maps-api-signature, x-goog-maps-client-id, X-Goog-Api-Key, x-goog-spanner-database-role, X-HTTP-Method-Override, X-JavaScript-User-Agent, X-Pan-Versionid, X-Proxied-User-IP, X-Origin, X-Referer, X-Requested-With, X-Stadia-Client-Context, X-Upload-Content-Length, X-Upload-Content-Type, X-Use-Alt-Service, X-Use-HTTP-Status-Code-Override, X-Ios-Bundle-Identifier, X-Places-Ios-Sdk, X-Android-Package, X-Android-Cert, X-Places-Android-Sdk, X-Goog-Maps-Ios-Uuid, X-Goog-Maps-Android-Uuid, X-Ariane-Xsrf-Token, X-A2A-Extensions, A2A-Extensions, A2A-Version, X-YouTube-Bootstrap-Logged-In, X-Youtube-Client-Name, X-Youtube-Client-Version, X-Youtube-Finch-Config-Data, X-Youtube-Finch-Hash-Data, X-YouTube-Lava-Device-Context, X-YouTube-VVT, X-YouTube-Page-CL, X-YouTube-Page-Label, X-YouTube-Page-Timestamp, X-Compass-Routing-Destination, x-framework-xsrf-token, X-Goog-Meeting-ABR, X-Goog-Meeting-Botguardid, X-Goog-Meeting-Bot-Info, X-Goog-Meeting-ClientInfo, X-Goog-Meeting-ClientVersion, X-Goog-Meeting-Debugid, X-Goog-Meeting-Identifier, X-Goog-Meeting-Interop-Cohorts, X-Goog-Meeting-Interop-Type, X-Goog-Meeting-OidcIdToken, X-Goog-Meeting-RtcClient, X-Goog-Meeting-StartSource, X-Goog-Meeting-Token, X-Goog-Meeting-Viewer-Token, X-Goog-Healthcare-Audit-First-Party-Application-Access, Prefer, X-Client-Data, x-sdm-id-token, X-Sfdc-Authorization, MIME-Version, Content-Transfer-Encoding, X-Earth-Engine-App-ID-Token, X-Earth-Engine-Computation-Profile, X-Earth-Engine-Computation-Profiling, X-Play-Console-Experiments-Override, X-Play-Console-Session-Id, x-tab-id, x-alkali-account-key, x-alkali-application-key, x-alkali-auth-apps-namespace, x-alkali-auth-entities-namespace, x-alkali-auth-entity, x-alkali-client-locale, EES-S7E-MODE, cast-device-capabilities, X-Server-Timeout, x-foyer-client-environment, x-goog-greenenergyuserappservice-metadata, x-goog-sherlog-context, X-Server-Token, X-WebChannel-Content-Type, x-rfui-request-context, X-Workflow-Client, X-Tenant-Scope, x-goog-nest-jwt, X-Cloud-Trace-Context, traceparent, x-goog-chat-space-id, x-goog-pan-request-context, X-AppInt-Credentials, X-Iceberg-Access-Delegation, x-goog-firestore-api-requester, x-Goog-Ws-AgentId, x-impersonate-sid, X-Goog-Gemini-Enterprise-SidePanel",
+            "Access-Control-Allow-Methods": "GET,HEAD,OPTIONS",
+            "Accept-Ranges": "bytes",
+            "Content-Length": "246269",
+            "Last-Modified": "Fri, 05 Jun 2026 11:08:22 GMT",
+            "Date": "Thu, 05 Nov 2026 12:20:52 GMT",
+            "Expires": "Thu, 05 Nov 2026 12:20:52 GMT",
+            "Cache-Control": "private, max-age=0",
+            "X-Goog-Hash": "crc32c=gGlo/Q==",
+            "Server": "UploadServer",
+            "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+          },
+          "file": "91dfc63212fb8b0e951920bb6be58054b0ccf9236a6296a4df2c21f187ba8b6d.bin"
+        },
+        "pdf_metadata": {
+          "/Author": "c_parrondo",
+          "/CreationDate": "D:20260605130758+02'00'",
+          "/ModDate": "D:20260605130758+02'00'",
+          "/Producer": "Microsoft® Excel® para Microsoft 365",
+          "/Creator": "Microsoft® Excel® para Microsoft 365"
+        },
+        "date_claims": {
+          "pdf_created_at": "2026-06-05T11:07:58+00:00",
+          "pdf_modified_at": "2026-06-05T11:07:58+00:00",
+          "http_last_modified_at": "2026-06-05T11:08:22+00:00"
+        },
+        "text": "                                  PARTICIPANTES DEFINITIVOS PARA LAS CARRERAS DEL  JUEVES, 11 DE JUNIO DE 2026               HIPODROMO DE SAN SEBASTIAN\n                                                               1º CARRERA PREMIO AEGRI-CANTERA DEL TURF (AMAZONAS Y GENTLEMENS) (VENTA)\n                                                                        7.875 Euros a repartir              Distancia: 2.200 metros.            Hora: 17:30 h\n\nNº                  CABALLO                        ACCES.       EDAD       KG                         JINETE                                      CUADRA                           PREPARADOR                CAJÓN        Ult.Actuac.\n1   REMIX (FR) (8.000)                                (8)          7       67     SR.LABORDE, P.                                   CESAR ALONSO JR.                          C.ALONSO                           3         13,11,1,4,5\n2   PARTY ZONE (8.000)                              (5) (8)        4      66,5    SR.GUY, F. (67)                                  ARIMA                                     I. ELARRE                          4          9,5,10,1,8\n3   ALTXERRI (FR) (8.000)                                          4        66    SR.BORREGO A, J. (63)                            MALJEVA                                   M. ALONSO R.                       5       13,13,12,14,7\n4   AMOR DE PADRE (8.000)                                          4        66    SRTA. VERA, C. (62)                              ILUSIONES                                 E. PUENTE                          7              7,3\n5   JERRY LEE (FR) (6.000)                            (8)          4        65    SR.URBANO, L.                                    ESPECTÁCULO                               H. PEREIRA                         6       12,12,5,12,11\n6   NURTURE (FR) (8.000)                            (5) (8)        5      64,5    SRTA. TEISSIERE, E. (60,5)                       VILLAR DE LA YEGUA                        M. PÉREZ                           2        7,5,10,Ret,7\n7   SAXON QUEEN (FR) (8.000)                          (8)          4      64,5    SR.SARABIA, D.A.                                 JAVIER MALDONADO                          M. ALONSO R.                       1           9,Ret,6\n8   STELLARIS (GB) (8.000)                                         6      64,5    SR.ARIZKORRETA, I. (62,5)                        LIAM NORRIS                               G. ARIZKORRETA                     9        5,11,Ret,4,2\n9   ZAMBRA (FR) (6.000)                             (5) (8)        4      62,5    SRTA. MORA-FIGUEROA, M. (59,5)                   LAC INTERNACIONAL                         R. C. MONTENEGRO                   8         13,3,9,11,7\n                                                                                  2º CARRERA PREMIO TODOTURF (HANDICAP 2 ª PARTE)\n                                                                       8.750 Euros a repartir             Distancia: 1.600 metros.                Hora: 18:02 h\n\nNº                  CABALLO                        ACCES.       EDAD       KG                         JINETE                                      CUADRA                           PREPARADOR                CAJÓN        Ult.Actuac.\n1   ALHAURIN (IRE)                                  (4) (8)        4        63    I.MELGAREJO                                      EXTREMEÑA OP                              M. AUGELLI                         6          3,1,4,5,8\n2   LADY COCODY (FR)                                               4      62,5    R.N.VALLE                                        CUADRA A.F.F. SL                          F. RODRÍGUEZ                       8          3,2,5,2,2\n3   CACHOPO                                                        3        62    V.JANACEK                                        YEGUADA ROCÍO                             G. ARIZKORRETA                     3          4,6,2,1,1\n4   ZACARIAS                                        (3) (8)        4        62    J.GOMEZ (61)                                     YEGUADA MILITAR                           M. BLASCO                          5          7,4,5,1,4\n5   SOUND OF FREEDOM                              (4) (5) (8)      4      60,5    V.M.VALENZUELA                                   CIELO DE MADRID                           G. RODRÍGUEZ                       4          6,4,1,5,2\n6   MAGIC WARRIOR (IRE)                                            7      60,5    J.GELABERT                                       PATRIZIA ROSSANA TESTA                    M. AUGELLI                         1       8,13,15,Ret,8\n7   NUMBER (IRE)                                    (3) (8)        4      60,5    D.SIKOROVA (59,5)                                NANINA                                    J. CALDERÓN                        7       7,Ret,6,Ret,8\n8   GOING COMMANDO (IRE)                              (3)          3        60    R.SOUSA                                          TEIVAN TENERIFE                           O. ANAYA                           2          1,2,2,11,5\n                                                                              3º CARRERA PREMIO SPJ TXAPELKETA (HANDICAP 1 ª PARTE)\n                                                                      9.625 Euros a repartir              Distancia: 1.600 metros.                 Hora: 18:34 h\n\nNº                  CABALLO                        ACCES.       EDAD       KG                         JINETE                                      CUADRA                           PREPARADOR                CAJÓN        Ult.Actuac.\n1   SPIRITUALE (FR)                                   (8)          5        63    N.SACCU (62)                                     EZENEL                                    A. SOTO                            2          5,9,5,4,1\n2   IFACH (IRE)                                                    6        62    I.MELGAREJO                                      FARRAIS PEREZ                             J. C .CERQUEIRA                    7          2,16,1,2,2\n3   SOMMERSUN (FR)                                    (4)          6      61,5    D.SIKOROVA (60,5)                                CUADRA A.F.F. SL                          F. RODRÍGUEZ                       5          6,1,12,8,5\n4   IT´S CHICO TIME (IRE)                             (3)          6        61    R.SOUSA                                          DAVID GARCÍA S.T.                         O. ANAYA                           3          4,2,3,8,9\n5   WELLINGTON PREMIER (FR)                           (8)          4        60    SR.SARABIA, D.A.                                 RIO CUBAS                                 M. ALONSO R.                       1          9,7,8,2,2\n6   BAILEN                                          (4) (5)        6        59    J.GELABERT                                       LEONESA                                   T. MARTINS                         4          7,2,14,4,8\n7   MANGAKEN (FR)                                     (8)          5        57    A.BAEZA (54)                                     LOS MELENEROS                             A.SANCHEZ M.                       6         6,11,13,4,9\n8   ZAPATER                                           (8)          4        57    R.N.VALLE                                        YEGUADA MILITAR                           M. BLASCO                          8          6,3,9,3,1\n                                                                              4º CARRERA PREMIO USOAK TABERNA (HANDICAP 3 ª PARTE)\n                                                                      7.875 Euros a repartir             Distancia: 1.600 metros.                  Hora: 19:06 h\n\nNº                  CABALLO                        ACCES.       EDAD       KG                         JINETE                                      CUADRA                           PREPARADOR                CAJON        Ult.Actuac.\n1   MARCUS ATILIUS                                    (8)          3        63    J.GOMEZ (62)                                     JIMÉNEZ                                   J. JIMÉNEZ                         7          6,9,1,3,3\n2   GAST A GAST (FR)                                (3) (8)        4        62    V.ALONSO V. (61)                                 LOS PIRATAS                               M. PÉREZ                           10         6,9,6,11,3\n3   KATALINA                                        (3) (8)        6      61,5    V.JANACEK                                        ENDIKA ARCENTALES                         E. PUENTE                          11         2,2,5,1,6\n4   QUELI (POR)                                       (8)          6        61    R.SOUSA                                          STAND CARMO                               A. ABREU                           2          2,3,1,8,6\n5   PINSAPO (IRE)                                     (8)          6      60,5    D.SIKOROVA (59,5)                                COMETA                                    J. C. ROSELL                       6         1,12,4,1,16\n6   SON OF REALITY                                                 4      59,5    N.M.LOPES                                        A GRANXA                                  H. PEREIRA                         9         7,10,9,14,4\n7   MUGUETAJARRA                                                   9        59    J.GELABERT                                       PIGUINHA                                  H. PEREIRA                         5          9,7,9,6,6\n8   PENRHEAD (FR)                                     (8)          6        58    I.MELGAREJO                                      MARTUL                                    M. ALONSO R.                       3          4,8,3,4,6\n9   SHANGAR (IRE)                                     (8)          4        56    R.N.VALLE                                        NATURE HORSE                              P. ALVES                           1          6,7,10,2,4\n10  SASHAY AWAY (GB)                                               3        55    J.ZAMBUDIO (54)                                  ESPECTACULO                               H. PEREIRA                         4         4,5,6,5,Ret\n11  PORT GALLAND (FR)                               (5) (8)        5      53,5    C.PEREZ (52,5)                                   LAGUNILLA                                 A. SÁNCHEZ M.                      8        11,5,10,16,9\n                                                                                        5º CARRERA PREMIO VENTANAS ISU LEIHOAK\n                                                                     10.500 Euros a repartir               Distancias: 2.000 metros.               Hora: 19:38 h\n\nNº                  CABALLO                        ACCES.       EDAD       KG                         JINETE                                      CUADRA                           PREPARADOR                CAJÓN        Ult.Actuac.\n1   SALMARAK (FR)                                                  6      62,5    SR.BORREGO A, J. (59,5)                          ROYAL GAIT                                M. ALONSO R.                       6          5,3,2,2,3\n2   PHILAU (FR)                                                    8        62    V.JANACEK                                        ALEX Y SOFÍA                              G. ARIZKORRETA                     4          4,3,3,9,1\n3   CHEAPER (IRE)                                     (8)          4        60    R.SOUSA                                          ZACARÍAS SARMIENTO                        O. ANAYA                           1          6,11,4,1,1\n4   PONTE DE LIMA (FR)                                (8)          4        60    V.ALONSO V. (59)                                 PAULO ALVES JUNIOR                        P. ALVES                           5          2,7,9,7,7\n5   VELERIN (IRE)                                     (4)          5        60    J.GELABERT                                       MEDITERRÁNEO                              G. ARIZKORRETA                     2          9,6,6,4,1\n6   INFINITY CHOP (FR)                                (4)          3        54    C.PEREZ (53)                                     IBAITA                                    E. PUENTE                          3            10,8,9\n\n    INCIDENCIAS:\n    La entrenadora M.Augelli comunica que el jockey I.Melgarejo montará al participante nº 1 ALHAURIN (IRE) en la 2º carrera\n    El entrenador J.C.Cerqueira comunica que el jockey I.Melgarejo montará al participante nº 2 IFACH (IRE) en la 3º carrera\n    El entrenador M.Alonso R comunica que el jockey I.Melgarejo montará al participante nº 8 PENRHEAD (FR) en la 4º carrera\n    El entrenador P.Alves comunica que el jockey R.N.Valle montará al participante nº 9 SHANGAR (IRE) en la 4º carrera\n    El entrenador P.Alves comunica que la jockey V.Alonso V (59 kg) montará al participante nº 4 PONTE DE LIMA (FR) en la 5º carrera\n\n                                                                                                        (3)                        CORRERA CON CARRILLERAS\n                                                                                                        (4)                        CORRERA CON TAPONES O GORRO ANTI RUIDO\n                                                                                                        (5)                        CORRERA CON ANTEOJERAS\n                                                                                                        (6)                        CORRERA CON VISOR\n                                                                                                        (8)                        LENGUA ATADA\n\n                                                                                  El Comisario de participantes\n\n\n\n\n\n\n\n                                                                                  D. Enrique Romera Lozano",
+        "pages": 1
+      },
+      "races": [
+        {
+          "ordinal": 1,
+          "title": "PREMIO AEGRI-CANTERA DEL TURF (AMAZONAS Y GENTLEMENS) (VENTA)",
+          "distance_m": 2200,
+          "runners": [
+            {
+              "cloth": 1,
+              "horse_name": "REMIX (FR)",
+              "age": 7,
+              "weight_kg": 67.0,
+              "jockey_name": "SR.LABORDE, P.",
+              "stable_name": "CESAR ALONSO JR.",
+              "trainer_name": "C.ALONSO",
+              "draw": 3,
+              "prior_form_raw": "13,11,1,4,5"
+            },
+            {
+              "cloth": 2,
+              "horse_name": "PARTY ZONE",
+              "age": 4,
+              "weight_kg": 66.5,
+              "jockey_name": "SR.GUY, F. (67)",
+              "stable_name": "ARIMA",
+              "trainer_name": "I. ELARRE",
+              "draw": 4,
+              "prior_form_raw": "9,5,10,1,8"
+            },
+            {
+              "cloth": 3,
+              "horse_name": "ALTXERRI (FR)",
+              "age": 4,
+              "weight_kg": 66.0,
+              "jockey_name": "SR.BORREGO A, J. (63)",
+              "stable_name": "MALJEVA",
+              "trainer_name": "M. ALONSO R.",
+              "draw": 5,
+              "prior_form_raw": "13,13,12,14,7"
+            },
+            {
+              "cloth": 4,
+              "horse_name": "AMOR DE PADRE",
+              "age": 4,
+              "weight_kg": 66.0,
+              "jockey_name": "SRTA. VERA, C. (62)",
+              "stable_name": "ILUSIONES",
+              "trainer_name": "E. PUENTE",
+              "draw": 7,
+              "prior_form_raw": "7,3"
+            },
+            {
+              "cloth": 5,
+              "horse_name": "JERRY LEE (FR)",
+              "age": 4,
+              "weight_kg": 65.0,
+              "jockey_name": "SR.URBANO, L.",
+              "stable_name": "ESPECTÁCULO",
+              "trainer_name": "H. PEREIRA",
+              "draw": 6,
+              "prior_form_raw": "12,12,5,12,11"
+            },
+            {
+              "cloth": 6,
+              "horse_name": "NURTURE (FR)",
+              "age": 5,
+              "weight_kg": 64.5,
+              "jockey_name": "SRTA. TEISSIERE, E. (60,5)",
+              "stable_name": "VILLAR DE LA YEGUA",
+              "trainer_name": "M. PÉREZ",
+              "draw": 2,
+              "prior_form_raw": "7,5,10,Ret,7"
+            },
+            {
+              "cloth": 7,
+              "horse_name": "SAXON QUEEN (FR)",
+              "age": 4,
+              "weight_kg": 64.5,
+              "jockey_name": "SR.SARABIA, D.A.",
+              "stable_name": "JAVIER MALDONADO",
+              "trainer_name": "M. ALONSO R.",
+              "draw": 1,
+              "prior_form_raw": "9,Ret,6"
+            },
+            {
+              "cloth": 8,
+              "horse_name": "STELLARIS (GB)",
+              "age": 6,
+              "weight_kg": 64.5,
+              "jockey_name": "SR.ARIZKORRETA, I. (62,5)",
+              "stable_name": "LIAM NORRIS",
+              "trainer_name": "G. ARIZKORRETA",
+              "draw": 9,
+              "prior_form_raw": "5,11,Ret,4,2"
+            },
+            {
+              "cloth": 9,
+              "horse_name": "ZAMBRA (FR)",
+              "age": 4,
+              "weight_kg": 62.5,
+              "jockey_name": "SRTA. MORA-FIGUEROA, M. (59,5)",
+              "stable_name": "LAC INTERNACIONAL",
+              "trainer_name": "R. C. MONTENEGRO",
+              "draw": 8,
+              "prior_form_raw": "13,3,9,11,7"
+            }
+          ],
+          "issues": [],
+          "scheduled_time_local": "17:30"
+        },
+        {
+          "ordinal": 2,
+          "title": "PREMIO TODOTURF (HANDICAP 2 ª PARTE)",
+          "distance_m": 1600,
+          "runners": [
+            {
+              "cloth": 1,
+              "horse_name": "ALHAURIN (IRE)",
+              "age": 4,
+              "weight_kg": 63.0,
+              "jockey_name": "I.MELGAREJO",
+              "stable_name": "EXTREMEÑA OP",
+              "trainer_name": "M. AUGELLI",
+              "draw": 6,
+              "prior_form_raw": "3,1,4,5,8"
+            },
+            {
+              "cloth": 2,
+              "horse_name": "LADY COCODY (FR)",
+              "age": 4,
+              "weight_kg": 62.5,
+              "jockey_name": "R.N.VALLE",
+              "stable_name": "CUADRA A.F.F. SL",
+              "trainer_name": "F. RODRÍGUEZ",
+              "draw": 8,
+              "prior_form_raw": "3,2,5,2,2"
+            },
+            {
+              "cloth": 3,
+              "horse_name": "CACHOPO",
+              "age": 3,
+              "weight_kg": 62.0,
+              "jockey_name": "V.JANACEK",
+              "stable_name": "YEGUADA ROCÍO",
+              "trainer_name": "G. ARIZKORRETA",
+              "draw": 3,
+              "prior_form_raw": "4,6,2,1,1"
+            },
+            {
+              "cloth": 4,
+              "horse_name": "ZACARIAS",
+              "age": 4,
+              "weight_kg": 62.0,
+              "jockey_name": "J.GOMEZ (61)",
+              "stable_name": "YEGUADA MILITAR",
+              "trainer_name": "M. BLASCO",
+              "draw": 5,
+              "prior_form_raw": "7,4,5,1,4"
+            },
+            {
+              "cloth": 5,
+              "horse_name": "SOUND OF FREEDOM",
+              "age": 4,
+              "weight_kg": 60.5,
+              "jockey_name": "V.M.VALENZUELA",
+              "stable_name": "CIELO DE MADRID",
+              "trainer_name": "G. RODRÍGUEZ",
+              "draw": 4,
+              "prior_form_raw": "6,4,1,5,2"
+            },
+            {
+              "cloth": 6,
+              "horse_name": "MAGIC WARRIOR (IRE)",
+              "age": 7,
+              "weight_kg": 60.5,
+              "jockey_name": "J.GELABERT",
+              "stable_name": "PATRIZIA ROSSANA TESTA",
+              "trainer_name": "M. AUGELLI",
+              "draw": 1,
+              "prior_form_raw": "8,13,15,Ret,8"
+            },
+            {
+              "cloth": 7,
+              "horse_name": "NUMBER (IRE)",
+              "age": 4,
+              "weight_kg": 60.5,
+              "jockey_name": "D.SIKOROVA (59,5)",
+              "stable_name": "NANINA",
+              "trainer_name": "J. CALDERÓN",
+              "draw": 7,
+              "prior_form_raw": "7,Ret,6,Ret,8"
+            },
+            {
+              "cloth": 8,
+              "horse_name": "GOING COMMANDO (IRE)",
+              "age": 3,
+              "weight_kg": 60.0,
+              "jockey_name": "R.SOUSA",
+              "stable_name": "TEIVAN TENERIFE",
+              "trainer_name": "O. ANAYA",
+              "draw": 2,
+              "prior_form_raw": "1,2,2,11,5"
+            }
+          ],
+          "issues": [],
+          "scheduled_time_local": "18:02"
+        },
+        {
+          "ordinal": 3,
+          "title": "PREMIO SPJ TXAPELKETA (HANDICAP 1 ª PARTE)",
+          "distance_m": 1600,
+          "runners": [
+            {
+              "cloth": 1,
+              "horse_name": "SPIRITUALE (FR)",
+              "age": 5,
+              "weight_kg": 63.0,
+              "jockey_name": "N.SACCU (62)",
+              "stable_name": "EZENEL",
+              "trainer_name": "A. SOTO",
+              "draw": 2,
+              "prior_form_raw": "5,9,5,4,1"
+            },
+            {
+              "cloth": 2,
+              "horse_name": "IFACH (IRE)",
+              "age": 6,
+              "weight_kg": 62.0,
+              "jockey_name": "I.MELGAREJO",
+              "stable_name": "FARRAIS PEREZ",
+              "trainer_name": "J. C .CERQUEIRA",
+              "draw": 7,
+              "prior_form_raw": "2,16,1,2,2"
+            },
+            {
+              "cloth": 3,
+              "horse_name": "SOMMERSUN (FR)",
+              "age": 6,
+              "weight_kg": 61.5,
+              "jockey_name": "D.SIKOROVA (60,5)",
+              "stable_name": "CUADRA A.F.F. SL",
+              "trainer_name": "F. RODRÍGUEZ",
+              "draw": 5,
+              "prior_form_raw": "6,1,12,8,5"
+            },
+            {
+              "cloth": 4,
+              "horse_name": "IT´S CHICO TIME (IRE)",
+              "age": 6,
+              "weight_kg": 61.0,
+              "jockey_name": "R.SOUSA",
+              "stable_name": "DAVID GARCÍA S.T.",
+              "trainer_name": "O. ANAYA",
+              "draw": 3,
+              "prior_form_raw": "4,2,3,8,9"
+            },
+            {
+              "cloth": 5,
+              "horse_name": "WELLINGTON PREMIER (FR)",
+              "age": 4,
+              "weight_kg": 60.0,
+              "jockey_name": "SR.SARABIA, D.A.",
+              "stable_name": "RIO CUBAS",
+              "trainer_name": "M. ALONSO R.",
+              "draw": 1,
+              "prior_form_raw": "9,7,8,2,2"
+            },
+            {
+              "cloth": 6,
+              "horse_name": "BAILEN",
+              "age": 6,
+              "weight_kg": 59.0,
+              "jockey_name": "J.GELABERT",
+              "stable_name": "LEONESA",
+              "trainer_name": "T. MARTINS",
+              "draw": 4,
+              "prior_form_raw": "7,2,14,4,8"
+            },
+            {
+              "cloth": 7,
+              "horse_name": "MANGAKEN (FR)",
+              "age": 5,
+              "weight_kg": 57.0,
+              "jockey_name": "A.BAEZA (54)",
+              "stable_name": "LOS MELENEROS",
+              "trainer_name": "A.SANCHEZ M.",
+              "draw": 6,
+              "prior_form_raw": "6,11,13,4,9"
+            },
+            {
+              "cloth": 8,
+              "horse_name": "ZAPATER",
+              "age": 4,
+              "weight_kg": 57.0,
+              "jockey_name": "R.N.VALLE",
+              "stable_name": "YEGUADA MILITAR",
+              "trainer_name": "M. BLASCO",
+              "draw": 8,
+              "prior_form_raw": "6,3,9,3,1"
+            }
+          ],
+          "issues": [],
+          "scheduled_time_local": "18:34"
+        },
+        {
+          "ordinal": 4,
+          "title": "PREMIO USOAK TABERNA (HANDICAP 3 ª PARTE)",
+          "distance_m": 1600,
+          "runners": [
+            {
+              "cloth": 1,
+              "horse_name": "MARCUS ATILIUS",
+              "age": 3,
+              "weight_kg": 63.0,
+              "jockey_name": "J.GOMEZ (62)",
+              "stable_name": "JIMÉNEZ",
+              "trainer_name": "J. JIMÉNEZ",
+              "draw": 7,
+              "prior_form_raw": "6,9,1,3,3"
+            },
+            {
+              "cloth": 2,
+              "horse_name": "GAST A GAST (FR)",
+              "age": 4,
+              "weight_kg": 62.0,
+              "jockey_name": "V.ALONSO V. (61)",
+              "stable_name": "LOS PIRATAS",
+              "trainer_name": "M. PÉREZ",
+              "draw": 10,
+              "prior_form_raw": "6,9,6,11,3"
+            },
+            {
+              "cloth": 3,
+              "horse_name": "KATALINA",
+              "age": 6,
+              "weight_kg": 61.5,
+              "jockey_name": "V.JANACEK",
+              "stable_name": "ENDIKA ARCENTALES",
+              "trainer_name": "E. PUENTE",
+              "draw": 11,
+              "prior_form_raw": "2,2,5,1,6"
+            },
+            {
+              "cloth": 4,
+              "horse_name": "QUELI (POR)",
+              "age": 6,
+              "weight_kg": 61.0,
+              "jockey_name": "R.SOUSA",
+              "stable_name": "STAND CARMO",
+              "trainer_name": "A. ABREU",
+              "draw": 2,
+              "prior_form_raw": "2,3,1,8,6"
+            },
+            {
+              "cloth": 5,
+              "horse_name": "PINSAPO (IRE)",
+              "age": 6,
+              "weight_kg": 60.5,
+              "jockey_name": "D.SIKOROVA (59,5)",
+              "stable_name": "COMETA",
+              "trainer_name": "J. C. ROSELL",
+              "draw": 6,
+              "prior_form_raw": "1,12,4,1,16"
+            },
+            {
+              "cloth": 6,
+              "horse_name": "SON OF REALITY",
+              "age": 4,
+              "weight_kg": 59.5,
+              "jockey_name": "N.M.LOPES",
+              "stable_name": "A GRANXA",
+              "trainer_name": "H. PEREIRA",
+              "draw": 9,
+              "prior_form_raw": "7,10,9,14,4"
+            },
+            {
+              "cloth": 7,
+              "horse_name": "MUGUETAJARRA",
+              "age": 9,
+              "weight_kg": 59.0,
+              "jockey_name": "J.GELABERT",
+              "stable_name": "PIGUINHA",
+              "trainer_name": "H. PEREIRA",
+              "draw": 5,
+              "prior_form_raw": "9,7,9,6,6"
+            },
+            {
+              "cloth": 8,
+              "horse_name": "PENRHEAD (FR)",
+              "age": 6,
+              "weight_kg": 58.0,
+              "jockey_name": "I.MELGAREJO",
+              "stable_name": "MARTUL",
+              "trainer_name": "M. ALONSO R.",
+              "draw": 3,
+              "prior_form_raw": "4,8,3,4,6"
+            },
+            {
+              "cloth": 9,
+              "horse_name": "SHANGAR (IRE)",
+              "age": 4,
+              "weight_kg": 56.0,
+              "jockey_name": "R.N.VALLE",
+              "stable_name": "NATURE HORSE",
+              "trainer_name": "P. ALVES",
+              "draw": 1,
+              "prior_form_raw": "6,7,10,2,4"
+            },
+            {
+              "cloth": 10,
+              "horse_name": "SASHAY AWAY (GB)",
+              "age": 3,
+              "weight_kg": 55.0,
+              "jockey_name": "J.ZAMBUDIO (54)",
+              "stable_name": "ESPECTACULO",
+              "trainer_name": "H. PEREIRA",
+              "draw": 4,
+              "prior_form_raw": "4,5,6,5,Ret"
+            },
+            {
+              "cloth": 11,
+              "horse_name": "PORT GALLAND (FR)",
+              "age": 5,
+              "weight_kg": 53.5,
+              "jockey_name": "C.PEREZ (52,5)",
+              "stable_name": "LAGUNILLA",
+              "trainer_name": "A. SÁNCHEZ M.",
+              "draw": 8,
+              "prior_form_raw": "11,5,10,16,9"
+            }
+          ],
+          "issues": [],
+          "scheduled_time_local": "19:06"
+        },
+        {
+          "ordinal": 5,
+          "title": "PREMIO VENTANAS ISU LEIHOAK",
+          "distance_m": 2000,
+          "runners": [
+            {
+              "cloth": 1,
+              "horse_name": "SALMARAK (FR)",
+              "age": 6,
+              "weight_kg": 62.5,
+              "jockey_name": "SR.BORREGO A, J. (59,5)",
+              "stable_name": "ROYAL GAIT",
+              "trainer_name": "M. ALONSO R.",
+              "draw": 6,
+              "prior_form_raw": "5,3,2,2,3"
+            },
+            {
+              "cloth": 2,
+              "horse_name": "PHILAU (FR)",
+              "age": 8,
+              "weight_kg": 62.0,
+              "jockey_name": "V.JANACEK",
+              "stable_name": "ALEX Y SOFÍA",
+              "trainer_name": "G. ARIZKORRETA",
+              "draw": 4,
+              "prior_form_raw": "4,3,3,9,1"
+            },
+            {
+              "cloth": 3,
+              "horse_name": "CHEAPER (IRE)",
+              "age": 4,
+              "weight_kg": 60.0,
+              "jockey_name": "R.SOUSA",
+              "stable_name": "ZACARÍAS SARMIENTO",
+              "trainer_name": "O. ANAYA",
+              "draw": 1,
+              "prior_form_raw": "6,11,4,1,1"
+            },
+            {
+              "cloth": 4,
+              "horse_name": "PONTE DE LIMA (FR)",
+              "age": 4,
+              "weight_kg": 60.0,
+              "jockey_name": "V.ALONSO V. (59)",
+              "stable_name": "PAULO ALVES JUNIOR",
+              "trainer_name": "P. ALVES",
+              "draw": 5,
+              "prior_form_raw": "2,7,9,7,7"
+            },
+            {
+              "cloth": 5,
+              "horse_name": "VELERIN (IRE)",
+              "age": 5,
+              "weight_kg": 60.0,
+              "jockey_name": "J.GELABERT",
+              "stable_name": "MEDITERRÁNEO",
+              "trainer_name": "G. ARIZKORRETA",
+              "draw": 2,
+              "prior_form_raw": "9,6,6,4,1"
+            },
+            {
+              "cloth": 6,
+              "horse_name": "INFINITY CHOP (FR)",
+              "age": 3,
+              "weight_kg": 54.0,
+              "jockey_name": "C.PEREZ (53)",
+              "stable_name": "IBAITA",
+              "trainer_name": "E. PUENTE",
+              "draw": 3,
+              "prior_form_raw": "10,8,9"
+            }
+          ],
+          "issues": [],
+          "scheduled_time_local": "19:38"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-08",
+      "venue": "Vila-seca",
+      "kind": "declaration",
+      "publisher_page": "https://vila-seca.cat/es/actualidad-ayuntamiento/noticias-actualidad/tradicional-cos-de-sant-antoni-2026",
+      "discovery_method": "HTML document link on municipal organizer page",
+      "original_url": "https://vila-seca.cat/media/attachments/2026/02/02/7.-participantes-definitivos-vilaseca-08-02-2026.pdf",
+      "document": {
+        "receipt": {
+          "url": "https://vila-seca.cat/media/attachments/2026/02/02/7.-participantes-definitivos-vilaseca-08-02-2026.pdf",
+          "final_url": "https://vila-seca.cat/media/attachments/2026/02/02/7.-participantes-definitivos-vilaseca-08-02-2026.pdf",
+          "status": 200,
+          "observed_at": "2026-11-05T12:24:47+00:00",
+          "sha256": "f564e6ad3865c11ccd2f4625b13b0fec0255044ff31c7e906790f678be74519b",
+          "headers": {
+            "Server": "nginx",
+            "Date": "Thu, 05 Nov 2026 12:24:47 GMT",
+            "Content-Type": "application/pdf",
+            "Content-Length": "225053",
+            "Last-Modified": "Mon, 02 Feb 2026 10:25:06 GMT",
+            "Connection": "keep-alive",
+            "ETag": "\"69807b82-36f1d\"",
+            "X-Powered-By": "PleskLin",
+            "Accept-Ranges": "bytes"
+          },
+          "file": "8cc4812b266768f3c54c936a8623e5afd996c28fe46f55916e0d425827759ed8.bin"
+        },
+        "pdf_metadata": {
+          "/Author": "",
+          "/CreationDate": "D:20260119142036+01'00'",
+          "/ModDate": "D:20260119142036+01'00'",
+          "/Producer": "Microsoft® Excel® para Microsoft 365",
+          "/Creator": "Microsoft® Excel® para Microsoft 365"
+        },
+        "date_claims": {
+          "pdf_created_at": "2026-01-19T13:20:36+00:00",
+          "pdf_modified_at": "2026-01-19T13:20:36+00:00",
+          "http_last_modified_at": "2026-02-02T10:25:06+00:00"
+        },
+        "text": "                                                                     Hipódromo de VILA-SECA\n\n                                                      Participantes definitivos 08/02/2026\n\n                                        1º CARRERA PREMIO PARC DE LA TORRE D’EN DOLÇA (HÁNDICAP CON REFERENCIA 31)\n                                                    7.900 € a repartir               Distancia: 1.700 metros                  Hora: 12:20 h\nNº                CABALLO                              EDAD          KG                      JINETE                            CUADRA                   PREPARADOR             CAJÓN        Últ.actuaciones\n1    ONE MORE NIGHT (FR)                                  7           63                 D. FERREIRA               COSTA LA VALL                     R. COSTA                      3           [Ret,8,4,3]\n2    KATALINA                               (3)(8)        6          58,5               J. GOMEZ (57,5)            ENDIKA ARCENTALES                 E. PUENTE                     4             [6,2,1,2]\n3    HEY JUDE (IRE)                         (3)(8)        7           54                J.E. LEONARDO              DOS CORAZONES                     D. FARLETE                    1             [5,3,7,6]\n4    KARIBBEAN DREAM (FR)                     (5)        10          53,5             A. SERRANO (51,5)            OMBRA                             M. COMAS                      5          [11,14,6,Ret]\n5    WALKCZAK (FR)                            (8)         7           53                L.N. RAMALLO               MANGUETA                          O.M. IGLESIAS                 2            [5,11,4,6]\n                                                                2º CARRERA GRAN PREMI AJUNTAMENT DE VILA-SECA\n                                                  12.800 € a repartir               Distancia: 2.500 metros.                     Hora: 12:50 h\nNº                CABALLO                              EDAD          KG                      JINETE                            CUADRA                   PREPARADOR             CAJÓN        Últ.actuaciones\n1    SANBER (FR)                              (8)         6          64,5                D. FERREIRA               COSTA LA VALL                     R. COSTA                      4            [12,1,1,1]\n2    MAURO                                                8          62,5               J. GOMEZ (61,5)            MALLOW GRAN CANARIA               O. ANAYA                      1           [Ret,1,1,1]\n3    FARNESIO (IRE)                           (3)         6          60,5               SR. SARABIA, D.            RIO CUBAS                         O. ANAYA                      7            [2,5,11,6]\n4    ATHELIA (FR)                             (8)         7           58                 R. AGUILERA               VILA-SECA TURF                    C. ALONSO                     2           [11,7,8,Ret]\n5    SOUND OF VICTORY (IRE)                              10          57,5           SR. PULIDO, M. (59,5)          MP RACING                         X. XATRUCH                    6             [4,4,4,7]\n6    HEBE                                     (4)         6           57           G. ARGUINZONES (55,5)           ALEGRE                            D. FARLETE                    5             [4,5,6,3]\n7    NIKITA DU MAZET (FR)                     (3)         7           56              B. ESTUPIÑAN (55)            ENDIKA ARCENTALES                 E. PUENTE                     3          [12,13,11,9]\n                                                                 3º CARRERA PREMIO AYUNTAMIENTO DE VILA-SECA\n                                                   9.300 € a repartir                   Distancia: 1.700 metros.                  Hora: 13:20 h\nNº                CABALLO                              EDAD          KG                      JINETE                            CUADRA                   PREPARADOR             CAJÓN        Últ.actuaciones\n1    SUPER LOVER (GB)                                     7           61                 J. GOMEZ (60)             CARBIAL                           O. ANAYA                      6             [1,1,7,5]\n2    ICONIC STARS (FR)                        (5)         5           60              B. ESTUPIÑAN (59)            CESAR ALONSO JR                   C. ALONSO                     1           [6,12,10,7]\n3    BERIA (GB)                               (8)         5          59,5                R. AGUILERA               CALEJAÑA                          D. LOPEZ F                    5             [9,4,1,2]\n4    DOWN TOWN (FR)                         (4)(8)        7          58,5              A. SERRANO (56)             OMBRA                             M. COMAS                      7          [Ret,Ret,2,9]\n5    JONH LEMON (FR)                                      4           58                 D. FERREIRA               COSTA LA VALL                     R. COSTA                      3          [10,15,12,10]\n6    ZALAMERA (IRE)                                       4          57,5          G. ARGUINZONES (55,5)           ALEGRE                            D. FARLETE                    4             [3,7,2,3]\n7    PRIAPO (FR)                            (4)(8)        6           57            SR. PULIDO, M. (59,5)          MP RACING                         M. PULIDO                     2           [2,10,13,5]\n                        (3) Correrá con carrilleras                                                                                                       *: La última actuación es la primera de la\n                           (4) Utilizará tapones                                                                                                                            izquierda\n                        (5) Correrá con anteojeras                                        COMISARIO DE PARTICIPANTES                                                                                              Ret: Retirado / P: Parado\n                                  (6) Visor                                               D. FERNANDO ORTEGA CASTRO                                            C: Caído / Qdo: Quedado en la salida\n                               (a) Asimilado                                                                                                                   Ddo: Desmontado / Dto: Distanciado\n                             (8) Lengua Atada                                                                                                                          Desc: Descalificado",
+        "pages": 1
+      },
+      "races": [
+        {
+          "ordinal": 1,
+          "title": "PREMIO PARC DE LA TORRE D’EN DOLÇA (HÁNDICAP CON REFERENCIA 31)",
+          "distance_m": 1700,
+          "runners": [
+            {
+              "cloth": 1,
+              "horse_name": "ONE MORE NIGHT (FR)",
+              "age": 7,
+              "weight_kg": 63.0,
+              "jockey_name": "D. FERREIRA",
+              "stable_name": "COSTA LA VALL",
+              "trainer_name": "R. COSTA",
+              "draw": 3,
+              "prior_form_raw": "[Ret,8,4,3]"
+            },
+            {
+              "cloth": 2,
+              "horse_name": "KATALINA",
+              "age": 6,
+              "weight_kg": 58.5,
+              "jockey_name": "J. GOMEZ (57,5)",
+              "stable_name": "ENDIKA ARCENTALES",
+              "trainer_name": "E. PUENTE",
+              "draw": 4,
+              "prior_form_raw": "[6,2,1,2]"
+            },
+            {
+              "cloth": 3,
+              "horse_name": "HEY JUDE (IRE)",
+              "age": 7,
+              "weight_kg": 54.0,
+              "jockey_name": "J.E. LEONARDO",
+              "stable_name": "DOS CORAZONES",
+              "trainer_name": "D. FARLETE",
+              "draw": 1,
+              "prior_form_raw": "[5,3,7,6]"
+            },
+            {
+              "cloth": 4,
+              "horse_name": "KARIBBEAN DREAM (FR)",
+              "age": 10,
+              "weight_kg": 53.5,
+              "jockey_name": "A. SERRANO (51,5)",
+              "stable_name": "OMBRA",
+              "trainer_name": "M. COMAS",
+              "draw": 5,
+              "prior_form_raw": "[11,14,6,Ret]"
+            },
+            {
+              "cloth": 5,
+              "horse_name": "WALKCZAK (FR)",
+              "age": 7,
+              "weight_kg": 53.0,
+              "jockey_name": "L.N. RAMALLO",
+              "stable_name": "MANGUETA",
+              "trainer_name": "O.M. IGLESIAS",
+              "draw": 2,
+              "prior_form_raw": "[5,11,4,6]"
+            }
+          ],
+          "issues": [],
+          "scheduled_time_local": "12:20"
+        },
+        {
+          "ordinal": 2,
+          "title": "GRAN PREMI AJUNTAMENT DE VILA-SECA",
+          "distance_m": 2500,
+          "runners": [
+            {
+              "cloth": 1,
+              "horse_name": "SANBER (FR)",
+              "age": 6,
+              "weight_kg": 64.5,
+              "jockey_name": "D. FERREIRA",
+              "stable_name": "COSTA LA VALL",
+              "trainer_name": "R. COSTA",
+              "draw": 4,
+              "prior_form_raw": "[12,1,1,1]"
+            },
+            {
+              "cloth": 2,
+              "horse_name": "MAURO",
+              "age": 8,
+              "weight_kg": 62.5,
+              "jockey_name": "J. GOMEZ (61,5)",
+              "stable_name": "MALLOW GRAN CANARIA",
+              "trainer_name": "O. ANAYA",
+              "draw": 1,
+              "prior_form_raw": "[Ret,1,1,1]"
+            },
+            {
+              "cloth": 3,
+              "horse_name": "FARNESIO (IRE)",
+              "age": 6,
+              "weight_kg": 60.5,
+              "jockey_name": "SR. SARABIA, D.",
+              "stable_name": "RIO CUBAS",
+              "trainer_name": "O. ANAYA",
+              "draw": 7,
+              "prior_form_raw": "[2,5,11,6]"
+            },
+            {
+              "cloth": 4,
+              "horse_name": "ATHELIA (FR)",
+              "age": 7,
+              "weight_kg": 58.0,
+              "jockey_name": "R. AGUILERA",
+              "stable_name": "VILA-SECA TURF",
+              "trainer_name": "C. ALONSO",
+              "draw": 2,
+              "prior_form_raw": "[11,7,8,Ret]"
+            },
+            {
+              "cloth": 5,
+              "horse_name": "SOUND OF VICTORY (IRE)",
+              "age": 10,
+              "weight_kg": 57.5,
+              "jockey_name": "SR. PULIDO, M. (59,5)",
+              "stable_name": "MP RACING",
+              "trainer_name": "X. XATRUCH",
+              "draw": 6,
+              "prior_form_raw": "[4,4,4,7]"
+            },
+            {
+              "cloth": 6,
+              "horse_name": "HEBE",
+              "age": 6,
+              "weight_kg": 57.0,
+              "jockey_name": "G. ARGUINZONES (55,5)",
+              "stable_name": "ALEGRE",
+              "trainer_name": "D. FARLETE",
+              "draw": 5,
+              "prior_form_raw": "[4,5,6,3]"
+            },
+            {
+              "cloth": 7,
+              "horse_name": "NIKITA DU MAZET (FR)",
+              "age": 7,
+              "weight_kg": 56.0,
+              "jockey_name": "B. ESTUPIÑAN (55)",
+              "stable_name": "ENDIKA ARCENTALES",
+              "trainer_name": "E. PUENTE",
+              "draw": 3,
+              "prior_form_raw": "[12,13,11,9]"
+            }
+          ],
+          "issues": [],
+          "scheduled_time_local": "12:50"
+        },
+        {
+          "ordinal": 3,
+          "title": "PREMIO AYUNTAMIENTO DE VILA-SECA",
+          "distance_m": 1700,
+          "runners": [
+            {
+              "cloth": 1,
+              "horse_name": "SUPER LOVER (GB)",
+              "age": 7,
+              "weight_kg": 61.0,
+              "jockey_name": "J. GOMEZ (60)",
+              "stable_name": "CARBIAL",
+              "trainer_name": "O. ANAYA",
+              "draw": 6,
+              "prior_form_raw": "[1,1,7,5]"
+            },
+            {
+              "cloth": 2,
+              "horse_name": "ICONIC STARS (FR)",
+              "age": 5,
+              "weight_kg": 60.0,
+              "jockey_name": "B. ESTUPIÑAN (59)",
+              "stable_name": "CESAR ALONSO JR",
+              "trainer_name": "C. ALONSO",
+              "draw": 1,
+              "prior_form_raw": "[6,12,10,7]"
+            },
+            {
+              "cloth": 3,
+              "horse_name": "BERIA (GB)",
+              "age": 5,
+              "weight_kg": 59.5,
+              "jockey_name": "R. AGUILERA",
+              "stable_name": "CALEJAÑA",
+              "trainer_name": "D. LOPEZ F",
+              "draw": 5,
+              "prior_form_raw": "[9,4,1,2]"
+            },
+            {
+              "cloth": 4,
+              "horse_name": "DOWN TOWN (FR)",
+              "age": 7,
+              "weight_kg": 58.5,
+              "jockey_name": "A. SERRANO (56)",
+              "stable_name": "OMBRA",
+              "trainer_name": "M. COMAS",
+              "draw": 7,
+              "prior_form_raw": "[Ret,Ret,2,9]"
+            },
+            {
+              "cloth": 5,
+              "horse_name": "JONH LEMON (FR)",
+              "age": 4,
+              "weight_kg": 58.0,
+              "jockey_name": "D. FERREIRA",
+              "stable_name": "COSTA LA VALL",
+              "trainer_name": "R. COSTA",
+              "draw": 3,
+              "prior_form_raw": "[10,15,12,10]"
+            },
+            {
+              "cloth": 6,
+              "horse_name": "ZALAMERA (IRE)",
+              "age": 4,
+              "weight_kg": 57.5,
+              "jockey_name": "G. ARGUINZONES (55,5)",
+              "stable_name": "ALEGRE",
+              "trainer_name": "D. FARLETE",
+              "draw": 4,
+              "prior_form_raw": "[3,7,2,3]"
+            },
+            {
+              "cloth": 7,
+              "horse_name": "PRIAPO (FR)",
+              "age": 6,
+              "weight_kg": 57.0,
+              "jockey_name": "SR. PULIDO, M. (59,5)",
+              "stable_name": "MP RACING",
+              "trainer_name": "M. PULIDO",
+              "draw": 2,
+              "prior_form_raw": "[2,10,13,5]"
+            }
+          ],
+          "issues": [],
+          "scheduled_time_local": "13:20"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "cache_root": "data/raw/h1_recovery"
+}

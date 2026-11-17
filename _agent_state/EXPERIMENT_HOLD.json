@@ -1,0 +1,11 @@
+{
+  "active": true,
+  "requested_at": "2026-11-12T22:15:26.172070+00:00",
+  "instruction": "Do not run experiments until the user explicitly authorizes resuming.",
+  "queue_stopped": true,
+  "queue_status": "stopped_before_inference",
+  "new_experiment_inference_calls": 0,
+  "outcome_evaluation_started": false,
+  "prepared_files_retained": true,
+  "publication": "PROHIBITED"
+}

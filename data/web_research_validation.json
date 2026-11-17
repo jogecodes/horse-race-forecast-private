@@ -1,0 +1,165 @@
+{
+  "tests": {
+    "passed": 133,
+    "command": ".venv/bin/python -m pytest -q",
+    "network_or_models": false
+  },
+  "master_sha256": "320e1f57fdfd53e392721b9f399f7c2b427d007570ff48f6fe62c0d71839e338",
+  "master_unchanged": true,
+  "frozen_bundles_verified": [
+    "benchmarks/h1_2026_v1",
+    "benchmarks/h1_2026_v2"
+  ],
+  "live_integration": {
+    "path": "runs/web_social_small_field_handoff",
+    "selection": "First four-runner development field with Janacek; explicitly seeded article/post URLs, two live RSS queries; not performance evaluation",
+    "approved_passages": 2,
+    "selected_sentences": 1,
+    "forecast_valid": true,
+    "forecast_attempts": 1,
+    "audit": "passed"
+  },
+  "invalid_large_field_run": {
+    "path": "runs/web_social_evidence_handoff_v5",
+    "approved_passages": 2,
+    "selected_sentences": 1,
+    "forecast_valid": false,
+    "reason": "Invalid probability sums on both attempts; excluded without repair"
+  },
+  "judge_probes": {
+    "path": "runs/web_social_judge_regression/report.json",
+    "passed": 4,
+    "total": 4,
+    "scope": "Explicitly synthetic plumbing fixtures, not judge accuracy measurement"
+  },
+  "search_bridge": {
+    "backend": "stdio",
+    "live_exercised_runs": [
+      "runs/web_social_agent_smoke",
+      "runs/web_social_agent_smoke_v2"
+    ],
+    "evidence_admitted": 0
+  },
+  "limitations": [
+    "Publisher dating is not independent proof of unchanged historical bytes",
+    "Public social coverage depends on source availability",
+    "Small local models can over-reject evidence or emit invalid probability totals",
+    "Prompt/data-flow isolation is not an OS sandbox"
+  ],
+  "exploratory_semantic_review": {
+    "run": "runs/semantic_leakage_review_v1_20261105",
+    "dataset": "data/semantic_leakage_review_v1/dataset.json",
+    "scenarios": 24,
+    "sources": 6,
+    "policies": {
+      "publisher-dated": {
+        "total": 24,
+        "confusion": {
+          "allow": {
+            "allow": 4,
+            "reject": 4,
+            "uncertain": 0
+          },
+          "reject": {
+            "allow": 0,
+            "reject": 10,
+            "uncertain": 0
+          },
+          "uncertain": {
+            "allow": 0,
+            "reject": 6,
+            "uncertain": 0
+          }
+        },
+        "exact_agreements": 14,
+        "leakage_allowed": 0,
+        "leakage_cases": 8,
+        "useful_allowed": 4,
+        "useful_cases": 8,
+        "useful_rejected": 4,
+        "useful_uncertain": 0,
+        "ambiguous_allowed": 0,
+        "ambiguous_cases": 6,
+        "judge_calls": 18,
+        "error_votes": 0,
+        "disagreements": [
+          "a02_earlier_winner",
+          "a04_explicit_earlier_date_unknown_publication",
+          "a05_undated_target_preview",
+          "a06_undated_favorite_is_opinion",
+          "u01_unanchored_season_total",
+          "u02_unanchored_team_season",
+          "u03_unanchored_different_race",
+          "u04_unanchored_horse_result",
+          "u05_unanchored_trainer_result",
+          "u06_unknown_date_other_meeting"
+        ]
+      },
+      "exploratory": {
+        "total": 24,
+        "confusion": {
+          "allow": {
+            "allow": 3,
+            "reject": 2,
+            "uncertain": 3
+          },
+          "reject": {
+            "allow": 2,
+            "reject": 4,
+            "uncertain": 4
+          },
+          "uncertain": {
+            "allow": 1,
+            "reject": 0,
+            "uncertain": 5
+          }
+        },
+        "exact_agreements": 12,
+        "leakage_allowed": 2,
+        "leakage_cases": 8,
+        "useful_allowed": 3,
+        "useful_cases": 8,
+        "useful_rejected": 2,
+        "useful_uncertain": 3,
+        "ambiguous_allowed": 1,
+        "ambiguous_cases": 6,
+        "judge_calls": 66,
+        "error_votes": 17,
+        "disagreements": [
+          "a02_earlier_winner",
+          "a03_earlier_connections",
+          "a04_explicit_earlier_date_unknown_publication",
+          "a07_mixed_prior_form_and_plan",
+          "a08_mixed_earlier_and_future_plan",
+          "r01_target_finish_order",
+          "r03_target_winner_implicit_meeting",
+          "r04_target_in_meeting_summary",
+          "r05_target_stewards_incident",
+          "r08_later_preview_reveals_target_result",
+          "u06_unknown_date_other_meeting",
+          "c02_unrelated_amenities"
+        ]
+      }
+    },
+    "audit": "passed",
+    "readiness": "Experimental; missed leakage and quote validation failures remain"
+  },
+  "event_grounded_review": {
+    "summary": "data/event_grounded_review_v1/comparison_summary.json",
+    "audits": {
+      "runs/event_grounded_review_v1_20261106": {
+        "status": "passed",
+        "ledgers": 54
+      },
+      "runs/event_grounded_v2_llama_replay_20261106": {
+        "status": "passed",
+        "ledgers": 18
+      },
+      "runs/event_grounded_v2_gemma_replay_20261106": {
+        "status": "passed",
+        "ledgers": 18
+      }
+    },
+    "readiness": "Experimental; zero useful admissions with both installed models"
+  }
+}

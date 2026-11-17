@@ -1,0 +1,143 @@
+{
+  "benchmark_version": "spain-h1-2026-declarations-v2",
+  "track": "publisher_documented",
+  "split": "test",
+  "expected_races": 55,
+  "valid_predictions": 55,
+  "coverage": 1.0,
+  "invalid_predictions": [],
+  "malformed_lines": [],
+  "input_nonblank_lines": 155,
+  "parsed_known_race_lines": 155,
+  "parse_rate": 1.0,
+  "leaderboard_eligible": true,
+  "log_loss_floor": 1e-15,
+  "strict_historical_validity": false,
+  "overall": {
+    "brier": 0.8780993342117742,
+    "log_loss": 2.157322789147764,
+    "top1_fractional_accuracy": 0.12190066578822549,
+    "scored_races": 55,
+    "zero_probability_winners": 0,
+    "brier_skill_vs_uniform": 0.0,
+    "log_loss_improvement_vs_uniform": 3.633457171500512e-17,
+    "meeting_clusters": 12,
+    "confidence_intervals_95": {
+      "brier": [
+        0.8635612058959253,
+        0.8921529855769749
+      ],
+      "log_loss": [
+        2.0456170693400426,
+        2.2766586940685904
+      ],
+      "top1_fractional_accuracy": [
+        0.10784701442302476,
+        0.1364387941040741
+      ],
+      "brier_skill_vs_uniform": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "by_venue": {
+    "La Zarzuela": {
+      "brier": 0.8782830050066889,
+      "log_loss": 2.162139820008094,
+      "top1_fractional_accuracy": 0.12171699499331068,
+      "scored_races": 50,
+      "zero_probability_winners": 0,
+      "brier_skill_vs_uniform": 0.0,
+      "log_loss_improvement_vs_uniform": 3.9968028886505634e-17,
+      "meeting_clusters": 11,
+      "confidence_intervals_95": {
+        "brier": [
+          0.8627093053596999,
+          0.8929418178484285
+        ],
+        "log_loss": [
+          2.0429463082866968,
+          2.2829091673190787
+        ],
+        "top1_fractional_accuracy": [
+          0.10705818215157138,
+          0.13729069464029967
+        ],
+        "brier_skill_vs_uniform": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "San Sebastián": {
+      "brier": 0.8762626262626263,
+      "log_loss": 2.1091524805444632,
+      "top1_fractional_accuracy": 0.12373737373737373,
+      "scored_races": 5,
+      "zero_probability_winners": 0,
+      "brier_skill_vs_uniform": 0.0,
+      "log_loss_improvement_vs_uniform": 0.0,
+      "meeting_clusters": 1,
+      "confidence_intervals_95": null
+    }
+  },
+  "by_month": {
+    "2026-05": {
+      "brier": 0.8719032230395866,
+      "log_loss": 2.106095660397013,
+      "top1_fractional_accuracy": 0.12809677696041327,
+      "scored_races": 33,
+      "zero_probability_winners": 0,
+      "brier_skill_vs_uniform": 0.0,
+      "log_loss_improvement_vs_uniform": 3.364312195833808e-17,
+      "meeting_clusters": 7,
+      "confidence_intervals_95": {
+        "brier": [
+          0.8548213655031839,
+          0.8884010541661402
+        ],
+        "log_loss": [
+          1.979147534631372,
+          2.2379569948084708
+        ],
+        "top1_fractional_accuracy": [
+          0.11159894583385964,
+          0.14517863449681634
+        ],
+        "brier_skill_vs_uniform": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "2026-06": {
+      "brier": 0.887393500970056,
+      "log_loss": 2.2341634822738903,
+      "top1_fractional_accuracy": 0.11260649902994402,
+      "scored_races": 22,
+      "zero_probability_winners": 0,
+      "brier_skill_vs_uniform": 0.0,
+      "log_loss_improvement_vs_uniform": 4.0371746350005693e-17,
+      "meeting_clusters": 5,
+      "confidence_intervals_95": {
+        "brier": [
+          0.8683919022154317,
+          0.9028608277146288
+        ],
+        "log_loss": [
+          2.0898438364715637,
+          2.378130914467965
+        ],
+        "top1_fractional_accuracy": [
+          0.0971391722853711,
+          0.13160809778456842
+        ],
+        "brier_skill_vs_uniform": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  }
+}

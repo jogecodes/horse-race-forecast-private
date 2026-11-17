@@ -1,0 +1,12 @@
+{
+  "attempts_not_used": [
+    {
+      "id": "jan18_results",
+      "reason": "TodoTurf HTML produced zero attributable paragraphs"
+    },
+    {
+      "id": "jan18_opinions",
+      "reason": "Giralda original fetch failed TLS certificate verification; not bypassed"
+    }
+  ]
+}

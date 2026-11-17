@@ -1,0 +1,58 @@
+{
+  "id": "jan5_mixed",
+  "url": "https://noticias.agalopar.com/a-galopar-150-urdin-oriya-protagonizo-el-primer-dia-de-2026/",
+  "observed_at": "2026-11-05T19:38:20+00:00",
+  "body_sha256": "a1619b1d1dda03905f93cd05f6d3c729c002b4807d848e31989957e9b4cfb6e8",
+  "paragraphs": [
+    "Doblete de la yeguada Urdiñ Oriyá y de su hoy propietario, Javier Andreu , que ganó también como criador de Flaming Glass y Madame Caracol en la primera reunión de 2026 y último Family Day invernal en La Zarzuela. Dobló con él el preparador Álvaro Soto y se estrenó con victoria la amazona Marta Mora-Figueroa .",
+    "Reanuda la competición Dos Hermanas este invierno y lo hará sin el campeón Janácek , que ya es líder de jockeys y que estará el viernes en Dubái. Anaya , otro que salió primero de la tabla en la pasada jornada, y la cuadra Río Cubas aspiran a ser protagonistas principales este domingo 11 de enero."
+  ],
+  "date_claims": [
+    {
+      "kind": "published",
+      "path": "meta:article:published_time",
+      "value": "2026-01-05T17:56:36+00:00",
+      "precision": "timestamp"
+    },
+    {
+      "kind": "modified",
+      "path": "meta:article:modified_time",
+      "value": "2026-01-05T17:56:37+00:00",
+      "precision": "timestamp"
+    },
+    {
+      "kind": "published",
+      "path": "jsonld:datePublished",
+      "value": "2026-01-05T17:56:36+00:00",
+      "precision": "timestamp"
+    },
+    {
+      "kind": "modified",
+      "path": "jsonld:dateModified",
+      "value": "2026-01-05T17:56:37+00:00",
+      "precision": "timestamp"
+    },
+    {
+      "kind": "published",
+      "path": "jsonld:datePublished",
+      "value": "2026-01-05T22:59:59.999999+00:00",
+      "precision": "day_upper_bound"
+    },
+    {
+      "kind": "published",
+      "path": "article:time",
+      "value": "2026-01-05T17:56:36+00:00",
+      "precision": "timestamp"
+    },
+    {
+      "kind": "published",
+      "path": "article:time",
+      "value": "2026-01-05T17:56:37+00:00",
+      "precision": "timestamp"
+    }
+  ],
+  "metadata": {
+    "author": "agalopar",
+    "title": "A Galopar 150: Urdiñ Oriyá protagonizó el primer día de 2026"
+  }
+}
